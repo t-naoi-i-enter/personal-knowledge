@@ -11,6 +11,11 @@ from datetime import date
 
 from scripts.common import load_json, load_yaml, save_json, today_stamp
 
+# must_include(スコア無視の強制掲載)を適用する公開日の上限。
+# 初回実行時にフィードへ残っている古いセキュリティ記事まで固定しないための制限。
+# 公開日が不明な記事は安全側に倒して対象とする。
+MUST_INCLUDE_MAX_AGE_DAYS = 30
+
 
 def _clamp(value: int) -> int:
     return max(1, min(5, value))
@@ -94,7 +99,12 @@ def score_article(
     weights = scoring_cfg["weights"]
     article["scores"] = scores
     article["total_score"] = round(sum(scores[k] * weights[k] for k in weights), 2)
-    article["must_include"] = any(
+    published = article.get("published_at")
+    is_fresh = (
+        published is None
+        or (today - date.fromisoformat(published)).days <= MUST_INCLUDE_MAX_AGE_DAYS
+    )
+    article["must_include"] = is_fresh and any(
         kw.lower() in text for kw in scoring_cfg["must_include_keywords"]
     )
     return article

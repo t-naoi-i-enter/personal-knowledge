@@ -26,12 +26,12 @@ uv pip install -r requirements.txt
 手動でパイプラインを実行する場合:
 
 ```powershell
-.venv\Scripts\python scripts/collect.py
-.venv\Scripts\python scripts/normalize.py
-.venv\Scripts\python scripts/deduplicate.py
-.venv\Scripts\python scripts/classify.py
-.venv\Scripts\python scripts/score.py
-.venv\Scripts\python scripts/export.py
+.venv\Scripts\python -m scripts.collect
+.venv\Scripts\python -m scripts.normalize
+.venv\Scripts\python -m scripts.deduplicate
+.venv\Scripts\python -m scripts.classify
+.venv\Scripts\python -m scripts.score
+.venv\Scripts\python -m scripts.export
 ```
 
 ## アーキテクチャ

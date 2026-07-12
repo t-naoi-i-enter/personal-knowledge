@@ -1,0 +1,628 @@
+{
+  "generated_at": "2026-07-12T10:51:25.683267+09:00",
+  "date": "2026-07-12",
+  "count": 20,
+  "articles": [
+    {
+      "source_id": "src_20260712_1137",
+      "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+      "url": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps",
+      "publisher": "InfoQ",
+      "author": "Steef-Jan Wiggers",
+      "published_at": "2026-07-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:da614f534f6da78cde823d3a0a717b701312321e38654bfc29fd6c7549923092",
+      "retrieval_status": "success",
+      "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-level crash analysis rather than examining individual core dumps. By Steef-Jan Wiggers",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.5,
+      "must_include": true
+    },
+    {
+      "source_id": "src_20260712_1271",
+      "title": "2026年度 経験者採用試験 官庁訪問（係長級（事務）府省合同A区分／総合職相当） の情報を掲載しました",
+      "url": "https://www.digital.go.jp/recruitment/career-government-official/visit2026-career-section-chief",
+      "publisher": "デジタル庁 新着情報",
+      "author": "デジタル庁",
+      "published_at": "2026-07-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "ja",
+      "content_hash": "sha256:4180a83940972dbe3bd9427c16021c0afe318b3730049bbf58798c5cc46c0ea1",
+      "retrieval_status": "success",
+      "summary": "",
+      "category": "public_policy",
+      "priority": "high",
+      "topics": [
+        "engineering_management"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 5,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.25,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_001",
+      "title": "v2.1.207",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "publisher": "Claude Code Releases",
+      "author": "ashwin-ant",
+      "published_at": "2026-07-11",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:c820f32264c6d66bbe4abf24faf3cf3c8170b130d5a088c6ced7c3765db0f935",
+      "retrieval_status": "success",
+      "summary": "What's changed Auto mode is now available without CLAUDE_CODE_ENABLE_AUTO_MODE opt-in on Bedrock, Vertex AI, and Foundry; disable via disableAutoMode in settings Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks Fixed remote managed settings from a non-interactive run ( claude -p , the SDK) being permanently recorded as consented without ever showing the security consent dialog Fixed spurious prompt-injecti",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.15,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_006",
+      "title": "v2.1.202",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+      "publisher": "Claude Code Releases",
+      "author": "ashwin-ant",
+      "published_at": "2026-07-06",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:09136a23917ed1aa2acb06e6efdb127319e77107fb4f179c3c64283f2820a778",
+      "retrieval_status": "success",
+      "summary": "What's changed Added a \"Dynamic workflow size\" setting in /config for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) — an advisory guideline, not an enforced cap Added workflow.run_id and workflow.name OpenTelemetry attributes to telemetry emitted by workflow-spawned agents, so a workflow run's activity can be reconstructed from OTel data Fixed a crash in the inline Ctrl+R history search when accepting or cancelling while the search was still sca",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.1,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_002",
+      "title": "v2.1.206",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "publisher": "Claude Code Releases",
+      "author": "ashwin-ant",
+      "published_at": "2026-07-10",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:8e6d6bef7671bca7a84b16fdae724eb2b4a019acee833af40f2e74b273924d10",
+      "retrieval_status": "success",
+      "summary": "What's changed Added directory path suggestions to /cd , matching /add-dir behavior Added a /doctor check that proposes trimming checked-in CLAUDE.md files by cutting content Claude could derive from the codebase /commit-push-pr now auto-allows git push to the repo's configured push remote ( remote.pushDefault , or the sole remote when only one is configured) in addition to origin Gateway: /login now supports Anthropic-operated public gateway endpoints EnterWorktree now asks for confirmation bef",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_011",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-10",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:2e4608d18e9ec4b9e98394153fcf628f2574bee270be88e68e1e71a1d9af0229",
+      "retrieval_status": "success",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_012",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:dfbe9d3a4cce87c7a4273a7e08d9ae81d53426482e745b2e2efbace04e40d4be",
+      "retrieval_status": "success",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_013",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:3149d2a12ad585a978848da54b39644d84d19cf425df0bf025db59a011527c02",
+      "retrieval_status": "success",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_015",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:bb59390ec80204988e3b8986f0169a423b73bed03791b812a0ce8d196c48ac0f",
+      "retrieval_status": "success",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 4,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_334",
+      "title": "Launching our first OpenAI Certifications courses",
+      "url": "https://openai.com/index/openai-certificate-courses",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2025-12-09",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:899e9cb0d0d3365635fa2d3befd3342b984a1f43c3da5dd862338ddf9f5257c4",
+      "retrieval_status": "success",
+      "summary": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding",
+        "personal_purpose"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 1,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 5,
+        "preference_fit": 3
+      },
+      "total_score": 4.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_027",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-06-28",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:64444fafeaa3b4b117c5187b8ce68488a13a548427f570d8d2e121138c9e519a",
+      "retrieval_status": "success",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.0,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_043",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-06-16",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:11ff15d31dae5329734c3893ef7dc6958f4da714256b31b5fde584691ca05dfa",
+      "retrieval_status": "success",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.0,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_044",
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-06-14",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:6aa2ba247f3f0e62238b1aec40fa84b221818acb5bc3f1b2a9caf2e302c568d5",
+      "retrieval_status": "success",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.0,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_046",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-06-12",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:6ecd6d5c16d1e37855dda76698007feddd20e0970434360f81e3c7894601bd36",
+      "retrieval_status": "success",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "reliability": 5,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.0,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_003",
+      "title": "v2.1.205",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
+      "publisher": "Claude Code Releases",
+      "author": "ashwin-ant",
+      "published_at": "2026-07-08",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:8be7c07fad61e5929b967f474b15100a8f2205330372f7aac8d1dfd7dd443d72",
+      "retrieval_status": "success",
+      "summary": "What's changed Added an auto mode rule that blocks tampering with session transcript files Fixed --json-schema silently producing unstructured output when the schema was invalid, and schemas using the format keyword being rejected Fixed a message sent while Claude was working being silently lost when the turn ended at the --max-turns limit Fixed Windows worktree removal deleting files outside the worktree when an NTFS junction or directory symlink existed inside it Fixed background agents stayin",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_005",
+      "title": "v2.1.203",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
+      "publisher": "Claude Code Releases",
+      "author": "ashwin-ant",
+      "published_at": "2026-07-07",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:795a4adfa7b7669656654c5d279c2d275a1db6f78ff423ec301da2b8fef1c30f",
+      "retrieval_status": "success",
+      "summary": "What's changed Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted Added a grey ⏸ badge to the footer when in manual permission mode, making the active mode always visible Added the session's additional working directories to MCP roots/list , with notifications/roots/list_changed sent when the set changes Fixed opening or switching background agent sessions on macOS stalling for 15–20 seconds due to a false low-memory detectio",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_016",
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-08",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:7630c63c1ed5562c6313113e1caf1ebdf9fee22fc2b113d0ca4eff8bfcf3f0fe",
+      "retrieval_status": "success",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_017",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-08",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:ea6ce5b30acc241ccaf74faa85f2595bd63636363f8936867069f3b237c9032e",
+      "retrieval_status": "success",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_018",
+      "title": "Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-08",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:caf7e7b339ec472901a0352c7bcc2892bde8d0361209f2d370f549125c8c6b0a",
+      "retrieval_status": "success",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_019",
+      "title": "Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-08",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:11bece59f4afb5aff15b340f5e06c830287fa97e1b628d5ea4b97842b5a0f452",
+      "retrieval_status": "success",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    }
+  ]
+}

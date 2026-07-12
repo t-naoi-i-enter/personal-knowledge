@@ -32,12 +32,12 @@ jobs:
 
       - name: Run pipeline
         run: |
-          python scripts/collect.py
-          python scripts/normalize.py
-          python scripts/deduplicate.py
-          python scripts/classify.py
-          python scripts/score.py
-          python scripts/export.py
+          python -m scripts.collect
+          python -m scripts.normalize
+          python -m scripts.deduplicate
+          python -m scripts.classify
+          python -m scripts.score
+          python -m scripts.export
 
       - name: Commit results
         run: |

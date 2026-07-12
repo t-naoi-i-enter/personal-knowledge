@@ -124,6 +124,27 @@ class TestScoreArticle:
         )
         assert a["must_include"] is True
 
+    def test_must_include_not_applied_to_stale_articles(self):
+        # 初回実行時などにフィードへ残っている古いセキュリティ記事を最上位に固定しない
+        a = score_article(
+            _article(title="重大な脆弱性が発見された", published_at="2025-11-26"),
+            SCORING,
+            TOPICS,
+            {},
+            TODAY,
+        )
+        assert a["must_include"] is False
+
+    def test_must_include_applied_when_date_unknown(self):
+        a = score_article(
+            _article(title="重大な脆弱性が発見された", published_at=None),
+            SCORING,
+            TOPICS,
+            {},
+            TODAY,
+        )
+        assert a["must_include"] is True
+
     def test_preference_fit_from_source_preferences(self):
         prefs = {"Example": {"usefulness_score": 5}}
         a = score_article(_article(), SCORING, TOPICS, preferences=prefs, today=TODAY)

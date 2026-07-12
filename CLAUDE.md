@@ -16,12 +16,15 @@
 
 ```
 uv venv && uv pip install -r requirements.txt   # 初回のみ
-.venv\Scripts\python scripts/collect.py         # RSS取得 → data/raw/
-.venv\Scripts\python scripts/normalize.py       # 正規化 → data/processed/
-.venv\Scripts\python scripts/deduplicate.py     # 重複除去(data/history/seen.json と照合)
-.venv\Scripts\python scripts/classify.py        # キーワード分類(config/topics.yaml)
-.venv\Scripts\python scripts/score.py           # ルールベース評価(config/scoring.yaml)
-.venv\Scripts\python scripts/export.py          # → data/new/new_articles.json / .md
+.venv\Scripts\python -m scripts.collect         # RSS取得 → data/raw/
+.venv\Scripts\python -m scripts.normalize       # 正規化 → data/processed/
+.venv\Scripts\python -m scripts.deduplicate     # 重複除去(data/history/seen.json と照合)
+.venv\Scripts\python -m scripts.classify        # キーワード分類(config/topics.yaml)
+.venv\Scripts\python -m scripts.score           # ルールベース評価(config/scoring.yaml)
+.venv\Scripts\python -m scripts.export          # → data/new/new_articles.json / .md
+
+スクリプトは必ず `-m` のモジュール形式でリポジトリルートから実行する
+(`python scripts/collect.py` 形式は import エラーになる)。
 ```
 
 GitHub Actions(.github/workflows/collect.yml)が毎朝これを自動実行し、結果をコミットする。
