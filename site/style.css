@@ -1,10 +1,12 @@
 /* Personal Knowledge OS — 朝のブリーフィングデスク
-   紙面: 薄青磁 / 文字: 墨 / 主アクセント: 青磁緑 / 朱入れ(本人コメント)のみ朱色 */
+   紙面: 薄青磁 / 文字: 墨 / 主アクセント: 青磁緑 / 朱は本人の「朱入れ」だけに使う
+   書体: Zen Old Mincho(題字・見出し) + Zen Kaku Gothic New(本文) + IBM Plex Mono(印章・データ) */
 
 :root {
   --paper: #f3f6f4;
   --card: #ffffff;
   --ink: #22282a;
+  --ink-deep: #191e20;
   --muted: #5c6663;
   --seiji: #2f6d5c;
   --seiji-deep: #245447;
@@ -13,8 +15,8 @@
   --shu-soft: #f7e9e5;
   --line: #dee5e1;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
-  --sans: "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
-  --serif: "Shippori Mincho", "Yu Mincho", serif;
+  --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  --serif: "Zen Old Mincho", "Yu Mincho", serif;
 }
 
 * { box-sizing: border-box; }
@@ -31,6 +33,8 @@ body {
   font-feature-settings: "palt";
 }
 
+::selection { background: var(--seiji-soft); }
+
 a { color: var(--seiji-deep); text-decoration-color: var(--seiji-soft); text-underline-offset: 3px; }
 a:hover { text-decoration-color: var(--seiji); }
 a:focus-visible, button:focus-visible {
@@ -41,30 +45,46 @@ a:focus-visible, button:focus-visible {
 
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-/* ── ヘッダー ─────────────────────────── */
+.icon { width: 15px; height: 15px; vertical-align: -2px; flex: none; }
+
+/* ── マストヘッド(墨色の題字帯) ─────────── */
 
 .site-header {
-  border-bottom: 1px solid var(--line);
-  background: var(--card);
+  background: var(--ink-deep);
+  border-bottom: 3px solid var(--seiji);
 }
 .site-header .wrap {
   display: flex;
-  align-items: baseline;
-  gap: 16px;
+  align-items: center;
+  gap: 22px;
   flex-wrap: wrap;
-  padding-top: 22px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 14px;
 }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.logo-seal { width: 34px; height: 34px; flex: none; }
+.brand-text { display: flex; flex-direction: column; }
 .site-title {
   font-family: var(--serif);
   font-weight: 700;
-  font-size: 22px;
-  margin: 0;
-  letter-spacing: 0.02em;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #f4f7f5;
+  line-height: 1.3;
 }
-.site-title a { color: var(--ink); text-decoration: none; }
-.site-tagline { color: var(--muted); font-size: 13px; margin: 0; }
-.build-stamp { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.site-tagline { color: #8fa39c; font-size: 11.5px; line-height: 1.4; }
+.site-nav { display: flex; gap: 4px; margin-left: 8px; }
+.site-nav a {
+  color: #c9d6d1;
+  text-decoration: none;
+  font-size: 13.5px;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.site-nav a:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+.site-nav a.active { background: var(--seiji); color: #fff; }
+.build-stamp { margin-left: auto; font-family: var(--mono); font-size: 11.5px; color: #708079; }
+@media (max-width: 700px) { .build-stamp { display: none; } }
 
 /* ── 印章(レポート種別・ID) ───────────── */
 
@@ -81,6 +101,7 @@ a:focus-visible, button:focus-visible {
   font-size: 14px;
   border-radius: 4px;
   flex: none;
+  background: var(--card);
 }
 .id-chip {
   font-family: var(--mono);
@@ -92,20 +113,32 @@ a:focus-visible, button:focus-visible {
   white-space: nowrap;
 }
 .date-chip { font-family: var(--mono); font-size: 13px; color: var(--muted); white-space: nowrap; }
+.mono { font-family: var(--mono); font-size: 13px; }
+
+/* ── ページ見出し ─────────────────────── */
+
+.page-title { margin: 30px 0 6px; }
+.page-title h1 {
+  font-family: var(--serif);
+  font-size: clamp(24px, 4vw, 32px);
+  margin: 0 0 6px;
+  letter-spacing: 0.03em;
+}
+.page-lead { color: var(--muted); font-size: 13.5px; margin: 0 0 10px; max-width: 46em; }
 
 /* ── インデックス ─────────────────────── */
 
-.hero {
-  margin: 28px 0 8px;
-}
+.hero { margin: 28px 0 8px; }
 .hero-eyebrow {
   font-family: var(--mono);
   font-size: 12px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   color: var(--seiji-deep);
   margin: 0 0 8px;
 }
 .hero-card {
+  position: relative;
+  overflow: hidden;
   display: block;
   background: var(--card);
   border: 1px solid var(--line);
@@ -115,13 +148,31 @@ a:focus-visible, button:focus-visible {
   text-decoration: none;
   transition: transform 120ms ease, box-shadow 120ms ease;
 }
+.hero-card::after {
+  /* 種別の漢字を透かしとして敷く */
+  content: attr(data-kanji);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 1;
+  color: var(--seiji-soft);
+  opacity: 0.55;
+  pointer-events: none;
+  user-select: none;
+}
+.hero-card > * { position: relative; z-index: 1; }
 .hero-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(34, 40, 42, 0.08); }
 .hero-card h2 {
   font-family: var(--serif);
   font-size: 26px;
-  line-height: 1.5;
+  line-height: 1.55;
   margin: 10px 0 6px;
   color: var(--ink);
+  max-width: 22em;
 }
 .hero-meta { display: flex; align-items: center; gap: 10px; }
 .fb-count { font-size: 12px; color: var(--shu); font-family: var(--mono); }
@@ -146,7 +197,7 @@ a:focus-visible, button:focus-visible {
   gap: 10px;
 }
 .section-title:first-child { margin-top: 0; }
-.section-count { font-family: var(--mono); font-size: 12px; color: var(--muted); font-weight: 400; }
+.section-count { font-family: var(--mono); font-size: 12px; color: var(--muted); font-weight: 400; margin-left: auto; }
 
 .report-list { list-style: none; margin: 0; padding: 0; }
 .report-list li { margin: 0; }
@@ -159,7 +210,15 @@ a:focus-visible, button:focus-visible {
   text-decoration: none;
   color: var(--ink);
 }
+.report-link::after {
+  content: "→";
+  color: var(--seiji);
+  opacity: 0;
+  transition: opacity 120ms ease, transform 120ms ease;
+  transform: translateX(-4px);
+}
 .report-link:hover { background: var(--card); }
+.report-link:hover::after { opacity: 1; transform: translateX(0); }
 .report-link .title { flex: 1; min-width: 0; }
 .empty-note { color: var(--muted); font-size: 13px; padding: 6px 12px; }
 
@@ -174,11 +233,14 @@ a:focus-visible, button:focus-visible {
 }
 .rail-panel h3 {
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 12.5px;
   font-family: var(--mono);
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--seiji-deep);
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .rail-item { border-top: 1px dashed var(--line); padding: 9px 0; font-size: 13.5px; line-height: 1.7; }
 .rail-item:first-of-type { border-top: 0; padding-top: 2px; }
@@ -203,8 +265,9 @@ a:focus-visible, button:focus-visible {
 .report-header h1 {
   font-family: var(--serif);
   font-size: clamp(24px, 4vw, 34px);
-  line-height: 1.5;
+  line-height: 1.55;
   margin: 12px 0 0;
+  letter-spacing: 0.02em;
 }
 
 .report-layout {
@@ -226,6 +289,12 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 600px) { .report-body { padding: 20px 18px; } }
 
 .report-body > h1:first-child { display: none; } /* ページヘッダーと重複するため */
+.report-body h1 {
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 10px 0 14px;
+}
 .report-body h2 {
   font-family: var(--serif);
   font-size: 20px;
@@ -254,7 +323,7 @@ a:focus-visible, button:focus-visible {
 .report-body hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
 .report-body table { border-collapse: collapse; width: 100%; font-size: 14px; display: block; overflow-x: auto; }
 .report-body th, .report-body td { border: 1px solid var(--line); padding: 6px 12px; text-align: left; }
-.report-body th { background: var(--paper); font-weight: 600; }
+.report-body th { background: var(--paper); font-weight: 700; }
 .report-body code {
   font-family: var(--mono);
   font-size: 0.88em;
@@ -279,16 +348,7 @@ a:focus-visible, button:focus-visible {
   align-items: center;
   gap: 8px;
 }
-.fb-panel > h2::before {
-  content: "朱";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px; height: 24px;
-  border: 1.5px solid var(--shu);
-  border-radius: 4px;
-  font-size: 13px;
-}
+.fb-panel > h2 .icon { width: 17px; height: 17px; }
 .fb-card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -314,6 +374,41 @@ a:focus-visible, button:focus-visible {
 }
 .fb-empty { color: var(--muted); font-size: 13px; border: 1px dashed var(--line); border-radius: 5px; padding: 14px 16px; }
 
+/* ── 収集の観点(lens) ─────────────────── */
+
+.topic-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+}
+.topic-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.topic-label { font-family: var(--serif); font-weight: 700; font-size: 15.5px; }
+.weight-chip {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: #7a6a33;
+  background: #f0ede2;
+  border-radius: 3px;
+  padding: 1px 7px;
+  white-space: nowrap;
+}
+.kw-list { display: flex; gap: 6px; flex-wrap: wrap; }
+.kw {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 0 7px;
+  line-height: 1.9;
+}
+.kw-must .kw { color: var(--shu); background: var(--shu-soft); border-color: #ecd4cc; }
+.lens-table { padding: 18px 22px; }
+.lens-table table { margin: 0; }
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -322,5 +417,5 @@ a:focus-visible, button:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-card, .hero-card:hover { transition: none; transform: none; }
+  .hero-card, .hero-card:hover, .report-link::after { transition: none; transform: none; }
 }

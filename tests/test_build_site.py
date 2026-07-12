@@ -3,7 +3,9 @@
 from datetime import date
 
 from scripts.build_site import (
+    build_focus_page,
     build_index_page,
+    build_lens_page,
     build_report_page,
     match_feedback,
     parse_report,
@@ -123,6 +125,65 @@ class TestBuildReportPage:
     def test_no_feedback_shows_placeholder(self):
         html = build_report_page(self._report(), [])
         assert "フィードバックはまだありません" in html
+
+
+class TestBuildFocusPage:
+    def test_renders_focus_and_interests(self):
+        html = build_focus_page(
+            "# Current Focus\n\n## 今の重点\n\n1. AIの組織展開",
+            "# Interests\n\n関心の変化の記録",
+        )
+        assert "AIの組織展開" in html
+        assert "関心の変化の記録" in html
+
+
+class TestBuildLensPage:
+    def _cfgs(self):
+        topics = {
+            "topics": {
+                "ai_coding": {
+                    "label": "AI・ソフトウェア開発",
+                    "weight": 20,
+                    "frequency": "daily",
+                    "keywords": ["claude code", "mcp"],
+                }
+            }
+        }
+        sources = {
+            "sources": [
+                {
+                    "name": "OpenAI News",
+                    "category": "ai_coding",
+                    "priority": "high",
+                    "source_type": "primary",
+                    "language": "en",
+                    "url": "https://openai.com/news/rss.xml",
+                    "enabled": True,
+                }
+            ]
+        }
+        scoring = {
+            "weights": {"relevance": 0.25, "impact": 0.20},
+            "publish_threshold": 3.0,
+            "must_include_keywords": ["脆弱性"],
+        }
+        return topics, sources, scoring
+
+    def test_renders_topics_sources_and_scoring(self):
+        topics, sources, scoring = self._cfgs()
+        html = build_lens_page(topics, sources, scoring)
+        assert "AI・ソフトウェア開発" in html
+        assert "claude code" in html
+        assert "OpenAI News" in html
+        assert "https://openai.com/news/rss.xml" in html
+        assert "0.25" in html
+        assert "脆弱性" in html
+
+    def test_disabled_source_marked(self):
+        topics, sources, scoring = self._cfgs()
+        sources["sources"][0]["enabled"] = False
+        html = build_lens_page(topics, sources, scoring)
+        assert "停止中" in html
 
 
 class TestBuildIndexPage:
