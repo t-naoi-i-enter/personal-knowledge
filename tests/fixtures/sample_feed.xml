@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example Tech Blog</title>
+    <link>https://example.com</link>
+    <description>Sample feed for tests</description>
+    <item>
+      <title>Claude Code 2.0 released</title>
+      <link>https://example.com/claude-code-2?utm_source=rss</link>
+      <description><![CDATA[<p>New <b>agentic</b> features.</p>]]></description>
+      <pubDate>Fri, 10 Jul 2026 12:00:00 GMT</pubDate>
+      <author>author@example.com (Jane Doe)</author>
+    </item>
+    <item>
+      <title>Second post without date</title>
+      <link>https://example.com/second</link>
+      <description>Plain summary</description>
+    </item>
+    <item>
+      <title>Broken entry without link</title>
+    </item>
+  </channel>
+</rss>
