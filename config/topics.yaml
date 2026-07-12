@@ -61,8 +61,8 @@ topics:
       - change management
       - career ladder
       - キャリアラダー
-      - 採用
-      - hiring
+      - エンジニア採用   # 「採用」単体は採用告知など無関係な記事に誤マッチするため限定
+      - engineer hiring
       - 育成
       - onboarding
       - engineering culture

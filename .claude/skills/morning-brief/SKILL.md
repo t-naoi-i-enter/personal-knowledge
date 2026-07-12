@@ -20,7 +20,7 @@ description: data/new/new_articles.json から出典付き Daily Brief を生成
 1. ファイルがない・記事が0件なら「本日は掲載なし」とだけ報告して終了する。無理に件数を増やさない
 2. 候補記事を読み、**5〜10件以内**に選別する。判断基準:
    - current-focus の重点・問いへの寄与
-   - `must_include: true`(重大セキュリティ・法制度)は必ず掲載
+   - `must_include: true`(重大セキュリティ・法制度)は原則掲載する。ただしキーワード誤検出(セキュリティ勧告ではない解説記事等)と判断した場合は、除外理由をレポート末尾に1行残して除外してよい
    - temporary_focus の increase/decrease を反映
    - 直近フィードバックで「不要」とされた類の記事は除外
 3. 各記事を [technology-analyst](../technology-analyst/SKILL.md) / [mba-analyst](../mba-analyst/SKILL.md) / [business-analyst](../business-analyst/SKILL.md) の観点で分析し、[chief-of-staff](../chief-of-staff/SKILL.md) の観点で優先順位と意思決定への翻訳を行う

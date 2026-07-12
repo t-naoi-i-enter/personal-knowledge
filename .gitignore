@@ -5,6 +5,13 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
+# パイプラインの中間ファイル(再生成可能・毎日数MBのためコミットしない)
+# コミットするのは data/new/(Claudeの入力)と data/history/(既読・リンク確認)のみ
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
 # OS / editor
 .DS_Store
 Thumbs.db

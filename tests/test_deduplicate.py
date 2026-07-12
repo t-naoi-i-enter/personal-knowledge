@@ -77,6 +77,14 @@ class TestDedupe:
         )
         assert len(new) == 1
 
+    def test_duplicate_refreshes_history_date(self):
+        # フィードに載り続ける記事が保持期限切れ→新着として再出現しないよう、
+        # 重複検出時に履歴の日付を更新する(last_seen方式)
+        history = empty_history()
+        history["urls"]["https://example.com/a"] = "2026-01-01"
+        _, updated = dedupe([_article()], history, today="2026-07-12")
+        assert updated["urls"]["https://example.com/a"] == "2026-07-12"
+
     def test_prunes_history_older_than_retention(self):
         history = empty_history()
         history["urls"]["https://old.example/a"] = "2020-01-01"

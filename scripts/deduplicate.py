@@ -66,6 +66,12 @@ def dedupe(articles: list[dict], history: dict, today: str) -> tuple[list[dict],
         chash = article["content_hash"]
         title_key = article["title"].strip().lower()
         if url in urls or chash in hashes:
+            # 重複でも日付を更新し(last_seen方式)、フィードに載り続ける記事が
+            # 保持期限切れ後に新着として再出現しないようにする
+            if url in urls:
+                urls[url] = today
+            if chash in hashes:
+                hashes[chash] = today
             continue
         if _is_duplicate_title(title_key, list(titles.keys())):
             continue

@@ -42,6 +42,17 @@ class TestParseFeed:
         assert first["language"] == "en"
         assert first["retrieval_status"] == "success"
 
+    def test_parses_bytes_with_declared_encoding(self):
+        # HTTPヘッダにcharsetがないフィード対策: bytesを渡しXML宣言のencodingを解釈させる
+        xml = (
+            '<?xml version="1.0" encoding="Shift_JIS"?>'
+            '<rss version="2.0"><channel><title>t</title>'
+            "<item><title>日本語タイトル</title><link>https://example.com/ja</link></item>"
+            "</channel></rss>"
+        )
+        articles = parse_feed(xml.encode("shift_jis"), SOURCE)
+        assert articles[0]["title"] == "日本語タイトル"
+
     def test_missing_date_is_none(self):
         second = self._parse()[1]
         assert second["published"] is None
