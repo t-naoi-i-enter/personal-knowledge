@@ -1,203 +1,183 @@
-# 新着記事ダイジェスト 2026-07-12
+# 新着記事ダイジェスト 2026-07-13
 
-候補 20件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 18件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology
+## Horizon 1000: Advancing AI for primary healthcare
 
-- URL: https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-09
-- トピック: ai_coding
-- 総合スコア: 3.5
-
-OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-level crash analysis rather than examining individual core dumps. By Steef-Jan Wiggers
-
-## v2.1.207
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.207
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-11
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-What's changed Auto mode is now available without CLAUDE_CODE_ENABLE_AUTO_MODE opt-in on Bedrock, Vertex AI, and Foundry; disable via disableAutoMode in settings Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks Fixed remote managed settings from a non-interactive run ( claude -p , the SDK) being permanently recorded as consented without ever showing the security consent dialog Fixed spurious prompt-injecti
-
-## v2.1.202
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.202
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-06
-- トピック: ai_coding
-- 総合スコア: 4.1
-
-What's changed Added a "Dynamic workflow size" setting in /config for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) — an advisory guideline, not an enforced cap Added workflow.run_id and workflow.name OpenTelemetry attributes to telemetry emitted by workflow-spawned agents, so a workflow run's activity can be reconstructed from OTel data Fixed a crash in the inline Ctrl+R history search when accepting or cancelling while the search was still sca
-
-## v2.1.206
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.206
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-10
-- トピック: ai_coding
-- 総合スコア: 4.05
-
-What's changed Added directory path suggestions to /cd , matching /add-dir behavior Added a /doctor check that proposes trimming checked-in CLAUDE.md files by cutting content Claude could derive from the codebase /commit-push-pr now auto-allows git push to the repo's configured push remote ( remote.pushDefault , or the sole remote when only one is configured) in addition to origin Gateway: /login now supports Anthropic-operated public gateway endpoints EnterWorktree now asks for confirmation bef
-
-## How Deutsche Telekom is rewiring telecommunications with AI
-
-- URL: https://openai.com/index/deutsche-telekom
+- URL: https://openai.com/index/horizon-1000
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-10
+- 公開日: 2026-01-20
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 3.9
 
-How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.
+OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.
 
-## GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+## Democratic inputs to AI
 
-- URL: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
+- URL: https://openai.com/index/democratic-inputs-to-ai
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-09
+- 公開日: 2023-05-25
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 3.9
 
-Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.
+Our nonprofit organization, OpenAI, Inc., is launching a program to award ten $100,000 grants to fund experiments in setting up a democratic process for deciding what rules AI systems should follow, within the bounds defined by the law.
 
-## GPT-5.6: Frontier intelligence that scales with your ambition
+## IT系上場企業の平均年収を業種別にみてみた 2026年版［後編］ ～ ソフトウェア／サービス系、SI／システム開発系、クラウド／通信キャリア系企業
 
-- URL: https://openai.com/index/gpt-5-6
+- URL: https://www.publickey1.jp/blog/26/it_2026_si.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-07-12
+- トピック: sier_business, personal_purpose
+- 総合スコア: 3.9
+
+IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...
+
+## IT系上場企業の平均年収を業種別にみてみた 2026年版［前編］ ～ ネットベンチャー、ゲーム、メディア系
+
+- URL: https://www.publickey1.jp/blog/26/it_2026_1.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-07-12
+- トピック: sier_business
+- 総合スコア: 3.8
+
+IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...
+
+## Introducing GPT-5.4
+
+- URL: https://openai.com/index/introducing-gpt-5-4
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-09
+- 公開日: 2026-03-05
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 3.75
 
-More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.
+Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.
 
-## GPT-5.5 Bio Bug Bounty
+## OpenAI for Healthcare
 
-- URL: https://openai.com/index/bio-bug-bounty
+- URL: https://openai.com/index/openai-for-healthcare
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-09
+- 公開日: 2026-01-08
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 3.75
 
-Details about the OpenAI Bio Bounty program
+OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.
 
-## Launching our first OpenAI Certifications courses
+## Introducing GPT-5.2-Codex
 
-- URL: https://openai.com/index/openai-certificate-courses
+- URL: https://openai.com/index/introducing-gpt-5-2-codex
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2025-12-09
-- トピック: ai_coding, personal_purpose
-- 総合スコア: 4.05
+- 公開日: 2025-12-18
+- トピック: ai_coding
+- 総合スコア: 3.75
 
-Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work.
+GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.
 
-## HP Inc. launches Frontier strategic partnership with OpenAI
+## OpenAI o3-mini
 
-- URL: https://openai.com/index/hp-frontier-partnership
+- URL: https://openai.com/index/openai-o3-mini
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-06-28
+- 公開日: 2025-01-31
 - トピック: ai_coding
-- 総合スコア: 4.0
+- 総合スコア: 3.75
 
-HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.
 
-## Predicting model behavior before release by simulating deployment
 
-- URL: https://openai.com/index/deployment-simulation
+## Stargate Infrastructure
+
+- URL: https://openai.com/form/stargate-infrastructure
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-06-16
+- 公開日: 2025-01-21
 - トピック: ai_coding
-- 総合スコア: 4.0
+- 総合スコア: 3.75
 
-OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.
+OpenAI, and our strategic partners, are thrilled about our shared vision for the Infrastructure of AGI. We are energized by the challenges we face and are excited by the prospect of partnering with firms across the industrial base to deliver against our ambitious mission. Specifically, we want to connect with firms across the built data center infrastructure landscape, from power and land to construction to equipment, and everything in between.
 
-## Introducing the OpenAI Partner Network
+## GPT-4
 
-- URL: https://openai.com/index/introducing-openai-partner-network
+- URL: https://openai.com/index/gpt-4-research
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-06-14
+- 公開日: 2023-03-14
 - トピック: ai_coding
-- 総合スコア: 4.0
+- 総合スコア: 3.75
 
-OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
+We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.
 
-## How Preply combines AI and human tutors to personalize learning
+## OpenAI Codex
 
-- URL: https://openai.com/index/preply
+- URL: https://openai.com/index/openai-codex
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-06-12
+- 公開日: 2021-08-10
 - トピック: ai_coding
-- 総合スコア: 4.0
+- 総合スコア: 3.75
 
-Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
+We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.
 
-## v2.1.205
+## Microsoft invests in and partners with OpenAI to support us building beneficial AGI
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.205
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-08
-- トピック: ai_coding
-- 総合スコア: 3.95
-
-What's changed Added an auto mode rule that blocks tampering with session transcript files Fixed --json-schema silently producing unstructured output when the schema was invalid, and schemas using the format keyword being rejected Fixed a message sent while Claude was working being silently lost when the turn ended at the --max-turns limit Fixed Windows worktree removal deleting files outside the worktree when an NTFS junction or directory symlink existed inside it Fixed background agents stayin
-
-## v2.1.203
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.203
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-07
-- トピック: ai_coding
-- 総合スコア: 3.95
-
-What's changed Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted Added a grey ⏸ badge to the footer when in manual permission mode, making the active mode always visible Added the session's additional working directories to MCP roots/list , with notifications/roots/list_changed sent when the set changes Fixed opening or switching background agent sessions on macOS stalling for 15–20 seconds due to a false low-memory detectio
-
-## Our approach to government and national security partnerships
-
-- URL: https://openai.com/index/government-national-security-partnerships
+- URL: https://openai.com/index/microsoft-invests-in-and-partners-with-openai
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-08
+- 公開日: 2019-07-22
 - トピック: ai_coding
-- 総合スコア: 3.95
+- 総合スコア: 3.75
 
-Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.
+Microsoft is investing $1 billion in OpenAI to support us building artificial general intelligence (AGI) with widely distributed economic benefits. We’re partnering to develop a hardware and software platform within Microsoft Azure which will scale to AGI. We’ll jointly develop new Azure AI supercomputing technologies, and Microsoft will become our exclusive cloud provider—so we’ll be working hard together to further extend Microsoft Azure’s capabilities in large-scale AI systems.
 
-## Separating signal from noise in coding evaluations
+## OpenAI Five
 
-- URL: https://openai.com/index/separating-signal-from-noise-coding-evaluations
+- URL: https://openai.com/index/openai-five
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-08
+- 公開日: 2018-06-25
 - トピック: ai_coding
-- 総合スコア: 3.95
+- 総合スコア: 3.75
 
-A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.
+Our team of five neural networks, OpenAI Five, has started to defeat amateur human teams at Dota 2.
 
-## Helping K–12 educators build practical AI skills
+## OpenAI Scholars
 
-- URL: https://openai.com/index/k-12-educators-practical-skills
+- URL: https://openai.com/index/openai-scholars
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-08
+- 公開日: 2018-03-06
 - トピック: ai_coding
-- 総合スコア: 3.95
+- 総合スコア: 3.75
 
-OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.
+We’re providing 6–10 stipends and mentorship to individuals from underrepresented groups to study deep learning full-time for 3 months and open-source a project.
 
-## Introducing GPT-Live
+## OpenAI hackathon
 
-- URL: https://openai.com/index/introducing-gpt-live
+- URL: https://openai.com/index/openai-hackathon
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-08
+- 公開日: 2018-02-22
 - トピック: ai_coding
-- 総合スコア: 3.95
+- 総合スコア: 3.75
 
-A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.
+Come to OpenAI’s office in San Francisco’s Mission District for talks and a hackathon on Saturday, March 3rd.
 
-## MUFG aims to become AI-native with OpenAI
+## Team update
 
-- URL: https://openai.com/index/mufg
+- URL: https://openai.com/index/team-update-january
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-07
+- 公開日: 2017-01-30
 - トピック: ai_coding
-- 総合スコア: 3.95
+- 総合スコア: 3.75
 
-MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.
+The OpenAI team is now 45 people. Together, we’re pushing the frontier of AI capabilities—whether by validating novel ideas, creating new software systems, or deploying machine learning on robots.
+
+## Team update
+
+- URL: https://openai.com/index/team-update
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2016-05-25
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)
+
+## Introducing OpenAI
+
+- URL: https://openai.com/index/introducing-openai
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2015-12-11
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. Since our research is free from financial obligations, we can better focus on a positive human impact.
