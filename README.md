@@ -34,6 +34,13 @@ uv pip install -r requirements.txt
 .venv\Scripts\python -m scripts.export
 ```
 
+## 閲覧サイト
+
+レポートと本人フィードバック(朱入れ)・仮説・アクション・意思決定の現況は、GitHub Pages で閲覧できる:
+https://t-naoi-i-enter.github.io/personal-knowledge/
+
+main への push(レポート・フィードバック等の変更)で自動再デプロイされる(.github/workflows/pages.yml)。
+
 ## アーキテクチャ
 
 ```

@@ -1,0 +1,326 @@
+/* Personal Knowledge OS — 朝のブリーフィングデスク
+   紙面: 薄青磁 / 文字: 墨 / 主アクセント: 青磁緑 / 朱入れ(本人コメント)のみ朱色 */
+
+:root {
+  --paper: #f3f6f4;
+  --card: #ffffff;
+  --ink: #22282a;
+  --muted: #5c6663;
+  --seiji: #2f6d5c;
+  --seiji-deep: #245447;
+  --seiji-soft: #dce9e3;
+  --shu: #b3402a;
+  --shu-soft: #f7e9e5;
+  --line: #dee5e1;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --sans: "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  --serif: "Shippori Mincho", "Yu Mincho", serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.9;
+  font-feature-settings: "palt";
+}
+
+a { color: var(--seiji-deep); text-decoration-color: var(--seiji-soft); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--seiji); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--seiji);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+/* ── ヘッダー ─────────────────────────── */
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+}
+.site-header .wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+.site-title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+.site-title a { color: var(--ink); text-decoration: none; }
+.site-tagline { color: var(--muted); font-size: 13px; margin: 0; }
+.build-stamp { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+/* ── 印章(レポート種別・ID) ───────────── */
+
+.seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1.5px solid var(--seiji);
+  color: var(--seiji-deep);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 4px;
+  flex: none;
+}
+.id-chip {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--seiji-deep);
+  background: var(--seiji-soft);
+  border-radius: 3px;
+  padding: 1px 7px;
+  white-space: nowrap;
+}
+.date-chip { font-family: var(--mono); font-size: 13px; color: var(--muted); white-space: nowrap; }
+
+/* ── インデックス ─────────────────────── */
+
+.hero {
+  margin: 28px 0 8px;
+}
+.hero-eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--seiji-deep);
+  margin: 0 0 8px;
+}
+.hero-card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--seiji);
+  border-radius: 6px;
+  padding: 22px 26px;
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.hero-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(34, 40, 42, 0.08); }
+.hero-card h2 {
+  font-family: var(--serif);
+  font-size: 26px;
+  line-height: 1.5;
+  margin: 10px 0 6px;
+  color: var(--ink);
+}
+.hero-meta { display: flex; align-items: center; gap: 10px; }
+.fb-count { font-size: 12px; color: var(--shu); font-family: var(--mono); }
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 28px;
+  margin: 26px 0 60px;
+}
+@media (max-width: 860px) { .columns { grid-template-columns: 1fr; } }
+
+.section-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+  margin: 30px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-title:first-child { margin-top: 0; }
+.section-count { font-family: var(--mono); font-size: 12px; color: var(--muted); font-weight: 400; }
+
+.report-list { list-style: none; margin: 0; padding: 0; }
+.report-list li { margin: 0; }
+.report-link {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.report-link:hover { background: var(--card); }
+.report-link .title { flex: 1; min-width: 0; }
+.empty-note { color: var(--muted); font-size: 13px; padding: 6px 12px; }
+
+/* 右レール: 蓄積の現況 */
+
+.rail-panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+.rail-panel h3 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-family: var(--mono);
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  font-weight: 500;
+}
+.rail-item { border-top: 1px dashed var(--line); padding: 9px 0; font-size: 13.5px; line-height: 1.7; }
+.rail-item:first-of-type { border-top: 0; padding-top: 2px; }
+.status {
+  font-family: var(--mono);
+  font-size: 11px;
+  border-radius: 3px;
+  padding: 0 6px;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+.status-active, .status-in_progress { background: var(--seiji-soft); color: var(--seiji-deep); }
+.status-proposed, .status-pending { background: #f0ede2; color: #7a6a33; }
+.status-completed, .status-validated, .status-decided { background: #e5eef7; color: #3a5a78; }
+.status-rejected, .status-deferred { background: #eeeeee; color: var(--muted); }
+
+/* ── レポートページ ───────────────────── */
+
+.crumbs { font-size: 13px; margin: 20px 0 0; }
+.report-header { margin: 18px 0 8px; }
+.report-header .meta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.report-header h1 {
+  font-family: var(--serif);
+  font-size: clamp(24px, 4vw, 34px);
+  line-height: 1.5;
+  margin: 12px 0 0;
+}
+
+.report-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 28px;
+  margin: 20px 0 60px;
+  align-items: start;
+}
+@media (max-width: 960px) { .report-layout { grid-template-columns: 1fr; } }
+
+.report-body {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 30px 36px;
+  overflow-wrap: break-word;
+}
+@media (max-width: 600px) { .report-body { padding: 20px 18px; } }
+
+.report-body > h1:first-child { display: none; } /* ページヘッダーと重複するため */
+.report-body h2 {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.6;
+  border-left: 4px solid var(--seiji);
+  padding-left: 12px;
+  margin: 38px 0 12px;
+}
+.report-body h3 {
+  font-size: 15px;
+  color: var(--seiji-deep);
+  margin: 24px 0 6px;
+}
+.report-body p { margin: 10px 0; }
+.report-body ul, .report-body ol { padding-left: 1.6em; margin: 10px 0; }
+.report-body li { margin: 4px 0; }
+.report-body blockquote {
+  margin: 14px 0;
+  padding: 8px 16px;
+  border-left: 3px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+  background: var(--paper);
+  border-radius: 0 4px 4px 0;
+}
+.report-body hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
+.report-body table { border-collapse: collapse; width: 100%; font-size: 14px; display: block; overflow-x: auto; }
+.report-body th, .report-body td { border: 1px solid var(--line); padding: 6px 12px; text-align: left; }
+.report-body th { background: var(--paper); font-weight: 600; }
+.report-body code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--paper);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+.report-body pre { background: var(--paper); border: 1px solid var(--line); border-radius: 5px; padding: 14px 16px; overflow-x: auto; }
+.report-body pre code { background: none; padding: 0; }
+.report-body strong { font-weight: 700; }
+
+/* ── 朱入れ(本人コメント) — 署名要素 ──── */
+
+.fb-panel { position: sticky; top: 20px; }
+@media (max-width: 960px) { .fb-panel { position: static; } }
+.fb-panel > h2 {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--shu);
+  margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.fb-panel > h2::before {
+  content: "朱";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px; height: 24px;
+  border: 1.5px solid var(--shu);
+  border-radius: 4px;
+  font-size: 13px;
+}
+.fb-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--shu);
+  border-radius: 5px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  font-size: 13.5px;
+  line-height: 1.8;
+}
+.fb-card .fb-meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 6px; }
+.fb-card .fb-id { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.fb-card .fb-section { font-family: var(--mono); font-size: 11px; color: var(--seiji-deep); }
+.fb-card .fb-comment { margin: 6px 0; white-space: pre-line; }
+.fb-labels { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.fb-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--shu);
+  background: var(--shu-soft);
+  border-radius: 3px;
+  padding: 0 6px;
+}
+.fb-empty { color: var(--muted); font-size: 13px; border: 1px dashed var(--line); border-radius: 5px; padding: 14px 16px; }
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12.5px;
+  padding: 18px 0 40px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-card, .hero-card:hover { transition: none; transform: none; }
+}

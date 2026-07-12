@@ -29,6 +29,10 @@ uv venv && uv pip install -r requirements.txt   # 初回のみ
 
 GitHub Actions(.github/workflows/collect.yml)が毎朝これを自動実行し、結果をコミットする。
 
+## 閲覧サイト(GitHub Pages)
+
+`scripts/build_site.py` が reports/ + feedback/ + 仮説・アクション・意思決定を静的サイト(_site/)へ変換する。mainへのpushで .github/workflows/pages.yml が自動デプロイする。ローカル確認は `.venv\Scripts\python -m scripts.build_site` → `_site/index.html` を開く。デザイントークンは [site/style.css](site/style.css)(本人フィードバックは「朱入れ」として表示)。
+
 ## テスト
 
 ```

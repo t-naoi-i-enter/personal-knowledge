@@ -12,6 +12,9 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 
+# サイトビルド出力(scripts/build_site.py が生成、Pages CIがデプロイ)
+_site/
+
 # OS / editor
 .DS_Store
 Thumbs.db
