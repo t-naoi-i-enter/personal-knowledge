@@ -1,0 +1,37 @@
+feedback_id: FB-20260712-003
+report_type: deep-dive
+report_date: 2026-07-12
+section_id: DD-20260712-01
+
+user_comment: >
+  AI-Nativeという言葉の解像度をもっと上げなければならない。
+  まずは自社でA層をどこまでやり切るべきなのか。
+  B層に関しては、営業とも連携しながら段階的に行っていかなければならない。
+  まずはコッターの8ステップ的に、誰か一人(一事例)だけでも良いから、
+  真のFDEとしての成果実績を立てなければならない(サブスクや業務改善効果の数%をフィーでもらう等)。
+
+ratings: {}
+
+labels:
+  - insightful       # 層A/層Bの枠組みを採用し、自らの言葉で発展させている
+  - actionable       # 具体的な次アクション(1事例のFDE成果)に落ちた
+  - too_shallow      # 「AI-native」の定義の解像度が不足、という指摘
+
+topic:
+  primary: sier_business
+  secondary:
+    - engineering_management
+
+# コメントから派生した記録(report-feedbackの手順3)
+derived:
+  hypotheses:
+    - HYP-20260712-01   # 収益は層B、層A単独は人月ジレンマ(本人が枠組みを採用)
+    - HYP-20260712-02   # 軽量「真のFDE」1事例+非人月フィー
+  actions:
+    - ACT-20260712-01   # 真のFDE成果実績を1事例つくる
+  decisions:
+    - DEC-20260712-01   # 層Aをどこまでやり切るか(未決)
+  followups:
+    - AI-nativeの定義の解像度を上げる Deep Dive(次回候補)
+
+created_at: 2026-07-12T20:40:00+09:00
