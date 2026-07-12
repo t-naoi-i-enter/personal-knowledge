@@ -25,8 +25,9 @@ description: data/new/new_articles.json から出典付き Daily Brief を生成
    - 直近フィードバックで「不要」とされた類の記事は除外
 3. 各記事を [technology-analyst](../technology-analyst/SKILL.md) / [mba-analyst](../mba-analyst/SKILL.md) / [business-analyst](../business-analyst/SKILL.md) の観点で分析し、[chief-of-staff](../chief-of-staff/SKILL.md) の観点で優先順位と意思決定への翻訳を行う
 4. [editor](../editor/SKILL.md) の基準で構成を整える
-5. **保存前に [source-validator](../source-validator/SKILL.md) のチェックリストを必ず実行する**。満たさない場合は完成扱いにしない
-6. `reports/daily/YYYY-MM-DD.md` に保存する
+5. **保存前に [source-validator](../source-validator/SKILL.md) のチェックリスト(形式チェック)を必ず実行する**。満たさない場合は完成扱いにしない
+6. **独立レビュー(裏取り+校閲)**(EV-20260713-01 で承認、evolution/changelog.md 参照)。外部数値・二次情報を含む主張が1つでもある日は、執筆者とは別に Agent(general-purpose)を起動し、(a) 主要主張を出典照合(反証姿勢・判定・根拠URL、疑わしければ WebFetch で原文確認)、(b) 校閲(誤字・見出し・output-preferences 整合)を実施させ、指摘を反映して修正する。掲載3件以下かつ全て一次情報の日は自己チェックのみで可
+7. `reports/daily/YYYY-MM-DD.md` に保存する。外部数値・二次情報を含む日はレポート末尾(# Feedback の前)に `# Review` 節で確認・修正点・残る限界を残す
 
 ## レポート形式
 

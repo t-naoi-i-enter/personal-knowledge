@@ -20,8 +20,9 @@ description: 1週間分の情報を横断分析して Weekly CEO Brief を生成
 1. 個別記事の再掲ではなく、**複数情報から見える共通トレンド**を抽出する
 2. technology-analyst / mba-analyst / business-analyst / chief-of-staff の観点を統合する
 3. 人物ウォッチ: `config/people.yaml` の priority: high の人物について WebSearch で今週の発信(ブログ・講演・インタビュー等)を確認し、あれば以前の主張との差分・一貫性を分析する(設計書5.6)。取得した発信には必ず出典を付ける。見つからなければ省略してよい
-4. 保存前に source-validator のチェックリストを実行する
-5. `reports/weekly/YYYY-Wnn.md`(例: 2026-W28.md)に保存する
+4. 保存前に source-validator のチェックリスト(形式チェック)を実行する
+5. **独立レビュー(裏取り+校閲)を必ず実行する**(EV-20260713-01 で承認、evolution/changelog.md 参照)。執筆者とは別に Agent(general-purpose)を起動し、(a) 主要主張の出典照合(反証姿勢・判定・根拠URL、疑わしければ WebFetch で原文確認)、(b) 校閲(誤字・見出し・config/output-preferences.yaml 整合)を実施させ、指摘を反映して修正する
+6. `reports/weekly/YYYY-Wnn.md`(例: 2026-W28.md)に保存する
 
 ## レポート構成(この順で)
 
@@ -37,6 +38,6 @@ description: 1週間分の情報を横断分析して Weekly CEO Brief を生成
 10. 推奨アクション
 11. 出典一覧(# Sources)
 
-末尾に # Feedback 欄を付ける。記事ID は `WB-YYYYMMDD-NN`。
+末尾に `# Review`(独立レビューで確認・修正した点、残る限界)と `# Feedback` 欄を付ける。記事ID は `WB-YYYYMMDD-NN`。
 
 Daily Brief を出典として使う場合は対象ファイル名を、自分の記録を使う場合はファイルと記録日を示す(設計書7.3)。
