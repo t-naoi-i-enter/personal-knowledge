@@ -28,13 +28,20 @@ def select_articles(articles: list[dict], cfg: dict) -> list[dict]:
     return critical + normal[:remaining]
 
 
-def render_markdown(articles: list[dict], date_str: str) -> str:
+def render_markdown(
+    articles: list[dict], date_str: str, failures: list[dict] | None = None
+) -> str:
     lines = [
         f"# 新着記事ダイジェスト {date_str}",
         "",
         f"候補 {len(articles)}件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。",
         "",
     ]
+    if failures:
+        # 取得失敗は明示する(設計書8.1)
+        lines += ["## ⚠️ 取得失敗ソース", ""]
+        lines += [f"- {f['name']}: {f['url']}({f['error']})" for f in failures]
+        lines.append("")
     for a in articles:
         flag = "🚨 " if a.get("must_include") else ""
         lines += [
@@ -60,6 +67,8 @@ def main() -> int:
         return 1
     cfg = load_yaml("config/scoring.yaml")
     selected = select_articles(data.get("articles", []), cfg)
+    raw = load_json(f"data/raw/articles-{stamp}.json") or {}
+    failures = raw.get("failures", [])
     date_str = f"{stamp[:4]}-{stamp[4:6]}-{stamp[6:]}"
     json_path = save_json(
         "data/new/new_articles.json",
@@ -68,9 +77,10 @@ def main() -> int:
             "date": date_str,
             "count": len(selected),
             "articles": selected,
+            "failures": failures,
         },
     )
-    save_text("data/new/new_articles.md", render_markdown(selected, date_str))
+    save_text("data/new/new_articles.md", render_markdown(selected, date_str, failures))
     print(f"{len(selected)} 件を出力 → {json_path}")
     return 0
 

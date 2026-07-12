@@ -54,7 +54,9 @@ def parse_feed(content: str | bytes, source: dict) -> list[dict]:
 def fetch_source(source: dict, client: httpx.Client) -> list[dict]:
     response = client.get(source["url"])
     response.raise_for_status()
-    return parse_feed(response.text, source)
+    # bytesのまま渡し、XML宣言のencodingをfeedparserに解釈させる
+    # (response.textはHTTPヘッダにcharsetがないとUTF-8決め打ちになる)
+    return parse_feed(response.content, source)
 
 
 def collect(sources: list[dict], blocked_cfg: dict | None) -> tuple[list[dict], list[dict]]:

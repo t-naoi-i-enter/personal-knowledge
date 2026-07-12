@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: collect
+  group: data-commit # validate-links と共有し、push競合を防ぐ
   cancel-in-progress: false
 
 jobs:
@@ -48,5 +48,6 @@ jobs:
             echo "変更なし"
           else
             git commit -m "data: $(date -u -d '+9 hours' +%Y-%m-%d) の収集結果"
+            git pull --rebase origin main
             git push
           fi

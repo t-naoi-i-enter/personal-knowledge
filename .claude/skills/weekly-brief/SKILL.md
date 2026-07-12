@@ -19,7 +19,7 @@ description: 1週間分の情報を横断分析して Weekly CEO Brief を生成
 
 1. 個別記事の再掲ではなく、**複数情報から見える共通トレンド**を抽出する
 2. technology-analyst / mba-analyst / business-analyst / chief-of-staff の観点を統合する
-3. 人物ウォッチ対象について今週の発信があれば、以前の主張との差分・一貫性を分析する(設計書5.6)
+3. 人物ウォッチ: `config/people.yaml` の priority: high の人物について WebSearch で今週の発信(ブログ・講演・インタビュー等)を確認し、あれば以前の主張との差分・一貫性を分析する(設計書5.6)。取得した発信には必ず出典を付ける。見つからなければ省略してよい
 4. 保存前に source-validator のチェックリストを実行する
 5. `reports/weekly/YYYY-Wnn.md`(例: 2026-W28.md)に保存する
 

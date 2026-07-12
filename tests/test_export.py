@@ -48,7 +48,21 @@ class TestSelectArticles:
         assert [a["total_score"] for a in out[1:]] == [4.9, 4.8]
 
 
+    def test_all_must_include_kept_even_over_cap(self):
+        out = select_articles([_article(1.0, must_include=True) for _ in range(5)], CFG)
+        assert len(out) == 5
+
+
 class TestRenderMarkdown:
+    def test_renders_fetch_failures(self):
+        md = render_markdown(
+            [],
+            "2026-07-12",
+            failures=[{"name": "X Feed", "url": "https://x.example/f", "error": "timeout"}],
+        )
+        assert "取得失敗" in md
+        assert "X Feed" in md
+
     def test_contains_metadata_and_sources(self):
         md = render_markdown([_article(4.3, title="Claude Code 2.0")], "2026-07-12")
         assert "2026-07-12" in md

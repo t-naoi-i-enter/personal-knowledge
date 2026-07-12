@@ -535,9 +535,63 @@ GitHub Actions → Pythonで情報収集 → new_articles.json生成
 
 ## 16. Claude Code Skills
 
-18スキル: morning-brief / weekly-brief / deep-dive / technology-analyst / mba-analyst / business-analyst / chief-of-staff / editor / source-validator / reflection / decision-capture / hypothesis-manager / profile-updater / monthly-self-review / evolution-review / report-feedback / feedback-analyzer / preference-updater
+実装は `.claude/skills/<name>/SKILL.md`(以下の役割定義を反映済み)。
 
-各スキルの役割は `.claude/skills/<name>/SKILL.md` を参照(設計書16章の内容を各SKILL.mdに反映済み)。
+### 16.1 morning-brief
+新着情報を読む / 重要度を判定する / Daily Briefを生成する / 推奨アクションを出す / 各項目に出典を付ける / 記事IDを付ける
+
+### 16.2 weekly-brief
+1週間分の情報を横断分析する / 共通トレンドを抽出する / 技術・組織・事業・MBA視点を統合する / 来週考えるべき論点を提示する / 出典一覧を付ける / 1週間のフィードバック傾向も参照する
+
+### 16.3 deep-dive
+特定テーマを深掘りする / 複数情報を比較する / 仮説を整理する / 意思決定案を提示する / 主要な主張に出典を付ける / 事実と推測を明確に分ける
+
+### 16.4 technology-analyst
+AI・技術情報を分析する / 開発現場への適用可能性を評価する / 導入難易度やリスクを評価する / 組織展開への影響を分析する
+
+### 16.5 mba-analyst
+経営理論との接続 / 理論と事例の比較 / AI時代における理論の変化 / 現在の業務への応用案の作成
+
+### 16.6 business-analyst
+SIerや受託開発への影響分析 / 新しいビジネスモデルの評価 / FDEや垂直統合の分析 / 事業機会やリスクの抽出
+
+### 16.7 chief-of-staff
+各専門分析を統合する / 優先順位を付ける / 意思決定すべきことを明確にする / 今すぐ行動することと継続監視を分ける / 過去の意思決定やフィードバックを参照する
+
+### 16.8 editor
+レポートの構成を整える / 重複を除く / 5分で読める量にまとめる / Markdownとして保存する / フィードバック欄を付ける
+
+### 16.9 source-validator
+レポート内の全項目に出典があるか確認する / URL・発行元・公開日を確認する / 一次情報の有無を確認する / 出典のない断定を検出する / 解釈を事実として書いていないか確認する / リンク切れを確認する / 出典一覧を生成する
+
+### 16.10 reflection
+日々の気づきを記録する / 自分の関心や考えの変化を抽出する / 意思決定や懸念事項を記録する
+
+質問例: 1. 今日、重要だと感じたことは何ですか / 2. 考えが変わったことはありますか / 3. 今、最も気になっている課題は何ですか / 4. 今日、決めたことはありますか / 5. 後で振り返りたいことはありますか
+
+### 16.11 decision-capture
+重要な意思決定を構造化する / 判断理由を記録する / 前提条件とリスクを残す / 見直し時期を設定する
+
+### 16.12 hypothesis-manager
+新しい仮説を登録する / 仮説を更新する / 関連する観察や情報を紐付ける / 検証結果を記録する
+
+### 16.13 profile-updater
+日記・会話・意思決定・フィードバックから変化を抽出する / profile.mdやcurrent-focus.mdの更新候補を作る / 自動更新せず、承認待ちとして保存する
+
+### 16.14 monthly-self-review
+1か月分の自分の変化を振り返る / 関心・価値観・仮説・役割の変化を整理する / フィードバック傾向を整理する / 来月の重点テーマを提案する
+
+### 16.15 evolution-review
+Knowledge OS自体の改善点を分析する / 不要な情報源を特定する / 新しいテーマや人物を提案する / topics.yamlの重み変更案を出す / Skillsやプロンプトの改善案を出す / レポート品質指標を確認する
+
+### 16.16 report-feedback
+本人のコメントを受け取る / 対象レポートと記事を特定する / フィードバックを構造化する / rawとstructuredの両方を保存する
+
+### 16.17 feedback-analyzer
+一定期間のフィードバックを集計する / 一時的な感想と継続的な傾向を分ける / テーマ・情報源・表現形式ごとの改善案を出す / 個人の関心変化候補を抽出する
+
+### 16.18 preference-updater
+フィードバックをtopics・sources・current-focusへ反映する候補を作る / 自動更新可能な軽微な出力設定を反映する / 長期的な変更は承認候補として保存する
 
 ## 17. リポジトリ構成
 

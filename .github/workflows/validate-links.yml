@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: data-commit # collect と共有し、push競合を防ぐ
+  cancel-in-progress: false
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -26,7 +30,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Validate links
-        run: python -m scripts.validate_links | tee -a "$GITHUB_STEP_SUMMARY"
+        # パイプにするとスクリプトの終了コードが握りつぶされるためリダイレクトを使う
+        run: python -m scripts.validate_links >> "$GITHUB_STEP_SUMMARY"
 
       - name: Run tests
         run: python -m pytest
@@ -40,5 +45,6 @@ jobs:
             echo "変更なし"
           else
             git commit -m "data: リンク確認結果"
+            git pull --rebase origin main
             git push
           fi

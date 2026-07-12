@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T10:51:25.683267+09:00",
+  "generated_at": "2026-07-12T11:00:55.275891+09:00",
   "date": "2026-07-12",
   "count": 20,
   "articles": [
@@ -624,5 +624,6 @@
       "total_score": 3.95,
       "must_include": false
     }
-  ]
+  ],
+  "failures": []
 }

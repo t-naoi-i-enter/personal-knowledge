@@ -9,7 +9,7 @@ from __future__ import annotations
 import sys
 from datetime import date
 
-from scripts.common import load_json, load_yaml, save_json, today_stamp
+from scripts.common import load_json, load_yaml, now_jst, save_json, today_stamp
 
 # must_include(スコア無視の強制掲載)を適用する公開日の上限。
 # 初回実行時にフィードへ残っている古いセキュリティ記事まで固定しないための制限。
@@ -83,7 +83,8 @@ def score_article(
     preferences: dict | None = None,
     today: date | None = None,
 ) -> dict:
-    today = today or date.today()
+    # CIランナーはUTCのため date.today() は使わない(JSTと最大1日ずれる)
+    today = today or now_jst().date()
     text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
     scores = {
         "relevance": _relevance(article, scoring_cfg),

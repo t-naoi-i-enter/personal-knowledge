@@ -48,6 +48,47 @@ class TestDedupe:
         new, _ = dedupe(articles, empty_history(), today="2026-07-12")
         assert len(new) == 1
 
+    def test_short_subset_title_is_not_fuzzy_matched(self):
+        # token_set_ratio はトークン部分集合で100になるため、
+        # 短いタイトル("OpenAI"等)が長い既出タイトルに誤マッチしないこと
+        history = empty_history()
+        history["titles"]["openai releases gpt-5 for enterprise customers"] = "2026-07-11"
+        new, _ = dedupe(
+            [_article(title="OpenAI", url="https://x.com/1", chash="sha256:x")],
+            history,
+            today="2026-07-12",
+        )
+        assert len(new) == 1
+
+    def test_token_count_gap_is_not_fuzzy_matched(self):
+        # トークン数が大きく異なるタイトル同士は類似判定しない
+        history = empty_history()
+        history["titles"]["weekly update"] = "2026-07-11"
+        new, _ = dedupe(
+            [
+                _article(
+                    title="Weekly update on AI coding agents and developer tools",
+                    url="https://x.com/2",
+                    chash="sha256:y",
+                )
+            ],
+            history,
+            today="2026-07-12",
+        )
+        assert len(new) == 1
+
+    def test_prunes_history_older_than_retention(self):
+        history = empty_history()
+        history["urls"]["https://old.example/a"] = "2020-01-01"
+        history["hashes"]["sha256:old"] = "2020-01-01"
+        history["titles"]["old title long gone"] = "2020-01-01"
+        history["urls"]["https://recent.example/b"] = "2026-07-01"
+        _, updated = dedupe([], history, today="2026-07-12")
+        assert "https://old.example/a" not in updated["urls"]
+        assert "sha256:old" not in updated["hashes"]
+        assert "old title long gone" not in updated["titles"]
+        assert "https://recent.example/b" in updated["urls"]
+
     def test_updates_history_with_new_articles(self):
         _, history = dedupe([_article()], empty_history(), today="2026-07-12")
         assert history["urls"]["https://example.com/a"] == "2026-07-12"

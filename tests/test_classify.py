@@ -31,6 +31,12 @@ class TestClassifyArticle:
         a = classify_article(_article("全く関係ない園芸の話"), TOPICS_CFG)
         assert a["topics"] == ["uncategorized"]
 
+    def test_ignores_empty_or_null_keywords(self):
+        # topics.yaml の設定ミス(空文字・値なし項目)でパイプラインを止めない
+        cfg = {"topics": {"x": {"weight": 10, "keywords": ["", None, "valid"]}}}
+        a = classify_article(_article("a valid keyword here"), cfg)
+        assert a["topics"] == ["x"]
+
     def test_word_boundary_for_short_ascii_keywords(self):
         # "mcp" が "PMCPortal" のような部分文字列に誤マッチしない
         a = classify_article(_article("PMCPortal update"), TOPICS_CFG)

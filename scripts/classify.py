@@ -26,7 +26,8 @@ def classify_article(article: dict, topics_cfg: dict) -> dict:
     text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
     topics = []
     for name, topic in topics_cfg.get("topics", {}).items():
-        if any(_keyword_pattern(kw).search(text) for kw in topic.get("keywords", [])):
+        keywords = [kw for kw in (topic.get("keywords") or []) if kw]  # 設定ミス(空・None)を無視
+        if any(_keyword_pattern(kw).search(text) for kw in keywords):
             topics.append(name)
     article["topics"] = topics or ["uncategorized"]
     return article

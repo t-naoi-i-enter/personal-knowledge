@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import sys
+from datetime import date, timedelta
 
 from rapidfuzz import fuzz, process
 
@@ -16,7 +17,13 @@ from scripts.common import load_json, save_json, today_stamp
 # 転載時のタイトルは「〜 | メディア名」のような接尾辞が付くことが多く、
 # 単純な fuzz.ratio では検出できないためトークンベースで比較する。
 TITLE_SIMILARITY_THRESHOLD = 95
+# ただし token_set_ratio はトークン部分集合("OpenAI" ⊂ 長いタイトル)でも100になるため、
+# トークン数が少ないタイトルと、トークン数が大きく異なるペアには適用しない。
+# 空白で分割できない日本語タイトルも対象外になるが、URL・ハッシュの重複判定は常に効く。
+MIN_TOKENS_FOR_FUZZY = 3
+MAX_TOKEN_COUNT_RATIO = 2.0
 MAX_TITLE_HISTORY = 3000  # タイトル類似判定に使う履歴の上限(古いものから破棄)
+HISTORY_RETENTION_DAYS = 365  # これより古い履歴は破棄(seen.jsonの無制限成長を防ぐ)
 HISTORY_PATH = "data/history/seen.json"
 
 
@@ -25,19 +32,33 @@ def empty_history() -> dict:
 
 
 def _is_duplicate_title(title: str, known_titles: list[str]) -> bool:
-    if not known_titles:
+    token_count = len(title.split())
+    if token_count < MIN_TOKENS_FOR_FUZZY:
+        return False
+    candidates = [
+        t
+        for t in known_titles
+        if len(t.split()) >= MIN_TOKENS_FOR_FUZZY
+        and 1 / MAX_TOKEN_COUNT_RATIO <= len(t.split()) / token_count <= MAX_TOKEN_COUNT_RATIO
+    ]
+    if not candidates:
         return False
     match = process.extractOne(
-        title, known_titles, scorer=fuzz.token_set_ratio, score_cutoff=TITLE_SIMILARITY_THRESHOLD
+        title, candidates, scorer=fuzz.token_set_ratio, score_cutoff=TITLE_SIMILARITY_THRESHOLD
     )
     return match is not None
 
 
+def _prune_old(entries: dict[str, str], cutoff: str) -> dict[str, str]:
+    return {k: v for k, v in entries.items() if v >= cutoff}
+
+
 def dedupe(articles: list[dict], history: dict, today: str) -> tuple[list[dict], dict]:
     """新規記事のみを返し、履歴を更新して返す。バッチ内の重複も除去する。"""
-    urls = dict(history.get("urls", {}))
-    hashes = dict(history.get("hashes", {}))
-    titles = dict(history.get("titles", {}))
+    cutoff = (date.fromisoformat(today) - timedelta(days=HISTORY_RETENTION_DAYS)).isoformat()
+    urls = _prune_old(history.get("urls", {}), cutoff)
+    hashes = _prune_old(history.get("hashes", {}), cutoff)
+    titles = _prune_old(history.get("titles", {}), cutoff)
 
     new_articles: list[dict] = []
     for article in articles:
