@@ -1,0 +1,21 @@
+feedback_id: FB-20260712-002
+report_type: daily
+report_date: 2026-07-12
+section_id: null   # レポート全体への出力形式フィードバック
+
+user_comment: >
+  とりあえず読めるものにはなっていた。
+  改行とかはもっと見やすくできそうなので、工夫して欲しい。
+
+ratings: {}
+
+labels:
+  - hard_to_read   # 出力評価: 可読性(改行・レイアウト)の改善要望
+
+topic:
+  primary: null   # テーマではなく出力形式へのフィードバック
+
+created_at: 2026-07-12T20:10:00+09:00
+
+# 反映先: config/feedback-rules.yaml の immediate_updates(section_order/formatting)に該当
+# → preference-updater が config/output-preferences.yaml を即時更新(承認不要、設計書9.5)

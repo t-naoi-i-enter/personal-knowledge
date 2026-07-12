@@ -23,7 +23,20 @@ action_format:
   include_effort: true       # 必要な工数を書く
   include_done_criteria: true # 完了条件を書く
 
-history: []
+# 可読性の設定(FB-20260712-002「改行を見やすく」を反映)
+formatting:
+  paragraph_max_sentences: 2   # 1段落は2文まで。長い説明は改行/箇条書きに分ける
+  prefer_bullets: true         # 「事実」「示唆」は3点以上なら箇条書きにする
+  blank_line_between_blocks: true  # 見出し・段落・箇条書きの間に空行を必ず入れる
+  bold_lead: true              # 各見出し直下の結論を短い一文にし、要点を太字で示す
+  avoid_long_inline_parens: true   # 長い注記は括弧内に詰め込まず、独立した行にする
+
+history:
+  - date: 2026-07-12
+    field: formatting
+    before: null
+    after: 段落2文まで/箇条書き優先/ブロック間空行/結論先頭・要点太字/長い括弧注記を独立行へ
+    reason: FB-20260712-002「改行とかはもっと見やすくできそう」への即時反映(immediate_updates)
 # 例:
 # history:
 #   - date: 2026-07-20

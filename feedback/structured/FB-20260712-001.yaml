@@ -1,0 +1,27 @@
+feedback_id: FB-20260712-001
+report_type: daily
+report_date: 2026-07-12
+section_id: DB-20260712-03
+
+user_comment: >
+  エンタープライズ「AI-native」事例が相次ぐ(MUFG・Deutsche Telekom・HP)は有益情報。
+  うちもAI-Nativeにしていかないといけないので、さらに深堀していきたい。
+
+# ratings は本人が数値を明示していないため付けない(設計書9.4)
+ratings: {}
+
+labels:
+  - important        # 「有益情報」
+  - well_connected   # 自社の状況(AI-native化の必要性)と結びついている
+
+topic:
+  primary: sier_business
+  secondary:
+    - ai_coding
+    - engineering_management
+
+action_feedback:
+  status: needs_more_research   # 「さらに深堀していきたい」→ Deep Dive 希望
+  note: AI-native変革を自社(SIer/受託)にどう適用するかの Deep Dive を希望
+
+created_at: 2026-07-12T20:10:00+09:00
