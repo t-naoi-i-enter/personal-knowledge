@@ -85,6 +85,13 @@ class TestDedupe:
         _, updated = dedupe([_article()], history, today="2026-07-12")
         assert updated["urls"]["https://example.com/a"] == "2026-07-12"
 
+    def test_duplicate_refreshes_title_history_date(self):
+        history = empty_history()
+        history["urls"]["https://example.com/a"] = "2026-01-01"
+        history["titles"]["claude code 2.0 released"] = "2026-01-01"
+        _, updated = dedupe([_article()], history, today="2026-07-12")
+        assert updated["titles"]["claude code 2.0 released"] == "2026-07-12"
+
     def test_prunes_history_older_than_retention(self):
         history = empty_history()
         history["urls"]["https://old.example/a"] = "2020-01-01"

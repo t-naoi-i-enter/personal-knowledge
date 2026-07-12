@@ -72,6 +72,8 @@ def dedupe(articles: list[dict], history: dict, today: str) -> tuple[list[dict],
                 urls[url] = today
             if chash in hashes:
                 hashes[chash] = today
+            if title_key in titles:
+                titles[title_key] = today
             continue
         if _is_duplicate_title(title_key, list(titles.keys())):
             continue

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T11:00:55.275891+09:00",
+  "generated_at": "2026-07-12T11:07:39.228225+09:00",
   "date": "2026-07-12",
   "count": 20,
   "articles": [
@@ -33,37 +33,6 @@
       },
       "total_score": 3.5,
       "must_include": true
-    },
-    {
-      "source_id": "src_20260712_1271",
-      "title": "2026年度 経験者採用試験 官庁訪問（係長級（事務）府省合同A区分／総合職相当） の情報を掲載しました",
-      "url": "https://www.digital.go.jp/recruitment/career-government-official/visit2026-career-section-chief",
-      "publisher": "デジタル庁 新着情報",
-      "author": "デジタル庁",
-      "published_at": "2026-07-09",
-      "event_date": null,
-      "collected_at": "2026-07-12T10:49:59.801722+09:00",
-      "source_type": "primary",
-      "language": "ja",
-      "content_hash": "sha256:4180a83940972dbe3bd9427c16021c0afe318b3730049bbf58798c5cc46c0ea1",
-      "retrieval_status": "success",
-      "summary": "",
-      "category": "public_policy",
-      "priority": "high",
-      "topics": [
-        "engineering_management"
-      ],
-      "scores": {
-        "relevance": 5,
-        "impact": 5,
-        "novelty": 4,
-        "reliability": 5,
-        "actionability": 3,
-        "purpose_alignment": 2,
-        "preference_fit": 3
-      },
-      "total_score": 4.25,
-      "must_include": false
     },
     {
       "source_id": "src_20260712_001",
@@ -607,6 +576,37 @@
       "content_hash": "sha256:11bece59f4afb5aff15b340f5e06c830287fa97e1b628d5ea4b97842b5a0f452",
       "retrieval_status": "success",
       "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 3,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.95,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260712_020",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-07-07",
+      "event_date": null,
+      "collected_at": "2026-07-12T10:49:59.801722+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:ad3891bb132068f4d0a9c51309c2c9aab5a8246b1ac383c42ef80cf96bacd555",
+      "retrieval_status": "success",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
       "category": "ai_coding",
       "priority": "high",
       "topics": [

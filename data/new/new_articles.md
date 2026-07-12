@@ -12,16 +12,6 @@
 
 OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-level crash analysis rather than examining individual core dumps. By Steef-Jan Wiggers
 
-## 2026年度 経験者採用試験 官庁訪問（係長級（事務）府省合同A区分／総合職相当） の情報を掲載しました
-
-- URL: https://www.digital.go.jp/recruitment/career-government-official/visit2026-career-section-chief
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-09
-- トピック: engineering_management
-- 総合スコア: 4.25
-
-
-
 ## v2.1.207
 
 - URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.207
@@ -201,3 +191,13 @@ OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills 
 - 総合スコア: 3.95
 
 A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.
+
+## MUFG aims to become AI-native with OpenAI
+
+- URL: https://openai.com/index/mufg
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-07
+- トピック: ai_coding
+- 総合スコア: 3.95
+
+MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.
