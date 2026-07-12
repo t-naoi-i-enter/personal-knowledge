@@ -1,0 +1,33 @@
+# 出力設定(自動反映可の範囲、設計書3.3・9.5「即時反映」)
+# /preference-updater が feedback-rules.yaml の immediate_updates の範囲でのみ更新する。
+# 更新時は history に before/after/reason/date を追記する(過去を削除しない)。
+
+report_length:
+  daily_max_items: 10        # Daily Brief の最大掲載件数(5〜10)
+  daily_min_items: 5         # 情報が少ない日は無理に増やさない(下回ってよい)
+  reading_time_minutes: 5    # 目標読了時間
+
+summary_length:
+  facts_max_sentences: 3     # 「確認された事実」の最大文数
+  mba_max_sentences: 3       # MBA視点の説明は短く、実務適用を中心に
+
+section_order:               # 各記事の見出し順(設計書8.3)
+  - 確認された事実
+  - なぜ重要か
+  - 自分の業務への示唆
+  - MBA視点での示唆
+  - 推奨アクション
+  - 出典
+
+action_format:
+  include_effort: true       # 必要な工数を書く
+  include_done_criteria: true # 完了条件を書く
+
+history: []
+# 例:
+# history:
+#   - date: 2026-07-20
+#     field: report_length.daily_max_items
+#     before: 10
+#     after: 7
+#     reason: too_many_items のフィードバックが3回続いたため
