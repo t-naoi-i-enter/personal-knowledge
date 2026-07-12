@@ -1,0 +1,12 @@
+# 情報源ごとの評価(設計書9.5)
+# /feedback-analyzer が更新候補を出し、承認後に反映する。
+# usefulness_score は score.py の preference_fit として使用される(1〜5)。
+
+source_preferences: {}
+
+# 例:
+# source_preferences:
+#   OpenAI News:
+#     trust_score: 5
+#     usefulness_score: 4
+#     note: 公式だが宣伝色の強い記事もある

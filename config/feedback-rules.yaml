@@ -1,0 +1,33 @@
+# フィードバック反映ルール(設計書18.4・9.5)
+
+feedback_rules:
+  # 次回レポートから即時反映してよい(preference-updater が自動反映可)
+  immediate_updates:
+    - report_length
+    - section_order
+    - summary_length
+    - action_format
+
+  # 本人承認必須(evolution/proposed/ に候補を置き、承認後のみ反映)
+  approval_required:
+    - topic_weight
+    - long_term_interest
+    - value_statement
+    - career_goal
+    - decision_principle
+    - blocked_source
+
+  # 「継続的な傾向」と判定するしきい値
+  trend_thresholds:
+    repeated_negative_feedback: 3
+    repeated_positive_feedback: 3
+    minimum_observation_period_days: 14
+
+# 期間限定のテーマ優先度変更(feedback-analyzer / preference-updater が管理)
+# 例:
+# temporary_focus:
+#   start_date: 2026-07-11
+#   end_date: 2026-08-31
+#   increase: [engineering_management, sier_business]
+#   decrease: [model_benchmarks]
+temporary_focus: null

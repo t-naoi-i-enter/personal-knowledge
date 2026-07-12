@@ -1,0 +1,53 @@
+# 情報源レジストリ
+# 取得対象の定義は config/sources.yaml。ここには発行元単位のメタ情報を蓄積する
+# (レポートで出典を書く際の publisher 名・信頼性区分の正、設計書8.6)。
+
+publishers:
+  - name: Anthropic
+    source_type: primary
+    reliability: high
+    note: 企業公式発表
+
+  - name: OpenAI
+    source_type: primary
+    reliability: high
+    note: 企業公式発表
+
+  - name: AWS
+    source_type: primary
+    reliability: high
+    note: 企業公式発表
+
+  - name: GitHub
+    source_type: primary
+    reliability: high
+    note: 企業公式発表
+
+  - name: デジタル庁
+    source_type: primary
+    reliability: high
+    note: 政府資料
+
+  - name: Publickey
+    source_type: secondary
+    reliability: medium
+    note: 信頼性の高い技術報道(日本語)
+
+  - name: InfoQ
+    source_type: secondary
+    reliability: medium
+
+  - name: MIT Sloan Management Review
+    source_type: secondary
+    reliability: medium
+    note: ビジネススクールの解説
+
+  - name: Harvard Business Review
+    source_type: secondary
+    reliability: medium
+    note: ビジネススクールの解説
+
+  - name: martinfowler.com
+    source_type: opinion
+    reliability: medium
+    note: 専門家による詳細な分析

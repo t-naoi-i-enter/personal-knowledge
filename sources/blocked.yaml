@@ -1,0 +1,12 @@
+# 除外する情報源(設計書9.5)
+# 情報源の完全除外は本人承認必須(feedback-rules.yaml: blocked_source)。
+# collect.py は name または url がここに一致するソースを取得しない。
+
+blocked: []
+
+# 例:
+# blocked:
+#   - name: Promotional AI Media
+#     url: https://example.com/feed
+#     reason: 宣伝目的のコンテンツが多い
+#     approved_at: 2026-07-20

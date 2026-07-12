@@ -1,0 +1,97 @@
+# 情報源定義(設計書18.2)
+# collect.py が enabled: true のソースを取得する。
+# URL が変わった・取得に失敗し続けるソースは enabled: false にするか sources/blocked.yaml へ。
+# priority: high / medium / low(score.py の関連度の基礎点に使用)
+# source_type: primary / secondary / research / opinion / social / unknown(信頼性評価に使用)
+
+sources:
+  - name: Claude Code Releases
+    type: rss
+    category: ai_coding
+    priority: high
+    source_type: primary
+    language: en
+    url: https://github.com/anthropics/claude-code/releases.atom
+    enabled: true
+
+  - name: OpenAI News
+    type: rss
+    category: ai_coding
+    priority: high
+    source_type: primary
+    language: en
+    url: https://openai.com/news/rss.xml
+    enabled: true
+
+  - name: AWS News Blog
+    type: rss
+    category: ai_coding
+    priority: medium
+    source_type: primary
+    language: en
+    url: https://aws.amazon.com/blogs/aws/feed/
+    enabled: true
+
+  - name: GitHub Blog
+    type: rss
+    category: ai_coding
+    priority: medium
+    source_type: primary
+    language: en
+    url: https://github.blog/feed/
+    enabled: true
+
+  - name: Publickey
+    type: rss
+    category: ai_coding
+    priority: medium
+    source_type: secondary
+    language: ja
+    url: https://www.publickey1.jp/atom.xml
+    enabled: true
+
+  - name: martinfowler.com
+    type: rss
+    category: engineering_management
+    priority: medium
+    source_type: opinion
+    language: en
+    url: https://martinfowler.com/feed.atom
+    enabled: true
+
+  - name: InfoQ
+    type: rss
+    category: engineering_management
+    priority: medium
+    source_type: secondary
+    language: en
+    url: https://feed.infoq.com/
+    enabled: true
+
+  - name: MIT Sloan Management Review
+    type: rss
+    category: mba
+    priority: medium
+    source_type: secondary
+    language: en
+    url: https://sloanreview.mit.edu/feed/
+    enabled: true
+
+  - name: Harvard Business Review
+    type: rss
+    category: mba
+    priority: medium
+    source_type: secondary
+    language: en
+    url: http://feeds.hbr.org/harvardbusiness
+    enabled: true
+
+  - name: デジタル庁 新着情報
+    type: rss
+    category: public_policy
+    priority: high
+    source_type: primary
+    language: ja
+    # URL要確認: 取得に失敗する場合は正しいRSS URLへ更新すること
+    url: https://www.digital.go.jp/rss/news.xml
+    enabled: true

@@ -1,0 +1,92 @@
+# ルールベース評価の設定(設計書19章・14.2)
+# score.py が使用する。AIは使わない機械的な基礎スコアリング。
+# Claudeによる「最終判断」は /morning-brief 実行時に行う(ここは足切りのみ)。
+
+# 総合スコアの重み(設計書19章)
+weights:
+  relevance: 0.25
+  impact: 0.20
+  novelty: 0.10
+  reliability: 0.15
+  actionability: 0.15
+  purpose_alignment: 0.05
+  preference_fit: 0.10
+
+# この総合スコア未満は new_articles.json に含めない(must_include を除く)
+publish_threshold: 3.0
+
+# Daily Brief 候補の最大件数(設計書7.1: 掲載は5〜10件、候補は多めに渡す)
+max_export_items: 20
+
+# 関連度(relevance)の基礎点: 情報源の priority から
+relevance_by_priority:
+  high: 4
+  medium: 3
+  low: 2
+# トピックに1つ以上マッチしたら +1(上限5)、未分類(uncategorized)なら -1(下限1)
+
+# 影響度(impact): マッチしたトピックの weight の最大値から
+impact_by_topic_weight:
+  - {min_weight: 25, score: 5}
+  - {min_weight: 20, score: 4}
+  - {min_weight: 15, score: 3}
+  - {min_weight: 0, score: 2}
+uncategorized_impact: 1
+
+# 新規性(novelty): 公開日からの経過日数
+novelty_by_age_days:
+  - {max_days: 1, score: 5}
+  - {max_days: 3, score: 4}
+  - {max_days: 7, score: 3}
+  - {max_days: 30, score: 2}
+stale_novelty: 1   # 30日超・公開日不明
+
+# 信頼性(reliability): source_type から(設計書8.6)
+reliability_by_source_type:
+  primary: 5
+  research: 4
+  secondary: 3
+  opinion: 2
+  social: 1
+  unknown: 1
+
+# 実行可能性(actionability): 既定3、以下のキーワードを含めば+1(上限5)
+actionability_base: 3
+actionability_keywords:
+  - release
+  - launch
+  - general availability
+  - how to
+  - guide
+  - tutorial
+  - 発表
+  - 提供開始
+  - 公開
+  - 実践
+
+# 志との関連(purpose_alignment): トピック別
+purpose_alignment_by_topic:
+  public_policy: 4
+  personal_purpose: 5
+  sier_business: 3
+default_purpose_alignment: 2
+
+# フィードバック適合度(preference_fit): 既定3。
+# sources/preferences.yaml に usefulness_score があればそれを使用(Phase 2で本格化)
+default_preference_fit: 3
+
+# スコアに関係なく掲載する重大情報(設計書19章)
+must_include_keywords:
+  - 脆弱性
+  - vulnerability
+  - cve-
+  - security advisory
+  - security incident
+  - セキュリティインシデント
+  - 情報漏えい
+  - 情報漏洩
+  - data breach
+  - 法改正
+  - 施行
+  - regulation enacted
+  - ai規制法

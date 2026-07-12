@@ -1,0 +1,45 @@
+# 人物ウォッチ(設計書5.6・18.3)
+# MVPでは週次の手動確認(/weekly-brief 時に参照)。自動収集はPhase 2以降。
+# 分析観点: 以前の主張との差分 / 一貫している考え / 新しく重視し始めたテーマ /
+#           自分の業務・キャリアへの関係 / 発言と行動の一貫性
+
+people:
+  - name: Dario Amodei
+    priority: high
+    topics: [ai_safety, enterprise_ai, future_of_work]
+
+  - name: 平将明
+    priority: high
+    topics: [ai_policy, digital_government, cybersecurity]
+
+  - name: 堀義人
+    priority: medium
+    topics: [leadership, education, entrepreneurship]
+
+  - name: Sam Altman
+    priority: medium
+    topics: [agi, ai_industry]
+
+  - name: Satya Nadella
+    priority: medium
+    topics: [enterprise_ai, platform_strategy, leadership]
+
+  - name: Jensen Huang
+    priority: medium
+    topics: [ai_infrastructure, semiconductor]
+
+  - name: Alex Karp
+    priority: medium
+    topics: [fde, vertical_integration, government_business]
+
+  - name: Andrew Ng
+    priority: low
+    topics: [ai_education, applied_ai]
+
+  - name: Ethan Mollick
+    priority: medium
+    topics: [ai_adoption, future_of_work, management]
+
+  - name: Ben Thompson
+    priority: medium
+    topics: [platform_strategy, tech_business]

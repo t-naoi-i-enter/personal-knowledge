@@ -1,0 +1,157 @@
+# 収集テーマと重み(設計書5章・18.1)
+# weight の変更は本人承認制(Claudeは evolution/proposed/ に変更案を出すのみ)
+# keywords は classify.py がタイトル・概要への部分一致(小文字化)で使用する
+
+topics:
+  ai_coding:
+    label: AI・ソフトウェア開発
+    weight: 20
+    frequency: daily
+    keywords:
+      - claude code
+      - claude
+      - anthropic
+      - openai
+      - gpt
+      - gemini
+      - github copilot
+      - copilot
+      - cursor
+      - mcp
+      - model context protocol
+      - ai agent
+      - agentic
+      - aws
+      - bedrock
+      - llm
+      - 生成ai
+      - coding agent
+      - コーディングエージェント
+      - ai駆動開発
+      - 開発ハーネス
+      - aiガバナンス
+      - aiセキュリティ
+      - aiレビュー
+      - aiテスト
+      - platform engineering
+      - developer experience
+      - dora
+      - terraform
+      - next.js
+
+  engineering_management:
+    label: エンジニアリングマネジメント
+    weight: 25
+    frequency: daily
+    keywords:
+      - エンジニア生産性
+      - developer productivity
+      - engineering manager
+      - テックリード
+      - tech lead
+      - staff engineer
+      - 評価制度
+      - performance review
+      - 1on1
+      - 組織設計
+      - organization design
+      - 心理的安全性
+      - psychological safety
+      - チェンジマネジメント
+      - change management
+      - career ladder
+      - キャリアラダー
+      - 採用
+      - hiring
+      - 育成
+      - onboarding
+      - engineering culture
+      - 技術戦略
+
+  sier_business:
+    label: SIer・ビジネスモデル
+    weight: 20
+    frequency: weekly
+    keywords:
+      - sier
+      - 受託開発
+      - fde
+      - forward deployed
+      - palantir
+      - layerx
+      - aiコンサル
+      - 内製化
+      - モダナイゼーション
+      - managed service
+      - 人月
+      - プロフェッショナルサービス
+      - saas
+      - 垂直統合
+      - vertical integration
+      - 業務特化型ai
+      - 継続課金
+      - プラットフォーム戦略
+
+  mba:
+    label: MBA・経営
+    weight: 15
+    frequency: weekly
+    keywords:
+      - strategy
+      - 経営戦略
+      - porter
+      - christensen
+      - disruptive innovation
+      - dynamic capability
+      - jobs to be done
+      - leadership
+      - リーダーシップ
+      - organizational behavior
+      - talent management
+      - roic
+      - unit economics
+      - valuation
+      - lean startup
+      - design thinking
+      - ambidextrous
+      - 両利きの経営
+      - business model
+      - ビジネスモデル
+      - value proposition
+
+  public_policy:
+    label: 公共・社会課題
+    weight: 10
+    frequency: weekly
+    keywords:
+      - デジタル庁
+      - 行政dx
+      - 公共dx
+      - 地方創生
+      - ai政策
+      - ai規制
+      - 国産ai
+      - ガバメントクラウド
+      - サイバー安全保障
+      - デジタルデバイド
+      - 教育dx
+      - 医療dx
+      - 介護dx
+      - 中小企業dx
+      - digital government
+      - ai policy
+      - ai regulation
+
+  personal_purpose:
+    label: キャリア・志
+    weight: 10
+    frequency: monthly
+    keywords:
+      - キャリア
+      - 社会課題
+      - social impact
+      - 技術と経営
+      - cto
+      - vpoe
+      - future of work
+      - ai時代の働き方

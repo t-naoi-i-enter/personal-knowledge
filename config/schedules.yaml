@@ -1,0 +1,38 @@
+# 実行スケジュール(設計書15.2)
+# MVP: パイプラインはGitHub Actionsが自動実行、SkillsはすべてClaude Codeで本人が手動実行
+
+schedules:
+  daily:
+    pipeline:            # .github/workflows/collect.yml(JST 06:00)
+      - collect
+      - normalize
+      - deduplicate
+      - classify
+      - score
+      - export
+    skills:              # 本人が必要に応じて実行
+      - morning-brief
+      - report-feedback
+      - reflection
+
+  weekly:
+    pipeline:
+      - validate_links   # .github/workflows/validate-links.yml
+    skills:
+      - weekly-brief
+      - feedback-analyzer
+    checklist:
+      - 情報収集テーマの確認
+      - 未処理アクションの確認
+      - 情報源評価の確認
+
+  monthly:
+    pipeline:
+      - aggregate_feedback
+    skills:
+      - monthly-self-review
+      - evolution-review
+    checklist:
+      - profileやtopicsの更新候補確認
+      - 仮説と意思決定結果の振り返り
+      - レポート品質指標の確認
