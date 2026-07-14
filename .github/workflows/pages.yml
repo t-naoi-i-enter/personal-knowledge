@@ -50,6 +50,20 @@ jobs:
         with:
           enablement: true
 
+      # Pages が「Deploy from a branch(legacy)」だと、自動の pages-build-deployment が
+      # _site を後勝ちで上書きしサイトにREADMEが表示される(2026-07-14 に発生)。
+      # 両ワークフローとも success になり気づけないため、ここで明示的に失敗させる。
+      - name: Ensure Pages source is GitHub Actions (build_type=workflow)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build_type=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type')
+          echo "Pages build_type: ${build_type}"
+          if [ "${build_type}" != "workflow" ]; then
+            echo "::error::Pages build_type is '${build_type}' (expected 'workflow'). Legacy branch deployment overwrites _site. Fix: gh api -X PUT repos/${GITHUB_REPOSITORY}/pages -f build_type=workflow"
+            exit 1
+          fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
