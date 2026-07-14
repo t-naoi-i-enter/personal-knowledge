@@ -1,82 +1,112 @@
-# 新着記事ダイジェスト 2026-07-14
+# 新着記事ダイジェスト 2026-07-15
 
-候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)
+## v2.1.208
 
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-07-13
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.208
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-07-14
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 4.3
 
-AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]
+What's changed Added screen reader mode: opt-in plain-text rendering for screen reader users. Run claude --ax-screen-reader , set CLAUDE_AX_SCREEN_READER=1, or add "axScreenReader": true to settings. Added vimInsertModeRemaps setting: map two-key insert-mode sequences like jj to Escape in vim mode Added CLAUDE_CODE_PROCESS_WRAPPER : agent view and the background service now honor a corporate launcher by running every Claude Code self-spawn through a required wrapper executable Added mouse-click 
 
-## 令和8年7月13日付デジタル庁幹部一覧を掲載しました
+## How to manage AI investments in the agentic era
 
-- URL: https://www.digital.go.jp/about/member
+- URL: https://openai.com/index/managing-ai-investments-in-agentic-era
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-14
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.
+
+## v2.1.209
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.209
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-07-14
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+What's changed Fixed /model and other dialogs being blocked in claude agents background sessions (reverts an overly broad guard)
+
+## DSLs Enable Reliable Use of LLMs
+
+- URL: https://martinfowler.com/articles/llm-and-dsls.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-07-14
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+LLMs generate code incredibly fast, but to ensure they generate exactly what is intended, they need clear boundaries. Abstractions and Domain-Specific Languages (DSLs) provide a strong harness that guides LLMs right from the start. Unmesh Joshi describes how the example of Tickloom - a domain model and DSL for illustrating distributed system behavior - shows how we can use an LLM as a partner to iteratively build a DSL and as a natural language interface to use it. Such a DSL can act as the key 
+
+## Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents
+
+- URL: https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-14
+- トピック: ai_coding, mba
+- 総合スコア: 3.6
+
+Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on catalogs and registries, enabling dynamic capability discovery while leveraging existing protocols such as MCP and OpenAPI for execution and emphasizing trust and interoperability. By Leela Kumili
+
+## 第5回先進的AI利活用アドバイザリーボードの会議資料等を掲載しました
+
+- URL: https://www.digital.go.jp/councils/ai-advisory-board/770d4c48-7f40-49a6-a49d-56a763800a42
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-13
-- トピック: public_policy
-- 総合スコア: 3.85
+- 公開日: 2026-07-14
+- トピック: uncategorized
+- 総合スコア: 3.05
 
 
 
-## Presentation: Road to Compliance: Will Your Internal Users Hate Your Platform Team?
+## 小型無人飛行機等の飛行禁止区域に関する資料等を更新しました
 
-- URL: https://www.infoq.com/presentations/platform-engineering-team-compliance
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-13
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Davide de Paolis discusses the realities of rolling out cloud infrastructure compliance without fracturing developer relations. Drawing from a real-world platform team reboot at Sevdesk, he explains how to implement "minimum viable governance" on AWS, utilize event-driven Slack alerting to automate policy feedback, and shift from rigid enforcement to high-empathy, data-driven collaboration. By Davide de Paolis
-
-## Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー
-
-- URL: https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-13
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Google Cloudは、生成AIによる信頼できないコードの実行を安全に隔離して実行できる環境を瞬時に起動させることができる「Cloud Run Sandboxes」（以下、Cloud Runサンドボックス）をパブリックプレビューとして公...
-
-## How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone
-
-- URL: https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-13
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memory and live backend data. Early results show up to 24% higher checkout conversion, 17% larger baskets, and improved intent accuracy using memory-backed sessions. By Leela Kumili
-
-## Article: Removing a Hidden Round Trip from a Multi-Region AWS API
-
-- URL: https://www.infoq.com/articles/aws-multi-region-signing
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-13
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-When a series of regional outages forced a rethink of a multi-region AWS API, the team discovered that an obstacle to global failover was hiding in plain sight: a pre-flight discovery call baked into every client session years earlier as the only available option. This article describes what it took to remove it, and what the rollout actually cost. By Suresh Gururajan
-
-## さくらのクラウドで、3つの国内開発された大規模言語モデルの試用を開始、デジタル庁がガバメントAI「源内」用に評価
-
-- URL: https://www.publickey1.jp/blog/26/3ai.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-13
-- トピック: public_policy
-- 総合スコア: 3.45
-
-デジタル庁は、国内開発された3つの大規模言語モデルの試用をさくらのクラウド上で開始すると発表しました。 これはデジタル庁が中心となって進めている、行政業務の効率化や住民サービスの向上のために整備を進めているガバメントAI「源内」（げんない）...
-
-## アナログ規制見直しを進めるダイアローグ「RegTech ミート」7月の開催スケジュールを掲載しました
-
-- URL: https://www.digital.go.jp/policies/digital-extraordinary-administrative-research-committee/regtechconsortium/regtechmeet
+- URL: https://www.digital.go.jp/about/drone
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-13
+- 公開日: 2026-07-14
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 自治体フロントヤード改革の取組状況に関するダッシュボードを更新しました
+
+- URL: https://www.digital.go.jp/resources/govdashboard/front-yard-reform
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-14
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました
+
+- URL: https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction/mynumbercard-user-list
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-14
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 民間事業者向けマイナンバーカード活用情報における基本情報の資料を更新しました
+
+- URL: https://www.digital.go.jp/policies/mynumber/private-business
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-14
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 松本大臣記者会見（令和8年7月14日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-260714-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-14
 - トピック: uncategorized
 - 総合スコア: 3.05
 
