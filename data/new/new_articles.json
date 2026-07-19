@@ -1,37 +1,99 @@
 {
-  "generated_at": "2026-07-19T06:57:07.140265+09:00",
-  "date": "2026-07-19",
-  "count": 1,
+  "generated_at": "2026-07-20T06:59:37.966545+09:00",
+  "date": "2026-07-20",
+  "count": 3,
   "articles": [
     {
-      "source_id": "src_20260719_001",
-      "title": "v2.1.214",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
+      "source_id": "src_20260720_001",
+      "title": "v2.1.215",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
       "publisher": "Claude Code Releases",
       "author": "ashwin-ant",
-      "published_at": "2026-07-18",
+      "published_at": "2026-07-19",
       "event_date": null,
-      "collected_at": "2026-07-19T06:57:06.626078+09:00",
+      "collected_at": "2026-07-20T06:59:37.429963+09:00",
       "source_type": "primary",
       "language": "en",
-      "content_hash": "sha256:01d7e2dfbd2001414143784f780c9002b205d7a972f464b27326146bfedaaa12",
+      "content_hash": "sha256:cc847fd535731e3f3e6b823758c54118c95d9b734bf9533d625a1ec3c527f630",
       "retrieval_status": "success",
-      "summary": "What's changed Fixed single-segment dir/** allow rules like Edit(src/**) auto-approving writes to nested dir/ directories anywhere in the tree instead of only <cwd>/dir Fixed a permission-check bypass affecting commands run in Windows PowerShell 5.1 sessions Fixed Bash permission checks to fail closed on file-descriptor redirect forms that bash parses differently than the permission analyzer Fixed Bash permission checks misjudging very long commands — commands over 10,000 characters now always p",
+      "summary": "What's changed Claude no longer runs the /verify and /code-review skills on its own; invoke them with /verify or /code-review when you want them",
       "category": "ai_coding",
       "priority": "high",
       "topics": [
-        "uncategorized"
+        "ai_coding"
       ],
       "scores": {
-        "relevance": 3,
-        "impact": 1,
+        "relevance": 5,
+        "impact": 4,
         "novelty": 5,
         "reliability": 5,
         "actionability": 3,
         "purpose_alignment": 2,
         "preference_fit": 3
       },
-      "total_score": 3.05,
+      "total_score": 4.15,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260720_1126",
+      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service",
+      "url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available",
+      "publisher": "InfoQ",
+      "author": "Steef-Jan Wiggers",
+      "published_at": "2026-07-19",
+      "event_date": null,
+      "collected_at": "2026-07-20T06:59:37.429963+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:9281770bf21c3d078e252d28319e6b92404ca40a53d975bdc8c5ae6001903d49",
+      "retrieval_status": "success",
+      "summary": "Google's AlphaEvolve reached general availability on the Gemini Enterprise Agent Platform, turning the DeepMind research project into an evolutionary code optimization service. Evaluators run client-side so code never leaves the customer's infrastructure. Klarna doubled ML training throughput; practitioners note it only works where a measurable evaluation function exists. By Steef-Jan Wiggers",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260720_1127",
+      "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments",
+      "url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode",
+      "publisher": "InfoQ",
+      "author": "Renato Losio",
+      "published_at": "2026-07-19",
+      "event_date": null,
+      "collected_at": "2026-07-20T06:59:37.429963+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:d1bca4ae17df63e6a9b77ee4a78d68c95837a6622c9b2a10b1d22e26efb5faa4",
+      "retrieval_status": "success",
+      "summary": "AWS has recently introduced CloudFormation express mode, a deployment option that can reduce infrastructure deployment times by marking stack operations complete once resource configuration is applied, rather than waiting for full resource stabilization. By Renato Losio",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
       "must_include": false
     }
   ],
