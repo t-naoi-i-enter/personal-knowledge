@@ -1,142 +1,112 @@
-# 新着記事ダイジェスト 2026-07-23
+# 新着記事ダイジェスト 2026-07-24
 
-候補 14件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Building AI infrastructure with the Effingham County community
+## Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data
 
-- URL: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.
-
-## How news organizations are using AI to advance their vital missions
-
-- URL: https://openai.com/index/how-news-organizations-are-using-ai
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.
-
-## Advancing the next era of national science
-
-- URL: https://openai.com/index/advancing-the-next-era-of-national-science
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.
-
-## Introducing OpenAI Presence
-
-- URL: https://openai.com/index/introducing-openai-presence
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.
-
-## Copilot vs. raw API access: What are you actually paying for?
-
-- URL: https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it. The post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog .
-
-## アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能
-
-- URL: https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-22
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-アトラシアンは、プロジェクト管理ツールとして知られるJiraに生成AI機能を組み込み、AIによる要件定義の自動作成、作業すべきタスクの洗い出し、そして各タスクをClaude CodeやGitHub Copilotなどへ割り当てる新機能を発表...
-
-## Anthropic Details How It Contains Claude Across Web, Code, and Cowork
-
-- URL: https://www.infoq.com/news/2026/07/anthropic-claude-containment
+- URL: https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Anthropic detailed the containment architectures it uses for Claude across its products. It argues that agent safety depends on placing deterministic limits on an agent’s filesystem, network, and execution environment rather than on permission prompts or safeguards. Most notably, it examines failures at trust boundaries and along permitted egress paths that led Anthropic to revise those designs. By Eran Stiller
+GitLost is a prompt-injection exploit discovered by Noma Security that tricks GitHub's new Agentic Workflows into leaking private data. By embedding concealed instructions within public GitHub issues, attackers can circumvent security safeguards and induce AI agents to reveal confidential information in public comments. By Sergio De Simone
 
-## AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act
+## Achieving Compliance as a Platform Engineering Team by Helping Developers
 
-- URL: https://www.infoq.com/news/2026/07/aws-billing-estimates-incident
+- URL: https://www.infoq.com/news/2026/07/platform-that-helps-developers
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-A configuration change in AWS's bill computation system showed customers estimated bills in the billions and trillions of dollars for over 24 hours. AWS's own alarms detected the anomalies but failed to halt bill generation or page engineers; customer escalations alerted the company 4.5 hours later. Budget and cost anomaly alerts were disabled platform-wide during mitigation. By Steef-Jan Wiggers
+When a new platform team set out on implementing their roadmap through forced workflows with poor documentation, developer experience declined. Success came from simplifying governance, prioritizing what matters, and rolling out compliance incrementally through prevention, detection, and communication. Empathy, focus, and shared purpose drove successful adoption. By Ben Linders
 
-## ﻿A New Way to ﻿Address Troubled Team Dynamics
+## Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core
 
-- URL: https://sloanreview.mit.edu/article/a-new-way-to-address-troubled-team-dynamics
-- 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-07-22
-- トピック: mba
-- 総合スコア: 3.4
+- URL: https://www.infoq.com/articles/multi-agent-security-operations
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-23
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-Gillian Blease/Ikon Images The Research The authors adapted the Big Five personality test into a tool for illustrating personality preferences among team members. They and their colleagues tested the tool with over 600 ad hoc teams that attended IMD leadership development programs. They confirmed the applicability of this method with 100 senior executive teams in […]
+The bottleneck in a mature SOC is rarely analyst triage; rather, it is the detection-engineering team's ability to keep the rule base aligned with a threat landscape that evolves faster than rules can be written. Learn how multi-agent system for production security operations has reduced mean times to detect and to respond by 40% and compressed the human work required by 12x. By Willem Berroubache
 
-## How Banking Can Develop an AI Adoption Strategy to Build a Bold Future
+## Our Favorite Management Tips on Setting Strategy When the Path Is Unclear
 
-- URL: /sponsored/2026/07/how-banking-can-develop-an-ai-adoption-strategy-to-build-a-bold-future
+- URL: /2026/07/our-favorite-management-tips-on-setting-strategy-when-the-path-is-unclear
 - 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
 - トピック: mba
 - 総合スコア: 3.4
 
-Sponsor content from Chase.
+A curated list from one of HBR’s most popular newsletters.
 
-## v2.1.218
+## Leadership Summit 2026: Inspiring Grit and Growth Amid Unprecedented Change
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.218
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-07-22
+- URL: /podcast/2026/07/leadership-summit-2026-inspiring-grit-and-growth-amid-unprecedented-change
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-07-23
+- トピック: mba
+- 総合スコア: 3.4
+
+A conversation with University of Pennsylvania’s Angela Duckworth on how grit applies in a world of AI.
+
+## Launching Health in ChatGPT
+
+- URL: https://openai.com/index/health-in-chatgpt
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-23
+- トピック: uncategorized
+- 総合スコア: 3.2
+
+Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
+
+## デジタル改革共創プラットフォーム「2026年度アンバサダー就任式」を行いました
+
+- URL: https://www.digital.go.jp/news/9df060ae-3a45-483d-8f4b-97a05d75b2c3
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-23
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-What's changed Changed /code-review to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review target Added screen-reader announcements of deleted text for word and line deletions ( Option+Delete , Ctrl+W , Cmd+Backspace , Ctrl+U , Ctrl+K ) in --ax-screen-reader mode Fixed Windows paths with \u -prefixed segments (like C:\Users\unicorn ) being corrupted into CJK characters in tool inputs, which made those files inaccessible Fi
 
-## アジャイル開発に関する有識者検討会（第7回）の会議資料等を掲載しました
 
-- URL: https://www.digital.go.jp/councils/procurement-agile-opensource/agile-review-meeting/46a036e6-a531-4655-b146-76a1d340feb5
+## 広報資料におけるマイナンバーカード活用等に関する周知用資料を更新しました
+
+- URL: https://www.digital.go.jp/policies/mynumber_resources
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 第10回デジタル社会構想会議の議事録を掲載しました
+## デジタル推進委員オンラインコミュニティ登録マニュアルを更新しました
 
-- URL: https://www.digital.go.jp/councils/social-concept/76083c4c-44f7-4921-b71c-01a28b9a4338
+- URL: https://www.digital.go.jp/policies/digital_promotion_staff/community
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 第12回デジタル社会構想会議の議事録を掲載しました
+## 政府情報システムにおける利用者満足度評価の導入について掲載しました
 
-- URL: https://www.digital.go.jp/councils/social-concept/fd4f3007-18b2-4f88-a48a-1ba40c94a729
+- URL: https://www.digital.go.jp/policies/gov-system-user-satisfaction-evaluation
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-22
+- 公開日: 2026-07-23
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## デジタル改革共創プラットフォーム「2025年度アンバサダー就任式」を行いました
+
+- URL: https://www.digital.go.jp/news/5c5430e0-cfae-499f-ac88-bb2fd40eb3ee
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-23
 - トピック: uncategorized
 - 総合スコア: 3.05
 
