@@ -1,112 +1,82 @@
-# 新着記事ダイジェスト 2026-07-24
+# 新着記事ダイジェスト 2026-07-25
 
-候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data
+## v2.1.219
 
-- URL: https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-23
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.219
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-07-24
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 4.15
 
-GitLost is a prompt-injection exploit discovered by Noma Security that tricks GitHub's new Agentic Workflows into leaking private data. By embedding concealed instructions within public GitHub issues, attackers can circumvent security safeguards and induce AI agents to reveal confidential information in public comments. By Sergio De Simone
+What's changed Added Claude Opus 5 ( claude-opus-5 ), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok Added sandbox.network.strictAllowlist setting to deny non-allowlisted hosts for sandboxed commands without prompting Added DirectoryAdded hook that fires after /add-dir or the SDK register_repo_root control request registers a new working directory mid-session Added mcp_server_errors to the headless stream-json init event, listing --mcp-config entries skipped by config val
 
-## Achieving Compliance as a Platform Engineering Team by Helping Developers
+## How Codex became a collaborator for OpenAI’s creative team
 
-- URL: https://www.infoq.com/news/2026/07/platform-that-helps-developers
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-23
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-When a new platform team set out on implementing their roadmap through forced workflows with poor documentation, developer experience declined. Success came from simplifying governance, prioritizing what matters, and rolling out compliance incrementally through prevention, detection, and communication. Empathy, focus, and shared purpose drove successful adoption. By Ben Linders
-
-## Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core
-
-- URL: https://www.infoq.com/articles/multi-agent-security-operations
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-23
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-The bottleneck in a mature SOC is rarely analyst triage; rather, it is the detection-engineering team's ability to keep the rule base aligned with a threat landscape that evolves faster than rules can be written. Learn how multi-agent system for production security operations has reduced mean times to detect and to respond by 40% and compressed the human work required by 12x. By Willem Berroubache
-
-## Our Favorite Management Tips on Setting Strategy When the Path Is Unclear
-
-- URL: /2026/07/our-favorite-management-tips-on-setting-strategy-when-the-path-is-unclear
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-07-23
-- トピック: mba
-- 総合スコア: 3.4
-
-A curated list from one of HBR’s most popular newsletters.
-
-## Leadership Summit 2026: Inspiring Grit and Growth Amid Unprecedented Change
-
-- URL: /podcast/2026/07/leadership-summit-2026-inspiring-grit-and-growth-amid-unprecedented-change
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-07-23
-- トピック: mba
-- 総合スコア: 3.4
-
-A conversation with University of Pennsylvania’s Angela Duckworth on how grit applies in a world of AI.
-
-## Launching Health in ChatGPT
-
-- URL: https://openai.com/index/health-in-chatgpt
+- URL: https://openai.com/index/codex-collaborator-creative-team
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-23
-- トピック: uncategorized
-- 総合スコア: 3.2
+- 公開日: 2026-07-16
+- トピック: ai_coding
+- 総合スコア: 3.85
 
-Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
+How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.
 
-## デジタル改革共創プラットフォーム「2026年度アンバサダー就任式」を行いました
+## Presentation: Autonomous Data Products for the Autonomous Era: Rethinking Data Architecture for GenAI
 
-- URL: https://www.digital.go.jp/news/9df060ae-3a45-483d-8f4b-97a05d75b2c3
+- URL: https://www.infoq.com/presentations/ai-framework-data-infrastructure
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-24
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Jörg Schad explains how to tame the complex "data management hairball" to build scalable, safe architectures for AI. He shares how autonomous data products act like containers for data, encapsulating pipelines, schemas, and metadata. Discover how progressive tool discovery via protocols like MCP limits context rot, enforces governance policies, and ensures reliable, multi-modal access. By Jörg Schad
+
+## Airbus Makes Protection from Extraterritorial Law a Scored Criterion in Its Cloud Tender
+
+- URL: https://www.infoq.com/news/2026/07/airbus-scaleway-sovereign-cloud
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-24
+- トピック: ai_coding, sier_business
+- 総合スコア: 3.65
+
+Airbus selected Scaleway as its sovereign cloud provider after a tender that scored protection against non-European extraterritorial legislation alongside technical capability. Airbus frames it as complementing multi-cloud, not exiting AWS. Practitioners note the pattern is spreading past hyperscalers to small US SaaS vendors, and that sovereignty claims still require verifiable controls. By Steef-Jan Wiggers
+
+## Article: The Self-Building Agent: A LangChain4j Experiment
+
+- URL: https://www.infoq.com/articles/self-building-agent-langchain4j
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-24
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+The article discusses an experiment where a code assistant had to design an agentic system using LangChain4j documentation. The assistant created a coding framework capable of writing, testing, and debugging code autonomously. Results showed that two architectural patterns—supervisor and workflow—offered different trade-offs between flexibility and execution speed during debugging tasks. By Kevin Dubois, Mario Fusco
+
+## 「ガバメントAI 源内OSS Ver 2.0の計画に関するオンライン説明会」の開催について（ご案内）
+
+- URL: https://www.digital.go.jp/news/b6d94913-60d0-450d-ab46-8e89659f1fc6
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-23
+- 公開日: 2026-07-24
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 広報資料におけるマイナンバーカード活用等に関する周知用資料を更新しました
+## Public Medical Hub システム利用規約（自治体向け）（医療機関・薬局向け）の改正について掲載しました
 
-- URL: https://www.digital.go.jp/policies/mynumber_resources
+- URL: https://www.digital.go.jp/policies/health/public-medical-hub/terms-of-use/20260803
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-23
+- 公開日: 2026-07-24
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## デジタル推進委員オンラインコミュニティ登録マニュアルを更新しました
+## 松本大臣記者会見（令和8年7月24日）動画を掲載しました
 
-- URL: https://www.digital.go.jp/policies/digital_promotion_staff/community
+- URL: https://www.digital.go.jp/speech/minister-260724-01
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-23
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 政府情報システムにおける利用者満足度評価の導入について掲載しました
-
-- URL: https://www.digital.go.jp/policies/gov-system-user-satisfaction-evaluation
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-23
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## デジタル改革共創プラットフォーム「2025年度アンバサダー就任式」を行いました
-
-- URL: https://www.digital.go.jp/news/5c5430e0-cfae-499f-ac88-bb2fd40eb3ee
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-23
+- 公開日: 2026-07-24
 - トピック: uncategorized
 - 総合スコア: 3.05
 
