@@ -1,102 +1,102 @@
-# 新着記事ダイジェスト 2026-07-28
+# 新着記事ダイジェスト 2026-07-29
 
 候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## How AI is expanding what people do at work
+## 🚨 Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開
 
-- URL: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+- URL: https://www.publickey1.jp/blog/26/google_cloudaicodemender.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 2.65
+
+Google Cloudは、コードの脆弱性の検出、リスクの検証と報告、修正までを自律的に実行するAIエージェント「CodeMender」のプレビュー公開を発表しました。 複雑な脆弱性まで発見し、サンドボックス内でリスク検証 CodeMend...
+
+## Scientific computing in the age of agentic AI
+
+- URL: https://openai.com/index/scientific-computing-agentic-ai
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-27
+- 公開日: 2026-07-28
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.
+A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.
 
-## GitHub Copilot app for Beginners: Getting started
+## Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost
 
-- URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 4.05
+- URL: https://www.infoq.com/news/2026/07/efficient-ai-infrastructure
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-28
+- トピック: engineering_management
+- 総合スコア: 3.8
 
-New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .
+Uber's "Zero Growth Stack" focuses on scalable infrastructure that separates capacity growth from business demand, reducing hardware needs while enhancing service scaling. Central to this is garbage collection optimisation. Additionally, generative AI is integrated into development, elevating developer productivity while introducing cost management measures to maintain economic efficiency. By Olimpiu Pop
 
-## AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)
+## AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage
 
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community […]
-
-## The harness is all you need (mostly)
-
-- URL: https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .
-
-## AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に
-
-- URL: https://www.publickey1.jp/blog/26/awsawsaws.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-27
+- URL: https://www.infoq.com/news/2026/07/guardduty-investigation-agent
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-28
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-Amazon Web Services（AWS）は、同社がAWSのオンライン学習教材として提供している「ワークショップ」において、無料でAWSのサービスやコードの実行などを試すことができるサンドボックス環境の提供開始を発表しました。 AWS...
+AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK classification. It is reachable through the AWS MCP Server, so investigations can run from agentic tooling. Preview quotas cap usage at 10 investigations per account per day. By Steef-Jan Wiggers
 
-## Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere
+## 令和8年熊本地震に関する対応状況について
 
-- URL: https://www.infoq.com/presentations/kotlin-serverless
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and Gradle modules to isolate business logic. Finally, she shares a live demo deploying portable Kotlin services across AWS and Azure using Terraform CDK for multi-cloud IaC. By Elena van Engelen
-
-## SaaSにおけるUI開発のよくある課題とその解決方法、教えます［PR］
-
-- URL: https://www.publickey1.jp/blog/26/saasuipr.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-27
-- トピック: sier_business
-- 総合スコア: 3.65
-
-.jetform-wrapper { border: 2px solid #ccc; /* 枠線 / padding: 20px; / 内側の余白 / border-radius: 12p...
-
-## Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change
-
-- URL: https://www.infoq.com/articles/evolutionary-architecture-pattern
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centralize guardrails, model routing, agent identity, action policy, and semantic audit within a single control plane to prevent costly incidents while keeping core platforms stable. By Joe Price, Branimir Đurek, Pavlos Migkiros, Trevor Dearham
-
-## Netflix Details Its In-House LLM Serving Platform with Triton and vLLM
-
-- URL: https://www.infoq.com/news/2026/07/netflix-llm-platform
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-27
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Netflix has described the production lessons behind bringing LLM inference into its internal serving platform, including the challenges of supporting different model sizes, hardware requirements, and rapidly evolving inference engines. By Matt Foster
-
-## アジャイル開発に関する有識者検討会（第8回）の会議資料等を掲載しました
-
-- URL: https://www.digital.go.jp/councils/procurement-agile-opensource/agile-review-meeting/ec225afa-a029-418c-ad81-20989f61868c
+- URL: https://www.digital.go.jp/news/0af1c2ec-b5f1-430b-abc6-cdbbe9952292
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-27
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## オープンデータ取組済自治体資料を更新しました
+
+- URL: https://www.digital.go.jp/resources/data_local_governments
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 地域幸福度（Well-Being）指標の活用促進に関する検討会（第11回）の会議資料を掲載しました
+
+- URL: https://www.digital.go.jp/councils/digital-garden-city-nation-wellbeing/aad0fd8b-36fd-428b-8dab-58fd6f0fe6d3
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 公金受取口座登録制度：「よくある質問（FAQ）」を更新しました
+
+- URL: https://www.digital.go.jp/policies/account_registration
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 地方公共団体の基幹業務システムの統一・標準化に係る「データ要件・連携要件標準仕様書の改定スケジュール（予定）」を更新しました
+
+- URL: https://www.digital.go.jp/policies/local_governments
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-28
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 松本大臣記者会見（令和8年7月28日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-260728-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-07-28
 - トピック: uncategorized
 - 総合スコア: 3.05
 
