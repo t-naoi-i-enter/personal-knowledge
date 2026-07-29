@@ -1,102 +1,82 @@
-# 新着記事ダイジェスト 2026-07-29
+# 新着記事ダイジェスト 2026-07-30
 
-候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開
+## Accelerating scientific discovery with ChatGPT for Academic Researchers
 
-- URL: https://www.publickey1.jp/blog/26/google_cloudaicodemender.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-07-28
-- トピック: uncategorized
-- 総合スコア: 2.65
-
-Google Cloudは、コードの脆弱性の検出、リスクの検証と報告、修正までを自律的に実行するAIエージェント「CodeMender」のプレビュー公開を発表しました。 複雑な脆弱性まで発見し、サンドボックス内でリスク検証 CodeMend...
-
-## Scientific computing in the age of agentic AI
-
-- URL: https://openai.com/index/scientific-computing-agentic-ai
+- URL: https://openai.com/index/chatgpt-for-academic-researchers
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-28
+- 公開日: 2026-07-29
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.
+OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.
 
-## Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost
+## How GPT-5.6 fuses frontier intelligence with frontier efficiency
 
-- URL: https://www.infoq.com/news/2026/07/efficient-ai-infrastructure
+- URL: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-29
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.
+
+## Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS
+
+- URL: https://www.infoq.com/news/2026/07/microsoft-agents-aks-routing
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-28
-- トピック: engineering_management
-- 総合スコア: 3.8
-
-Uber's "Zero Growth Stack" focuses on scalable infrastructure that separates capacity growth from business demand, reducing hardware needs while enhancing service scaling. Central to this is garbage collection optimisation. Additionally, generative AI is integrated into development, elevating developer productivity while introducing cost management measures to maintain economic efficiency. By Olimpiu Pop
-
-## AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage
-
-- URL: https://www.infoq.com/news/2026/07/guardduty-investigation-agent
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-28
+- 公開日: 2026-07-29
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK classification. It is reachable through the AWS MCP Server, so investigations can run from agentic tooling. Preview quotas cap usage at 10 investigations per account per day. By Steef-Jan Wiggers
+Microsoft has released a reference architecture for routing agent traffic on Azure Kubernetes Service. It breaks down the issue into three key choices: which model answers a call, how the call is managed, and which GPU replica handles it. By Claudio Masolo
 
-## 令和8年熊本地震に関する対応状況について
+## Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway
 
-- URL: https://www.digital.go.jp/news/0af1c2ec-b5f1-430b-abc6-cdbbe9952292
+- URL: https://www.infoq.com/articles/securing-mcp-production-gateway
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-29
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound trust, and semantic integrity, arguing that production security requires enforcement beyond the gateway at the earliest trustworthy control points. By Nik Kale
+
+## Presentation: Getting Rid of LeetCode Interviews in the World of AI
+
+- URL: https://www.infoq.com/presentations/ai-lead-interview
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-07-29
+- トピック: mba
+- 総合スコア: 3.4
+
+Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and shares actionable frameworks for redefining the interview loop. Discover how evaluating human judgment, system design, and hands-on AI collaboration yields far better hiring signals. By Daniel Doubrovkine
+
+## ガバメントAI 源内の公式ロゴをリリースしました
+
+- URL: https://www.digital.go.jp/news/bfe6c5a3-8f12-4555-a98d-8a3502a307df
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
+- 公開日: 2026-07-29
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## オープンデータ取組済自治体資料を更新しました
+## 熊本地震の被災自治体等へ、ガバメントAI 源内を緊急提供します
 
-- URL: https://www.digital.go.jp/resources/data_local_governments
+- URL: https://www.digital.go.jp/news/cb912b3b-49c9-4a02-aa46-4056b96c1d4f
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
+- 公開日: 2026-07-29
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 地域幸福度（Well-Being）指標の活用促進に関する検討会（第11回）の会議資料を掲載しました
+## 令和8年熊本地震に関する対応状況について（第2報）
 
-- URL: https://www.digital.go.jp/councils/digital-garden-city-nation-wellbeing/aad0fd8b-36fd-428b-8dab-58fd6f0fe6d3
+- URL: https://www.digital.go.jp/news/2f3ebd5f-0c1f-4049-affb-3da489d5d4f5
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 公金受取口座登録制度：「よくある質問（FAQ）」を更新しました
-
-- URL: https://www.digital.go.jp/policies/account_registration
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 地方公共団体の基幹業務システムの統一・標準化に係る「データ要件・連携要件標準仕様書の改定スケジュール（予定）」を更新しました
-
-- URL: https://www.digital.go.jp/policies/local_governments
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 松本大臣記者会見（令和8年7月28日）動画を掲載しました
-
-- URL: https://www.digital.go.jp/speech/minister-260728-01
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-28
+- 公開日: 2026-07-29
 - トピック: uncategorized
 - 総合スコア: 3.05
 
