@@ -1,82 +1,82 @@
-# 新着記事ダイジェスト 2026-07-30
+# 新着記事ダイジェスト 2026-07-31
 
 候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Accelerating scientific discovery with ChatGPT for Academic Researchers
+## Advancing the price-performance frontier with GPT-5.6
 
-- URL: https://openai.com/index/chatgpt-for-academic-researchers
+- URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-30
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.
+Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.
 
-## How GPT-5.6 fuses frontier intelligence with frontier efficiency
+## How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
 
-- URL: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+- URL: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
 - 発行元: OpenAI News(種別: primary)
 - 公開日: 2026-07-29
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 4.05
 
-GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.
+How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.
 
-## Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS
+## Stacked sessions and pull requests in the GitHub Copilot app
 
-- URL: https://www.infoq.com/news/2026/07/microsoft-agents-aks-routing
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-29
+- URL: https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app
+- 発行元: GitHub Blog(種別: primary)
+- 公開日: 2026-07-30
 - トピック: ai_coding
-- 総合スコア: 3.75
+- 総合スコア: 3.9
 
-Microsoft has released a reference architecture for routing agent traffic on Azure Kubernetes Service. It breaks down the issue into three key choices: which model answers a call, how the call is managed, and which GPU replica handles it. By Claudio Masolo
+Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog .
 
-## Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway
+## AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action
 
-- URL: https://www.infoq.com/articles/securing-mcp-production-gateway
+- URL: https://www.infoq.com/news/2026/07/AI-research-into-action
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-30
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound trust, and semantic integrity, arguing that production security requires enforcement beyond the gateway at the earliest trustworthy control points. By Nik Kale
+AI is an amplifier; strategic focus on the organizational system brings the greatest returns. DORA's 2025 research on AI in software development provides team profiles and success capabilities that can be used to put the research into practice. By Ben Linders
 
-## Presentation: Getting Rid of LeetCode Interviews in the World of AI
+## AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit
 
-- URL: https://www.infoq.com/presentations/ai-lead-interview
+- URL: https://www.infoq.com/news/2026/07/lambda-self-managed-storage
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-29
-- トピック: mba
-- 総合スコア: 3.4
+- 公開日: 2026-07-30
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and shares actionable frameworks for redefining the interview loop. Discover how evaluating human judgment, system design, and hands-on AI collaboration yields far better hiring signals. By Daniel Doubrovkine
+AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are unchanged, and UpdateFunctionCode is still required after replacing an object. Terraform provider support remains an open enhancement request. By Steef-Jan Wiggers
 
-## ガバメントAI 源内の公式ロゴをリリースしました
+## 令和8年熊本地震罹災証明書（り災証明書）のオンライン申請について
 
-- URL: https://www.digital.go.jp/news/bfe6c5a3-8f12-4555-a98d-8a3502a307df
+- URL: https://www.digital.go.jp/news/f83a8d24-4c79-4c47-b768-6a2435c3d350
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-30
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 熊本地震の被災自治体等へ、ガバメントAI 源内を緊急提供します
+## 地方公共団体情報システム機構における個人番号カード関係事務に係る評価資料を掲載しました
 
-- URL: https://www.digital.go.jp/news/cb912b3b-49c9-4a02-aa46-4056b96c1d4f
+- URL: https://www.digital.go.jp/about/agency
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-30
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 令和8年熊本地震に関する対応状況について（第2報）
+## 都道府県を中心とした地方自治体システムの共同調達に関するダッシュボードのデータを更新しました
 
-- URL: https://www.digital.go.jp/news/2f3ebd5f-0c1f-4049-affb-3da489d5d4f5
+- URL: https://www.digital.go.jp/resources/govdashboard/prefecture_local_government_system_joint_prefecture
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-30
 - トピック: uncategorized
 - 総合スコア: 3.05
 
