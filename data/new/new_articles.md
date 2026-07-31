@@ -1,83 +1,203 @@
-# 新着記事ダイジェスト 2026-07-31
+# 新着記事ダイジェスト 2026-08-01
 
-候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 20件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Advancing the price-performance frontier with GPT-5.6
+## Advancing responsible AI across Europe
 
-- URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+- URL: https://openai.com/index/advancing-responsible-ai-across-europe
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-30
+- 公開日: 2026-07-31
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.
+OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.
 
-## How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
+## Disrupting a Criminal Scam Operation
 
-- URL: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-07-29
+- 公開日: 2026-07-31
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.
+
+## How avatarin built a 24/7 retail agent with GPT-Realtime
+
+- URL: https://openai.com/index/avatarin
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-30
 - トピック: ai_coding
 - 総合スコア: 4.05
 
-How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.
+avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.
 
-## Stacked sessions and pull requests in the GitHub Copilot app
+## Univé builds an AI-ready workforce
 
-- URL: https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-07-30
-- トピック: ai_coding
-- 総合スコア: 3.9
+- URL: https://openai.com/index/unive
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-07-31
+- トピック: mba
+- 総合スコア: 3.95
 
-Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog .
+See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.
 
-## AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action
+## デジタル庁における障害者である職員の任免状況を更新しました
 
-- URL: https://www.infoq.com/news/2026/07/AI-research-into-action
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-30
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-AI is an amplifier; strategic focus on the organizational system brings the greatest returns. DORA's 2025 research on AI in software development provides team profiles and success capabilities that can be used to put the research into practice. By Ben Linders
-
-## AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit
-
-- URL: https://www.infoq.com/news/2026/07/lambda-self-managed-storage
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-07-30
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are unchanged, and UpdateFunctionCode is still required after replacing an object. Terraform provider support remains an open enhancement request. By Steef-Jan Wiggers
-
-## 令和8年熊本地震罹災証明書（り災証明書）のオンライン申請について
-
-- URL: https://www.digital.go.jp/news/f83a8d24-4c79-4c47-b768-6a2435c3d350
+- URL: https://www.digital.go.jp/about/challenged-person-employment
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-30
-- トピック: uncategorized
-- 総合スコア: 3.05
+- 公開日: 2026-07-31
+- トピック: public_policy
+- 総合スコア: 3.85
 
 
 
-## 地方公共団体情報システム機構における個人番号カード関係事務に係る評価資料を掲載しました
+## 2026年度（令和8年度）デジタル庁「こども霞が関見学デー」を開催しました
 
-- URL: https://www.digital.go.jp/about/agency
+- URL: https://www.digital.go.jp/news/e6e5abe2-c5b1-4dc4-b683-465b518e6c91
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-30
-- トピック: uncategorized
-- 総合スコア: 3.05
+- 公開日: 2026-07-31
+- トピック: public_policy
+- 総合スコア: 3.85
 
 
 
-## 都道府県を中心とした地方自治体システムの共同調達に関するダッシュボードのデータを更新しました
+## 令和8年7月31日、8月3日、8月4日付デジタル庁人事を掲載しました
 
-- URL: https://www.digital.go.jp/resources/govdashboard/prefecture_local_government_system_joint_prefecture
+- URL: https://www.digital.go.jp/news/e6905740-7ff5-41d7-ba2b-5830458ec070
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-07-30
-- トピック: uncategorized
-- 総合スコア: 3.05
+- 公開日: 2026-07-31
+- トピック: public_policy
+- 総合スコア: 3.85
 
 
+
+## “Tech and Tariffs” Campaign: Influence activity targeting US tech policy
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.
+
+## “Data Center Bandwagon” Campaign: US-targeted influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.
+
+## Operation “Nine–emdash Line”: Regional influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts linked to a previously unreprorted PRC-origin operation we dubbed "Nine-emdash Line", using AI to create regional influence content about the South China Sea, Hong Kong, and US politics.
+
+## Operation “Stop News”: Recidivist influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts linked to a Russia-origin operation we dubbed “Stop News”, using AI to generate recidivist influence content targeting Africa and the UK.
+
+## PRC-linked abuse: Surveillance and influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned PRC-linked accounts using AI to support surveillance-related planning, targeted profiling, and research on critics and other individuals.
+
+## Cyber Operation: Korean-language malware support
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned Korean-language accounts using AI for malware development support, debugging, phishing, and credential-theft workflows.
+
+## Cyber Operation: Phishing and scripting support
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts involved in activity that overlapped with publicly reported threat groups and displayed hallmarks consistent with PRC intelligence requirements, using AI to support phishing and scripting workflows.
+
+## Cyber Operation: Russian-speaking malware tooling
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts likely linked to Russian-speaking criminal groups, using AI to build malware loaders, evasion layers, credential-theft scripts, and C2 infrastructure.
+
+## Scam operations: Online fraud networks
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts tied to online fraud networks using AI to support scam scripts, impersonation, translation, and victim engagement.
+
+## Operation “Sneer Review”: China-origin influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts using AI to generate posts criticizing a Taiwanese social media influencer and related US topics.
+
+## Operation “Wrong Number”: AI-assisted task scam
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts that likely originated in Cambodia and used AI to support scam workflows targeting people in the UK.
+
+## STORM-2035: Recidivist influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned accounts associated with the likely Iran-linked STORM-2035 operation using AI to create influence content about US, UK, Irish, and Venezuelan politics.
+
+## Operation “Uncle Spam”: US polarization influence activity
+
+- URL: https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2025-06-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenAI banned China-origin accounts using AI to generate US political content and research people, movements, and online communities.
