@@ -1,7 +1,349 @@
 {
-  "generated_at": "2026-08-03T07:01:25.570716+09:00",
-  "date": "2026-08-03",
-  "count": 0,
-  "articles": [],
+  "generated_at": "2026-08-04T07:12:54.005460+09:00",
+  "date": "2026-08-04",
+  "count": 11,
+  "articles": [
+    {
+      "source_id": "src_20260804_011",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:63a2d5e789acb979b646e0f39a549f3e1df97ffd1569b524e332559852ec8071",
+      "retrieval_status": "success",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.15,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1117",
+      "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026",
+      "publisher": "AWS News Blog",
+      "author": "Micah Walter",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:d47d2f1d03902e356e33be287414a870fbfa9dcbf85c2db4db2131987e190224",
+      "retrieval_status": "success",
+      "summary": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]",
+      "category": "ai_coding",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.9,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1148",
+      "title": "クラウドインフラのシェア、AWSが28％と変わらず、Google Cloudは1ポイント上昇して15％に。市場全体が年42％と過去最高の成長率に。2026年第2四半期、Synergy Research",
+      "url": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+      "publisher": "Publickey",
+      "author": "jniino",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "secondary",
+      "language": "ja",
+      "content_hash": "sha256:bee83935c91c3aea05556c57cde1d4bd6c24cd4c25f1e696ac15b8f4ceecbfbb",
+      "retrieval_status": "success",
+      "summary": "調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた...",
+      "category": "ai_coding",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1193",
+      "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026",
+      "publisher": "InfoQ",
+      "author": "Michael Redlich",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:c51b294d97b5902115c69fe7f7069d5ae541c0c3d6ff1855727eacaf6382c3e7",
+      "retrieval_status": "success",
+      "summary": "This week's Java roundup for July 27th, 2026, features news highlighting: OpenJDK JEPs targeted and proposed to target for JDK 28; the GA release of GPULlama3.java 1.0; point releases of Micronaut, Quarkus and JobRunr; a maintenance release of JDKUpdater; the sixth release candidate of Maven 4.0; and the first milestone release of Jakarta Agentic AI 1.0. By Michael Redlich",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1197",
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga",
+      "publisher": "InfoQ",
+      "author": "Steef-Jan Wiggers",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:bf7f0775c627ca40a6ae1b7b0b7af691883c0263ba5191b793b9032a2776724c",
+      "retrieval_status": "success",
+      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foundry Hosted Agents have since reached GA. The shift is from an SDK for building agents to a governed platform for running them. By Steef-Jan Wiggers",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1199",
+      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
+      "url": "https://www.infoq.com/presentations/agentic-compute",
+      "publisher": "InfoQ",
+      "author": "Arun Joseph",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:41075e13da714d80ac64506db72bcdbce829ae5ad244fb7836d878efa6b11218",
+      "retrieval_status": "success",
+      "summary": "Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and moving beyond basic chatbots to operational intelligence systems through ephemeral agents and an Agent Definition Language (ADL). By Arun Joseph",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1228",
+      "title": "Don’t Let AI Flatten Your Leadership Style",
+      "url": "/2026/08/dont-let-ai-flatten-your-leadership-style",
+      "publisher": "Harvard Business Review",
+      "author": "David Lancefield",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:9b405b3885bd7e89544ba89bc5b626a06d0bac55e952bcbfb398ed1c9364ebf0",
+      "retrieval_status": "success",
+      "summary": "How to protect your judgment, voice, and presence.",
+      "category": "mba",
+      "priority": "medium",
+      "topics": [
+        "mba"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.55,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1328",
+      "title": "公共調達の適正化に係る情報について令和8年6月分を更新しました",
+      "url": "https://www.digital.go.jp/procurement/proper-public-procurement",
+      "publisher": "デジタル庁 新着情報",
+      "author": "デジタル庁",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "ja",
+      "content_hash": "sha256:b0af4743a765cd0814984ab05c1026bca1b5e8fde0e51d59107695870f7c3782",
+      "retrieval_status": "success",
+      "summary": "",
+      "category": "public_policy",
+      "priority": "high",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 3,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1331",
+      "title": "デジタル田園都市国家構想における「（令和7年度補正予算）地域未来交付金（デジタル実装型TYPEV）活用事例について」掲載しました",
+      "url": "https://www.digital.go.jp/policies/digital_garden_city_nation",
+      "publisher": "デジタル庁 新着情報",
+      "author": "デジタル庁",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "ja",
+      "content_hash": "sha256:1d00c56636739574995e96a5d4783d94c1041720938092f575b9e40c0613d5eb",
+      "retrieval_status": "success",
+      "summary": "",
+      "category": "public_policy",
+      "priority": "high",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 3,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1332",
+      "title": "マイキープラットフォーム（自治体等認証基盤）のマイキーID方式の導入手順を更新しました",
+      "url": "https://www.digital.go.jp/policies/mynumber/local-government/mykey-platform",
+      "publisher": "デジタル庁 新着情報",
+      "author": "デジタル庁",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "ja",
+      "content_hash": "sha256:e9425bf685ba6a4e2d25a7f7c051ff30711cfb7c110c78be41822d4a85857994",
+      "retrieval_status": "success",
+      "summary": "",
+      "category": "public_policy",
+      "priority": "high",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 3,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.05,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260804_1333",
+      "title": "リフィル処方箋の認知率や利用状況に関するダッシュボードを更新しました",
+      "url": "https://www.digital.go.jp/resources/govdashboard/refill-prescription",
+      "publisher": "デジタル庁 新着情報",
+      "author": "デジタル庁",
+      "published_at": "2026-08-03",
+      "event_date": null,
+      "collected_at": "2026-08-04T07:12:53.465327+09:00",
+      "source_type": "primary",
+      "language": "ja",
+      "content_hash": "sha256:bd2a80ccbd6f35193f3d8fe4d388108479045f9f1ab811336791bb7ed43b5673",
+      "retrieval_status": "success",
+      "summary": "",
+      "category": "public_policy",
+      "priority": "high",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 3,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.05,
+      "must_include": false
+    }
+  ],
   "failures": []
 }
