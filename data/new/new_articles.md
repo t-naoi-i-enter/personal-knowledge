@@ -1,112 +1,162 @@
-# 新着記事ダイジェスト 2026-08-04
+# 新着記事ダイジェスト 2026-08-05
 
-候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 16件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## How we built a realtime system for responsive voice AI in six months
+## v2.1.221
 
-- URL: https://openai.com/index/continuous-voice-interaction-with-gpt-live
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-03
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.221
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-08-04
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.
+What's changed [VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with Ctrl+Alt+F or the "Claude Code: Toggle Focus view" command Added mode: "mask" for sandbox credential files on Linux and WSL — sandboxed commands read a sentinel copy (the whole file, or just the spans captured by an extract regex) while the sandbox proxy substitutes the real value on egress; on macOS file masking falls back t
 
-## AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)
+## Third-party cyber evaluations involving OpenAI models
 
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026
-- 発行元: AWS News Blog(種別: primary)
+- URL: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-04
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.
+
+## Apple is getting this wrong
+
+- URL: https://openai.com/index/apple-is-getting-this-wrong
+- 発行元: OpenAI News(種別: primary)
 - 公開日: 2026-08-03
 - トピック: ai_coding
-- 総合スコア: 3.9
+- 総合スコア: 4.05
 
-Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]
+OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.
 
-## クラウドインフラのシェア、AWSが28％と変わらず、Google Cloudは1ポイント上昇して15％に。市場全体が年42％と過去最高の成長率に。2026年第2四半期、Synergy Research
+## Circles powers telco personalization with OpenAI technology
 
-- URL: https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html
+- URL: https://openai.com/index/circles
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-03
+- トピック: ai_coding
+- 総合スコア: 4.05
+
+Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.
+
+## How the GitHub legal team used Copilot CLI to streamline their workflows
+
+- URL: https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows
+- 発行元: GitHub Blog(種別: primary)
+- 公開日: 2026-08-04
+- トピック: ai_coding
+- 総合スコア: 4.05
+
+Learn how to build tools to simplify how you work—without writing a single line of code. The post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog .
+
+## 1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応
+
+- URL: https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html
 - 発行元: Publickey(種別: secondary)
-- 公開日: 2026-08-03
+- 公開日: 2026-08-04
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた...
+1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。 ...
 
-## Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven
+## アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開
 
-- URL: https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-03
+- URL: https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-08-04
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-This week's Java roundup for July 27th, 2026, features news highlighting: OpenJDK JEPs targeted and proposed to target for JDK 28; the GA release of GPULlama3.java 1.0; point releases of Micronaut, Quarkus and JobRunr; a maintenance release of JDKUpdater; the sixth release candidate of Maven 4.0; and the first milestone release of Jakarta Agentic AI 1.0. By Michael Redlich
+マイクロソフトは、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。 GitHub Cop...
 
-## Microsoft Agent Framework Harness and Hosted Agents Reach General Availability
+## Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success
 
-- URL: https://www.infoq.com/news/2026/08/agent-framework-harness-ga
+- URL: https://www.infoq.com/news/2026/08/perforce-maturity-ai-success
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-03
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foundry Hosted Agents have since reached GA. The shift is from an SDK for building agents to a governed platform for running them. By Steef-Jan Wiggers
-
-## Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer
-
-- URL: https://www.infoq.com/presentations/agentic-compute
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-03
+- 公開日: 2026-08-04
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and moving beyond basic chatbots to operational intelligence systems through ephemeral agents and an Agent Definition Language (ADL). By Arun Joseph
+Platform engineering maturity is emerging as an important factor in determining whether organizations can turn AI adoption into sustainable operational value, according to Perforce Software's 2026 Platform Engineering Report. By Craig Risi
 
-## Don’t Let AI Flatten Your Leadership Style
+## Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns
 
-- URL: /2026/08/dont-let-ai-flatten-your-leadership-style
+- URL: https://www.infoq.com/presentations/microservices-platform-team-topology
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-04
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Chris Richardson discusses leveraging Team Topologies and internal platforms to accelerate microservices delivery. He explains six key platform patterns - from security and observability to build and deployment - and shares strategies for minimizing cognitive load on stream-aligned teams while avoiding common platform engineering pitfalls. By Chris Richardson
+
+## Swarm of OpenAI Agents Exploit Artifactory Zero-Day to Escape Sandbox and Breach Hugging Face
+
+- URL: https://www.infoq.com/news/2026/08/openai-huggingface-breach
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-04
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Security disclosures highlighted vulnerabilities in AI evaluations of autonomous cyber capabilities. Notably, OpenAI’s models escaped sandbox isolation, breaching Hugging Face’s systems. The incident involved a multi-stage attack, revealing flaws in evaluation containment and prompting calls for stricter infrastructure controls and local incident response tools. By Olimpiu Pop
+
+## Fragments: August 4
+
+- URL: https://martinfowler.com/fragments/2026-08-04.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-08-04
+- トピック: ai_coding
+- 総合スコア: 3.45
+
+There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face . This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three incidents where models had gained unauthorized access to data in other organizations. Simon Wilison concluded : It’s abundantly clear now that running evals of cyberattack potential in models is a spectacularly risky business. Every AI lab needs to pay attention to this. Keeping a clo
+
+## Why the AI-Powered Enterprise Urgently Needs a New Leadership Mindset
+
+- URL: /sponsored/2026/08/why-the-ai-powered-enterprise-urgently-needs-a-new-leadership-mindset
 - 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-08-03
+- 公開日: 2026-08-04
 - トピック: mba
-- 総合スコア: 3.55
+- 総合スコア: 3.4
 
-How to protect your judgment, voice, and presence.
+SPONSOR CONTENT FROM EY.
 
-## 公共調達の適正化に係る情報について令和8年6月分を更新しました
+## Why Great Turnarounds Start with Culture, Not Strategy
 
-- URL: https://www.digital.go.jp/procurement/proper-public-procurement
+- URL: /podcast/2026/08/why-great-turnarounds-start-with-culture-not-strategy
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-08-04
+- トピック: mba
+- 総合スコア: 3.4
+
+A conversation with Verizon CEO Dan Schulman on reshaping the telecom giant amid AI disruption.
+
+## New ways to learn and teach with ChatGPT Work and Codex
+
+- URL: https://openai.com/index/learn-teach-chatgpt-work-codex
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-04
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.
+
+## マイナンバーカードの普及と利活用に関するダッシュボードの正誤情報を掲載しました
+
+- URL: https://www.digital.go.jp/resources/govdashboard/mynumber_card_penetration_usage/errata
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-03
+- 公開日: 2026-08-04
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## デジタル田園都市国家構想における「（令和7年度補正予算）地域未来交付金（デジタル実装型TYPEV）活用事例について」掲載しました
+## 令和8年熊本地震に関する対応状況について（8月4日）
 
-- URL: https://www.digital.go.jp/policies/digital_garden_city_nation
+- URL: https://www.digital.go.jp/news/7a65d3a0-b31e-49f1-a0e4-e59d13b39527
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-03
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## マイキープラットフォーム（自治体等認証基盤）のマイキーID方式の導入手順を更新しました
-
-- URL: https://www.digital.go.jp/policies/mynumber/local-government/mykey-platform
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-03
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## リフィル処方箋の認知率や利用状況に関するダッシュボードを更新しました
-
-- URL: https://www.digital.go.jp/resources/govdashboard/refill-prescription
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-03
+- 公開日: 2026-08-04
 - トピック: uncategorized
 - 総合スコア: 3.05
 
