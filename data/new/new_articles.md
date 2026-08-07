@@ -1,82 +1,162 @@
-# 新着記事ダイジェスト 2026-08-07
+# 新着記事ダイジェスト 2026-08-08
 
-候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 16件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.223
+## v2.1.224
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.223
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.224
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-06
-- トピック: ai_coding
-- 総合スコア: 4.3
-
-What's changed Added owner wildcard entries ( "owner/*" ) to the strictKnownMarketplaces and blockedMarketplaces managed settings for allowing or blocking all marketplace repos under a GitHub org Added a warning when workflow agents, forked skills, slash commands, or resumed background agents' requested subagent model is restricted and the parent model runs instead Added a /teleport hint in cloud sessions showing how to continue locally with claude --teleport <session id> Fixed a Bash permission
-
-## Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users
-
-- URL: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-06
+- 公開日: 2026-08-07
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.
+What's changed Added self-hosted environments: claude self-hosted-runner turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions can run, on Team and Enterprise plans Added archive plugin source: install plugins from a zip over HTTPS without git or npm, with optional SHA-256 pinning Added a cancel-and-confirm step when removing an unavailable paste changes a command's text Added ANTHROPIC_BEDROCK_REGION_PREFIX env var for Bedrock to prefer a specific cros
 
-## Working with the American Psychological Association on youth mental health and AI
+## Responding to the next frontier of critical cyber capabilities
 
-- URL: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
+- URL: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-06
+- 公開日: 2026-08-07
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.
+OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.
 
-## From asking to doing: How the world is putting ChatGPT to work
+## Podcast: Culture & Methods Trends 2026: The Human Side of AI Engineering
 
-- URL: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-06
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.
-
-## A guide to slash commands in the GitHub Copilot app
-
-- URL: https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-08-06
-- トピック: ai_coding
-- 総合スコア: 4.05
-
-Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog .
-
-## Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore
-
-- URL: https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-08-06
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.
-
-## Article: Runtime-Agnostic AI Workflows: A Pattern for Production Durability and Fast Eval Iteration
-
-- URL: https://www.infoq.com/articles/ai-workflow-pattern
+- URL: https://www.infoq.com/podcasts/infoq-culture-trends-2026
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-06
+- 公開日: 2026-08-07
+- トピック: engineering_management
+- 総合スコア: 3.8
+
+This is the Engineering Culture Trends Report for 2026. Featuring a panel of QCon speakers and InfoQ contributors, they discussed AI adoption maturity and risk, the transformation of engineering team structures and roles, and the human dimensions of software development that must not be lost in 2026. By Ben Linders, Rafiq Gemmail, Craig Smith, Vanessa Formicola, Shawna Martell, Phillip Mortimer, Yinka Omole
+
+## Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support
+
+- URL: https://www.infoq.com/news/2026/08/uno-platform-6-6
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-07
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Uno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and automatic registration for the framework’s Model Context Protocol servers. The release also reduces XAML boilerplate, expands cross-platform WinUI API coverage, and improves accessibility and multilingual text handling. By Edin Kapić
+
+## Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools
+
+- URL: https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-07
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers
+
+## Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents
+
+- URL: https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-07
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-AI workflows have two needs that trade off directly. Running reliably in production requires persisting and distributing every step so it survives crashes, deploys, and restarts. But that same machinery is what makes runs too heavy for the fast, throwaway loop you need to check an LLM's output quality. The properties that buy durability are the ones that kill iteration speed. By Mateus Moury
+Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to generate grounded root cause hypotheses in Slack. It uses parallel subagents, MCP integrations, and incident history to reduce investigation time while keeping engineers in control. By Leela Kumili
 
-## 令和7年（2025年）政策評価・行政事業レビューにおける政策評価の結果及び政策への反映状況を更新しました
+## Presentation: Rewriting All of Spotify's Code Base, All the Time
 
-- URL: https://www.digital.go.jp/policies/assessment/project-review/2025
+- URL: https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-07
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Jo Kelly-Fenton and Aleksandar Mitic explain how Spotify created "Honk," an AI coding agent, to handle complex fleet-wide codebase migrations. They share key architectural insights on decoupling CI verification runtimes from AI agents, dealing with automated pull request bottlenecks, and driving aggressive standardization across thousands of engineering repositories. By Jo Kelly-Fenton, Aleksandar Mitic
+
+## Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics
+
+- URL: https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-07
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Incident management platform provider Rootly has published an account of its decision to drop its long-standing small pull request rule, arguing that the practice no longer serves its purpose now that AI agents generate most of its code. The company describes a shift from measuring PR size to assessing blast radius, with feature flags and rollback capability taking precedence over line counts. By Matt Saunders
+
+## Crafting Strategy in the Age of AI
+
+- URL: /2026/08/crafting-strategy-in-the-age-of-ai
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-08-07
+- トピック: mba
+- 総合スコア: 3.4
+
+How human strategists can free up time and focus on using their unique judgment.
+
+## How HSP GRUPPE builds AI capabilities for tax advisory
+
+- URL: https://openai.com/index/hsp-gruppe
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.
+
+## SNS等におけるなりすまし詐欺広告に関する対策強化のための7府省庁合同要請の実施
+
+- URL: https://www.digital.go.jp/news/b96e34b8-0af0-4fe3-b6b5-2191726c8cc5
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-06
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 職員の個人情報の漏えいについて
+
+- URL: https://www.digital.go.jp/news/6d720c40-a064-4e48-a698-c8123ba53299
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 地方公共団体の基幹業務システムの標準仕様書についての全体バージョン第2.0版以降（人口動態調査事務システム及び火葬等許可システムについては第3.0版以降）の版数のものを示した資料を更新しました
+
+- URL: https://www.digital.go.jp/policies/local_governments/specification
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 令和7年度職員の給与の男女の差異の情報公表の掲載および女性の職業生活における活躍の推進に関する法律に基づく情報の公表資料を更新しました
+
+- URL: https://www.digital.go.jp/about/women-and-work-life-balance-action-plan
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 中途採用（専門人材）の採用イベント情報を掲載しました
+
+- URL: https://www.digital.go.jp/recruitment/career
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 地方公共団体情報システムにおける文字の標準化に係る「追加文字行政事務標準明朝フォント」を掲載しました
+
+- URL: https://www.digital.go.jp/policies/local_governments/character-specification
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-07
 - トピック: uncategorized
 - 総合スコア: 3.05
 
