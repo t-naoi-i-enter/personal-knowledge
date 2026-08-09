@@ -1,54 +1,23 @@
 {
-  "generated_at": "2026-08-09T06:37:10.719561+09:00",
-  "date": "2026-08-09",
-  "count": 3,
+  "generated_at": "2026-08-10T06:39:49.080375+09:00",
+  "date": "2026-08-10",
+  "count": 1,
   "articles": [
     {
-      "source_id": "src_20260809_002",
-      "title": "v2.1.225",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
-      "publisher": "Claude Code Releases",
-      "author": "ashwin-ant",
-      "published_at": "2026-08-08",
+      "source_id": "src_20260810_1156",
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "publisher": "Publickey",
+      "author": "jniino",
+      "published_at": "2026-08-09",
       "event_date": null,
-      "collected_at": "2026-08-09T06:37:10.156602+09:00",
-      "source_type": "primary",
-      "language": "en",
-      "content_hash": "sha256:a706e3d13691bca8e48a0159623a3e715bfe0acc18d09cfbcefcb2fb0690a689",
-      "retrieval_status": "success",
-      "summary": "What's changed Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the gateway on 2.1.225) Added a workspace trust prompt to claude agents for untrusted directories, matching the behavior of claude Fixed a transient 401 replacing a long-lived CLAUDE_CODE_OAUTH_TOKEN with a stored login's short-lived token, breaking headless sessions until restart Fixed MCP OAuth servers on macOS interm",
-      "category": "ai_coding",
-      "priority": "high",
-      "topics": [
-        "ai_coding"
-      ],
-      "scores": {
-        "relevance": 5,
-        "impact": 4,
-        "novelty": 5,
-        "reliability": 5,
-        "actionability": 3,
-        "purpose_alignment": 2,
-        "preference_fit": 3
-      },
-      "total_score": 4.15,
-      "must_include": false
-    },
-    {
-      "source_id": "src_20260809_1201",
-      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
-      "url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding",
-      "publisher": "InfoQ",
-      "author": "Martin Spier",
-      "published_at": "2026-08-08",
-      "event_date": null,
-      "collected_at": "2026-08-09T06:37:10.156602+09:00",
+      "collected_at": "2026-08-10T06:39:48.559029+09:00",
       "source_type": "secondary",
-      "language": "en",
-      "content_hash": "sha256:d867a454925ea619fdf9f8cf5638d7a2c642497e5cae92f4da4dbc04a21e552c",
+      "language": "ja",
+      "content_hash": "sha256:9964cdae72f4ad5362432a33ffdb45d19585a548af47d945b7eaf3bdcdf5c3f9",
       "retrieval_status": "success",
-      "summary": "Martin Spier explains how agentic workflows dramatically increase code change volume at OpenAI. He discusses the hidden systemic performance costs of rapid shipping beyond GPUs, and shares how deploying always-on AI agents automates profiling, regression detection, and continuous optimization to maintain product speed and scalability at massive global scale. By Martin Spier",
-      "category": "engineering_management",
+      "summary": "AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェンが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました。...",
+      "category": "ai_coding",
       "priority": "medium",
       "topics": [
         "ai_coding"
@@ -58,42 +27,11 @@
         "impact": 4,
         "novelty": 5,
         "reliability": 3,
-        "actionability": 3,
+        "actionability": 4,
         "purpose_alignment": 2,
         "preference_fit": 3
       },
-      "total_score": 3.6,
-      "must_include": false
-    },
-    {
-      "source_id": "src_20260809_001",
-      "title": "v2.1.226",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
-      "publisher": "Claude Code Releases",
-      "author": "ashwin-ant",
-      "published_at": "2026-08-08",
-      "event_date": null,
-      "collected_at": "2026-08-09T06:37:10.156602+09:00",
-      "source_type": "primary",
-      "language": "en",
-      "content_hash": "sha256:376e6ddf079f6fa396920c54534b3bf556f2487608e8b1994319406f1e05a6ab",
-      "retrieval_status": "success",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "category": "ai_coding",
-      "priority": "high",
-      "topics": [
-        "uncategorized"
-      ],
-      "scores": {
-        "relevance": 3,
-        "impact": 1,
-        "novelty": 5,
-        "reliability": 5,
-        "actionability": 3,
-        "purpose_alignment": 2,
-        "preference_fit": 3
-      },
-      "total_score": 3.05,
+      "total_score": 3.75,
       "must_include": false
     }
   ],
