@@ -1,173 +1,93 @@
-# 新着記事ダイジェスト 2026-08-11
+# 新着記事ダイジェスト 2026-08-12
 
-候補 17件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 9件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 Expanding Daybreak as the Cyber Defense Window Narrows
+## v2.1.228
 
-- URL: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.228
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-08-11
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+What's changed Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error Fixed git / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation Fixed /tui reverting the session to an earlier model when /model had been changed since the last response Fixed cross-session messaging sometimes starting without an inbox in the first session after install or upgrade Fixed Remote Co
+
+## Daybreak models are now available on AWS
+
+- URL: https://openai.com/index/daybreak-models-are-now-available-on-aws
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-10
+- 公開日: 2026-08-11
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.
+OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.
 
-## OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
+## v2.1.227
 
-- URL: https://openai.com/index/responsible-ai-infrastructure-texas
-- 発行元: OpenAI News(種別: primary)
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.227
+- 発行元: Claude Code Releases(種別: primary)
 - 公開日: 2026-08-10
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 4.05
 
-OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.
+What's changed Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable Fixed every Bash command failing under claude-code-action with allowed_non_write_users on GitHub-hosted runners Fixed /tui bringing back a conversation that had been rewound to before its first message Improved slash-command menu: blue now marks only the selected row, matched charact
 
-## Model ML completes finance work more efficiently with GPT-5.6 Sol
+## Presentation: Producing the World's Cheapest Tokens: A How-to Guide
 
-- URL: https://openai.com/index/model-ml
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.
-
-## What building an AI-native finance function taught me
-
-- URL: https://openai.com/index/building-an-ai-native-finance-function
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.
-
-## Putting frontier cyber models in more trusted hands
-
-- URL: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.
-
-## AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)
-
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions […]
-
-## Using the GitHub Copilot SDK for Java
-
-- URL: https://github.blog/engineering/using-the-github-copilot-sdk-for-java
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog .
-
-## CloudFlare Previews Automatic WebMCP Support for Web Pages
-
-- URL: https://www.infoq.com/news/2026/08/cloudflare-webmcp
+- URL: https://www.infoq.com/presentations/ai-token-price
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
+- 公開日: 2026-08-11
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.75
 
-Cloudflare announced a developer preview that lets any website enable a WebMCP (Web Model Context Protocol) interface with a single dashboard switch. This allows browser-based AI agents to interact with unmodified web pages through structured tools instead of scraping or guessing, keeping human traffic and control on the original site. By Sergio De Simone
+Meryem Arik discusses strategies for designing low-cost LLM inference architectures for high-volume, non-real-time workloads. She explains how software architects and engineering leaders can achieve order-of-magnitude cost reductions by making critical trade-offs across hardware, inference runtimes, speculative decoding, and smart queue reordering. By Meryem Arik
 
-## How Pinterest Secures AWS Infrastructure at Scale with a Centralized Terraform Pipeline
+## How to End Things Well
 
-- URL: https://www.infoq.com/news/2026/08/pinterest-secures-aws-infra
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
+- URL: https://sloanreview.mit.edu/article/how-to-end-things-well
+- 発行元: MIT Sloan Management Review(種別: secondary)
+- 公開日: 2026-08-11
+- トピック: mba
+- 総合スコア: 3.55
+
+Aad Goudappel/theispot.com Most leadership advice is written for beginnings — how to launch initiatives, build momentum, scale ideas, and manage new projects. Far less attention is given to the work of ending something well. Yet endings are everywhere in organizational life. A team is disbanded. A project is closed. A product is retired. A partnership […]
+
+## TDD inside the agent loop - theater or actual value?
+
+- URL: https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-08-11
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.45
 
-Pinterest has revealed the Resource Provisioner Pipeline (RPP), its own Terraform execution engine. It ensures least-privilege access and needs dual-control reviews. This is important for the company’s AWS infrastructure, as it adds strict guardrails to the GitHub Actions workflows. By Claudio Masolo
+My colleagues at Thoughtworks tend to be big fans of Test-Driven Development, and many people in the industry advocate telling LLM agents to use TDD when building software. Birgitta Böckeler was curious if this really makes a difference, so conducted a few experiments . more…
 
-## Presentation: Leveraging Adversary Emulation for GenAI Red Teaming
+## Why Family Businesses Lose Control
 
-- URL: https://www.infoq.com/presentations/emulation-genai
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Kennedy Torkura discusses practical GenAI red teaming techniques to safeguard LLMs and knowledge bases against security threats like data poisoning and LLMjacking on AWS. He explains how engineering leaders and architects can bridge traditional cloud security with MITRE ATLAS frameworks to proactively identify vulnerabilities, implement guardrails, and secure production AI applications. By Kennedy Torkura
-
-## GitHub Code Quality Targets Maintainability as AI-Generated Code Increases
-
-- URL: https://www.infoq.com/news/2026/08/github-code-quality
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. The service combines CodeQL analysis with AI-assisted detection of maintainability and reliability problems, then uses Copilot Autofix to suggest changes for review in pull requests, according to an announcement from GitHub. By Matt Saunders
-
-## Buildpacks Move the Container Hardening Control Point Away From the Dockerfile
-
-- URL: https://www.infoq.com/news/2026/08/buildpacks-dockerfile-patching
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Cloud Native Buildpacks, which graduated within the CNCF in July 2026, move base image choice out of per-service Dockerfiles into a single builder owned by platform engineering, enabling fleet-wide patching. BellSoft's hardened Paketo builder is the latest sign that vendors now treat the builder, not the Dockerfile, as the container security control point. By Mark Silvester
-
-## When Every Company Has AI, What Creates Advantage?
-
-- URL: /sponsored/2026/08/when-every-company-has-ai-what-creates-advantage
+- URL: /2026/08/why-family-businesses-lose-control
 - 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-08-10
-- トピック: ai_coding
-- 総合スコア: 3.6
+- 公開日: 2026-08-11
+- トピック: mba
+- 総合スコア: 3.4
 
-Sponsor content from AWS and 4MINDS.
+The problem usually isn’t poor leadership. It’s unprepared ownership.
 
-## Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem
+## “Leadership Drift” Is Stalling Your AI Strategy
 
-- URL: https://www.infoq.com/news/2026/08/linux-ai-policies
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-10
-- トピック: public_policy
-- 総合スコア: 3.3
+- URL: /2026/08/leadership-drift-is-stalling-your-ai-strategy
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-08-11
+- トピック: mba
+- 総合スコア: 3.4
 
-The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From core infrastructure to high-level orchestration, these distinct approaches highlight a shared commitment: ensuring the human maintainer remains the indispensable guardian of the code. By Olimpiu Pop
+Research highlights the unintentional and collective inertia that prevents leadership teams from making decisions.
 
-## Premium seats are coming to ChatGPT Business
+## The Innovation Strategy Most Companies Miss
 
-- URL: https://openai.com/index/premium-seats-chatgpt-business
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-10
-- トピック: uncategorized
-- 総合スコア: 3.05
+- URL: /podcast/2026/08/the-innovation-strategy-most-companies-miss
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-08-11
+- トピック: mba
+- 総合スコア: 3.4
 
-Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.
-
-## 第2回U18 AIチャンピオンシップにおいて、デジタル大臣奨励賞を交付しました
-
-- URL: https://www.digital.go.jp/policies/digital_human_resources/award/20260807
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-10
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 自治体標準オープンデータセット定義書一覧およびデータセットのサンプルを更新しました
-
-- URL: https://www.digital.go.jp/resources/open_data/municipal-standard-data-set-test
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-10
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
+A conversation with Dartmouth’s Vijay Govindarajan and MIT’s Amos Winter on why designing for emerging markets before developed ones can yield benefits.
