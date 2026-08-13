@@ -1,63 +1,73 @@
-# 新着記事ダイジェスト 2026-08-13
+# 新着記事ダイジェスト 2026-08-14
 
-候補 6件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 7件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.229
+## The builder’s guide to GPT‑5.6
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.229
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-12
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-What's changed Documented claude remote-control --continue for resuming the most recent Remote Control session Added server-supplied Claude Code hook support for self-hosted runner sessions, matching managed-environment behavior Added SSE keepalive pings to gateway streaming responses during long thinking pauses, preventing idle-timeout disconnects on Vertex and Bedrock upstreams Added plugin marketplace command sources: a local command (e.g. an IDE) prints the plugin directory, which is re-reso
-
-## From assistance to execution: How enterprises put AI to work
-
-- URL: https://openai.com/index/how-enterprises-put-ai-to-work
+- URL: https://openai.com/index/builders-guide-to-gpt-5-6
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-12
+- 公開日: 2026-08-13
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.
+
+## v2.1.231
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.231
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-08-13
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.
+What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack
 
-## Write your first prompt with the GitHub Copilot app
+## Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed
 
-- URL: https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-08-12
+- URL: https://openai.com/index/previewing-ultrafast
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-13
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 4.15
 
-Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence. The post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog .
+Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.
 
-## MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again
+## OpenAI appoints Dali Rajic as Chief Revenue Officer
 
-- URL: https://www.infoq.com/news/2026/08/mcp-stateless-gateway
+- URL: https://openai.com/index/dali-rajic-chief-revenue-officer
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-08-13
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.
+
+## Anthropic's Claude Breaches Sandbox During Model Security Evaluations
+
+- URL: https://www.infoq.com/news/2026/08/claude-sandox-breach
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-12
+- 公開日: 2026-08-13
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between developers calling it a rediscovery of REST and those arguing the standard itself was always the point. By Steef-Jan Wiggers
+Anthropic conducted an audit of 141006 evaluation runs after OpenAI's sandbox escape disclosure. The review identified three incidents where Claude models accessed the internet due to misconfigurations. These incidents involved unauthorised attacks on live targets. Anthropic has suspended offensive evaluations and plans to enhance security measures and collaborate with external auditors. By Olimpiu Pop
 
-## Before Rolling Out a New Strategy, Assess Your Team’s Readiness
+## Why Agentic AI Could Transform Procurement
 
-- URL: /2026/08/before-rolling-out-a-new-strategy-assess-your-teams-readiness
+- URL: /2026/08/why-agentic-ai-could-transform-procurement
 - 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-08-12
-- トピック: mba
-- 総合スコア: 3.4
+- 公開日: 2026-08-13
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-Three conditions will determine whether you can execute the plan.
+The combination of economic visibility, process structure, and persistent friction make it a huge opportunity.
 
-## How RingCentral builds AI-native work from engineering to ops
+## オープンデータ100「民間事業者による利活用事例」を更新しました
 
-- URL: https://openai.com/index/ringcentral
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-12
+- URL: https://www.digital.go.jp/resources/data_case_study
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-13
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.
+
