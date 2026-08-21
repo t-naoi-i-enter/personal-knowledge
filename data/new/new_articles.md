@@ -1,112 +1,92 @@
-# 新着記事ダイジェスト 2026-08-21
+# 新着記事ダイジェスト 2026-08-22
 
-候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 9件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.238
+## v2.1.239
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.238
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.239
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-20
+- 公開日: 2026-08-21
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added a keybindingFlavor setting: set it to "readline" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default ( "classic" ) is unchanged Plugin marketplaces: headersHelper on a url marketplace or a catalog entry runs a command that mints HTTP headers (e.g. a short-lived token) for catalog and same-origin archive fetches A catalog entry's headersHelper runs only when you install or update that plugin, after its command is shown; claude plugin i
+What's changed Cost estimates ( /cost , status line, --max-budget-usd ) now include the 1.1× US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedrock, Vertex, Foundry and other previously excluded setups; new installs there now start in fullscreen Added /claude-api upgrade to migrate Python projects from anthropic 0.x to 1.x, and updated the skill's Python reference for 1.x (timeouts use anthropic.Timeout , not httpx.Timeout ) Cloud sessions
 
-## v2.1.237
+## AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.237
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-20
+- URL: https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support
+- 発行元: AWS News Blog(種別: primary)
+- 公開日: 2026-08-21
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.9
 
-What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in "Concise" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.
+AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.
 
-## Introducing AI Futures
+## 共創PFキャンプinデジタル庁～疲れないDX推進を考える編～を開催しました
 
-- URL: https://openai.com/index/introducing-ai-futures
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-20
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.
-
-## Next.js 16.3: Instant Navigations, Up to 90% Less Dev Memory and Faster Builds
-
-- URL: https://www.infoq.com/news/2026/08/vercel-next-js-16-3
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-20
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Vercel has released Next.js 16.3, featuring significant updates since version 16.0. Enhancements include reduced memory usage during development, accelerated build times, and improved type checking. Instant Navigations introduces faster, client-like responses while maintaining server-rendered architecture. Developers are advised to gradually adopt new features due to noted caveats. By Daniel Curtis
-
-## The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure
-
-- URL: https://www.infoq.com/news/2026/08/deep-seek-harness
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-20
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-DeepSeek has released a developer preview of DeepSeek Harness (dsh), an open-source execution runtime for building autonomous AI agents. The software features a micro-kernel architecture with modular plugins for various functional units. The release includes an append-only event logging system for tracking execution activities. Adoption may depend on plugin ecosystem stability and API maintenance. By Olimpiu Pop
-
-## Presentation: Why Fetch When You Can Sync? Building Local-First Apps on a Sync Engine Architecture
-
-- URL: https://www.infoq.com/presentations/local-first-sync-engine
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-20
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-James Arthur shares why sync is the next frontier in frontend architecture. He explains how extending reactivity to the server with Electric and TanStack DB replaces imperative fetching with declarative data bindings. Learn how query-driven sync and local optimistic updates enable engineering leaders to build insanely fast, collaborative, and agentic applications using their existing stack. By James Arthur
-
-## InfoQ Opens Enrollment for New AI-Assisted Engineering Online Certification Program
-
-- URL: https://www.infoq.com/news/2026/08/ai-assisted-engineering
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-20
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-InfoQ has opened enrollment for the InfoQ Certified AI-Assisted Engineering Program, a five-week online certification program for senior engineers and architects who already run a coding agent against production code daily, where the open questions have moved past prompting into what the agent is allowed to touch and what catches its mistakes before a human does. By Artenisa Chatziou
-
-## How ChatGPT Work helps Stampli move ideas to market
-
-- URL: https://openai.com/index/stampli
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-20
-- トピック: uncategorized
-- 総合スコア: 3.2
-
-With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.
-
-## 令和8年熊本地震に関する対応状況について（8月20日）
-
-- URL: https://www.digital.go.jp/news/9d9d57f1-7af7-4592-ae6f-6d0f855f6025
+- URL: https://www.digital.go.jp/news/a6336356-3dc3-4c32-b6e5-fbfcd9d56698
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-20
+- 公開日: 2026-08-21
+- トピック: public_policy
+- 総合スコア: 3.85
+
+
+
+## Cloudflare Cuts Astro Github Issues by 85% with AI Agents
+
+- URL: https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-21
+- トピック: ai_coding, engineering_management
+- 総合スコア: 3.8
+
+Cloudflare, Astro, AI agents, GitHub Actions, issue triage, agentic AI, software architecture, open source, developer tools, AI automation, automated testing, human in the loop, agent workflows, GitHub, software engineering, AI software development, bug triage, continuous integration, developer productivity, autonomous agents, AI coding, Cloudflare Workers, Flue, triagebot By Leela Kumili
+
+## Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor
+
+- URL: https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-21
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Microsoft has made the Azure DevOps Remote MCP Server generally available, offering a hosted endpoint into work items, repos, and pipelines with nothing to install. Claude Desktop, Claude Code, ChatGPT, and Cursor cannot connect yet because Entra lacks support for dynamic client registration and Client ID Metadata Documents. By Steef-Jan Wiggers
+
+## S3 Compatibility Doesn't Guarantee S3-Level Security
+
+- URL: https://www.infoq.com/news/2026/08/s3-clone-security
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-08-21
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Security researchers at Wiz recently examined S3-compatible object storage services across six popular neoclouds, revealing significant security gaps compared to Amazon S3. While S3 has become the de facto standard for object storage, most services lack several of AWS's security protections. By Renato Losio
+
+## The Missing Piece of Your Transformation Strategy
+
+- URL: /2026/08/the-missing-piece-of-your-transformation-strategy
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-08-21
+- トピック: mba
+- 総合スコア: 3.4
+
+Companies are increasingly dependent on a complex network of suppliers and other partners, but they aren’t significantly engaging them in their strategy work.
+
+## 令和8年度 病院情報システム等の刷新に向けた協議会の構成員が決定しました
+
+- URL: https://www.digital.go.jp/news/afd1b34c-7689-4a61-b3ed-b4e98029c3c1
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-08-21
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 法制事務デジタル化・法令等データ利活用促進について調査・実証／技術検証における令和7年度資料を掲載しました
+## 共創PFキャンプin道東～窓口DXのいまを知る編～を開催しました
 
-- URL: https://www.digital.go.jp/policies/legal-practice
+- URL: https://www.digital.go.jp/news/aadabdb6-0193-4ea3-b197-cfb1648c1c30
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-20
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 第5回各府省庁DX推進連絡会議・第22回デジタル社会推進会議幹事会 合同会議の会議資料に係る資料3を掲載しました
-
-- URL: https://www.digital.go.jp/councils/social-promotion-executive/ae866c14-3ed0-4b12-bdf8-db16c4fdc858
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-20
+- 公開日: 2026-08-21
 - トピック: uncategorized
 - 総合スコア: 3.05
 
