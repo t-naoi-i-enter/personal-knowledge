@@ -1,42 +1,42 @@
-# 新着記事ダイジェスト 2026-08-23
+# 新着記事ダイジェスト 2026-08-24
 
 候補 4件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks
+## 🚨 DRAM Controller Register Manipulation Breaks CPU Memory Isolation
 
-- URL: https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation
+- URL: https://www.infoq.com/news/2026/08/amd-memory-exploit
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-22
+- 公開日: 2026-08-23
+- トピック: uncategorized
+- 総合スコア: 2.5
+
+Security researcher Christopher Domas developed skitter-creek-bath-salts, an open-source hardware security tool that disrupts CPU privilege boundaries by manipulating memory controller translation registers. This allows unprivileged software to access protected memory regions, revealing a vulnerability in modern processor architectures that could affect cloud and confidential computing security. By Olimpiu Pop
+
+## Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など
+
+- URL: https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-08-23
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-AWS has released aws-bench, an open-source benchmark for evaluating AI agents on real AWS tasks such as misconfigurations and infrastructure provisioning. Unlike traditional benchmarks, it uses real resources in disposable AWS accounts, scoring agent performance through automated verifiers. By Gianmarco Nalin
+サーバサイドJavaScriptランタイムのBunの最新版となる「Bun 1.4」正式版のリリースが発表されました。 Bun 1.4は、これまでZig言語で開発されていたものをClaude Codeを使ってRustに書き直した最初のバージョ...
 
-## Presentation: SafeChat: Building AI-Powered Safety Systems at Scale in a Real-Time Marketplace
+## OVHcloud Raises Prices as AI Memory Demand Reprices Non-AI Infrastructure
 
-- URL: https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform
+- URL: https://www.infoq.com/news/2026/08/ovhcloud-memory-price-rise
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-22
+- 公開日: 2026-08-23
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Bruna Pereira explains how DoorDash built a content-agnostic AI moderation platform. She covers replacing costly LLM-only pipelines with a hybrid pattern: using fast internal models to filter obvious cases, LLM multi-axis scoring for nuanced decisions, and no-code workflows with backtesting. Discover how this architectural pattern cut safety incidents while scaling to millions of daily messages. By Bruna Pereira
+OVHcloud will raise prices from September, with 2026-edition gaming servers up 87 percent and other recent servers 40 to 59 percent. Founder Octave Klaba says memory cost six times more in June than a year earlier, as RAM suppliers shifted capacity toward high-bandwidth memory for AI. AWS, buying years ahead, has repriced one reserved GPU product. By Steef-Jan Wiggers
 
-## What Separates AI Agents That Ship to Production from Those That Don’t
+## v2.1.241
 
-- URL: /sponsored/2026/08/what-separates-ai-agents-that-ship-to-production-from-those-that-dont
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-08-21
-- トピック: ai_coding
-- 総合スコア: 3.5
-
-Sponsor content from AWS and Arize.
-
-## v2.1.240
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.240
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.241
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-22
+- 公開日: 2026-08-23
 - トピック: uncategorized
 - 総合スコア: 3.05
 
