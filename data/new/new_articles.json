@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-30T08:12:04.106556+09:00",
-  "date": "2026-08-30",
-  "count": 1,
+  "generated_at": "2026-08-31T08:21:14.298053+09:00",
+  "date": "2026-08-31",
+  "count": 2,
   "articles": [
     {
-      "source_id": "src_20260830_1243",
-      "title": "Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models",
-      "url": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents",
-      "publisher": "InfoQ",
-      "author": "Fabiane Nardon",
-      "published_at": "2026-08-29",
+      "source_id": "src_20260831_1198",
+      "title": "JetBrains、Mac上で動作するコーディングエージェント「Junie Local」提供開始。Claude Sonnet 4.5と同等の能力、RTX5909対応も開発中",
+      "url": "https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html",
+      "publisher": "Publickey",
+      "author": "jniino",
+      "published_at": "2026-08-30",
       "event_date": null,
-      "collected_at": "2026-08-30T08:12:03.601298+09:00",
+      "collected_at": "2026-08-31T08:21:13.701008+09:00",
       "source_type": "secondary",
-      "language": "en",
-      "content_hash": "sha256:86fd29d24146b19b58ea63d3945eea369df41f49dadf0d1956e67b92e2e46cdb",
+      "language": "ja",
+      "content_hash": "sha256:2af7ef51a3df054f0ab69b3df260dde3c4f3b7bc08e7df78f8ea826daa0f29ab",
       "retrieval_status": "success",
-      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data mesh, low-latency database architectures, semantic ontologies, and dynamic MCP tool selection to optimize context windows and reduce token overhead in transactional systems. By Fabiane Nardon",
-      "category": "engineering_management",
+      "summary": "JetBrainsは、ローカルで動作するAIコーディングエージェント「Junie Local」の提供開始を発表しました。 Junie Localはその名称の通り完全にローカルマシン上で動作し、API使用料やモデル使用料などは一切不要。ソフト...",
+      "category": "ai_coding",
       "priority": "medium",
       "topics": [
         "ai_coding"
@@ -32,6 +32,37 @@
         "preference_fit": 3
       },
       "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20260831_1244",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents",
+      "publisher": "InfoQ",
+      "author": "Renato Losio",
+      "published_at": "2026-08-30",
+      "event_date": null,
+      "collected_at": "2026-08-31T08:21:13.701008+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:02b3069ac91af495b82287806c91a691fdb5a2ed8a2690650dcc06d38c469cbd",
+      "retrieval_status": "success",
+      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue without active supervision. By Renato Losio",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
       "must_include": false
     }
   ],
