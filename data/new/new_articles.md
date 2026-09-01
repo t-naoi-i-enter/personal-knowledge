@@ -1,132 +1,202 @@
-# 新着記事ダイジェスト 2026-09-01
+# 新着記事ダイジェスト 2026-09-02
 
-候補 13件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 20件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.252
+## How AI-native companies turn workflows into operating capability
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.252
+- URL: https://openai.com/index/ai-native-company-workflows
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-01
+- トピック: engineering_management
+- 総合スコア: 4.35
+
+Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.
+
+## v2.1.258
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.258
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with "user messages must have non-empty content" after a re-sent permission approval could not be applied
+
+## Path to Astra: critical capabilities and frontier safeguards
+
+- URL: https://openai.com/index/path-to-astra
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-01
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.
+
+## v2.1.257
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.257
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-09-01
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Fixed Bash commands failing with "task output swap refused (tasks dir moved or linked)" on some Macs Fixed "always allow" not saving in a project that has no .claude/settings.local.json yet Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded Fixed background task notifications with very large failure output (for example git errors on a full disk) making the conversation exceed th
+What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added "Time format" ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress evasion, and cross-tenant reach are no longer auto-approved unless your environment marks them exp
 
-## Polimill builds Japan's next-generation public AI infrastructure
+## OpenAI supports California’s bill to advance youth AI safety
 
-- URL: https://openai.com/index/polimill
+- URL: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
 - 発行元: OpenAI News(種別: primary)
 - 公開日: 2026-08-31
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 4.05
 
-Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.
+OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.
 
-## Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available
+## デジタル庁設立5年 ～デジタルで変わる、一人ひとりの暮らし～ デジタル庁がこれまでに積み重ねてきた取組と成果を動画でご紹介します
 
-- URL: https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-08-31
-- トピック: ai_coding
-- 総合スコア: 3.9
+- URL: https://www.digital.go.jp/policies/report-2026
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-01
+- トピック: public_policy
+- 総合スコア: 3.85
 
-Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.
 
-## AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)
 
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-08-31
-- トピック: ai_coding
-- 総合スコア: 3.9
+## 令和8年9月1日付デジタル庁人事を掲載しました
 
-The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]
+- URL: https://www.digital.go.jp/news/ccbda486-08ed-4c48-972e-6e779a67fa20
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-01
+- トピック: public_policy
+- 総合スコア: 3.85
 
-## DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents
 
-- URL: https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent
+
+## OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents
+
+- URL: https://www.infoq.com/news/2026/09/openclaw-2-release
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+OpenClaw has released OpenClaw 2.0, a major update to the open-source personal AI agent that changes its installation process, browser interface, memory, skills, automations, plugins, security, and collaboration features. By Daniel Dominguez
+
+## AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合
+
+- URL: https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-09-01
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly. Flux uses isolated Firecracker microVMs, an MCP gateway, reusable playbooks, and multiple invocation surfaces to run agent workflows with scoped access and centralized auditing. By Leela Kumili
+Amazon Web Services（AWS）は、同社がフルマネージドで提供するデータウェアハウスサービス「Amazon Redshift」が、Agent Toolkit for AWSと統合されたことを明らかにしました。 Agent T...
 
-## Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX
+## HCP Terraform Positions Itself as the Control Plane for AI-Driven Infrastructure
 
-- URL: https://www.infoq.com/podcasts/evolving-desktop-agentic-ux
+- URL: https://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and cloud-centric models. By Scott Jenson
+HashiCorp is positioning HCP Terraform as the governance and control plane for a new generation of AI-driven infrastructure, arguing that the rapid adoption of coding agents is shifting the biggest infrastructure challenge from writing configuration to verifying and safely executing it. By Craig Risi
 
-## Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool
+## Fragments: September 1
 
-- URL: https://www.infoq.com/news/2026/08/foundry-model-router-regions
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-08-31
+- URL: https://martinfowler.com/fragments/2026-09-01.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-09-01
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.45
 
-Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments receive pool changes automatically; configured subsets exclude new models until added. The effective context window equals the smallest model in the pool. By Steef-Jan Wiggers
+Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are notoriously bad at distinguishing human and LLM-generated text. While research on humans’ abilities to detect AI-generated text is still limited, a 2025 study has shown that human ability to distinguish LLM text from huma
 
-## Three Things to Know About Customer Resistance to AI
+## What Kind of Chief Purpose Officer Does Your Company Need?
 
-- URL: https://sloanreview.mit.edu/article/three-things-to-know-about-customer-resistance-to-ai
+- URL: https://sloanreview.mit.edu/article/what-kind-of-chief-purpose-officer-does-your-company-need
 - 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-08-31
-- トピック: ai_coding
-- 総合スコア: 3.6
+- 公開日: 2026-09-01
+- トピック: mba
+- 総合スコア: 3.4
 
-Microsoft Copilot/Unsplash Companies are betting that AI chatbots will deliver faster and cheaper customer service. But if you’ve ever tried to circumvent a chatbot and get to a human, you’re not alone. Here’s what three recent studies discovered about when customers will and won’t let AI do a human’s job. 1. Customers avoid chatbots for […]
+Rob Dobi The Research The authors identified 56 individuals with purpose leadership roles who were representative of a variety of industries, company sizes, and regions. Of the CPOs interviewed, 60% identified as female and 40% as male. They conducted semi-structured interviews online from 2022 to 2025 to explore participants’ role experiences, strategic practices, and key […]
 
-## A milestone in expanding access to AI
+## Dethroning Loyalty
 
-- URL: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
+- URL: https://sloanreview.mit.edu/article/dethroning-loyalty
+- 発行元: MIT Sloan Management Review(種別: secondary)
+- 公開日: 2026-09-01
+- トピック: mba
+- 総合スコア: 3.4
+
+Rob Dobi What’s wrong with loyalty? Isn’t it a virtue to display steadfast allegiance to something or someone other than oneself? After all, loyalty has been celebrated as a virtue across many cultures for millennia. As economic headwinds and a tough job market appear to be empowering more authoritarian styles of leadership, it’s a good […]
+
+## ﻿How Leadership Anxiety Derails Transformation
+
+- URL: https://sloanreview.mit.edu/article/how-leadership-anxiety-derails-transformation
+- 発行元: MIT Sloan Management Review(種別: secondary)
+- 公開日: 2026-09-01
+- トピック: mba
+- 総合スコア: 3.4
+
+Rob Dobi The Research This article draws on a four-year ethnographic study of a professional services firm whose leaders initiated a major transformation to reverse declining performance. The research involved nearly 760 hours of observation across leadership and project team meetings, more than 300 interviews, and analyses of internal documents spanning the full life of […]
+
+## Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+
+- URL: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.
+ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.
 
-## 松本デジタル大臣が米国を訪問しました
+## 令和8年（2026年）第4回政策評価・行政事業レビュー有識者会議（2026年8月6日（木）開催）の会議資料を掲載しました
 
-- URL: https://www.digital.go.jp/news/9e39fb6f-c517-4d1b-8ef7-d3b31413fbd2
+- URL: https://www.digital.go.jp/policies/assessment/project-review/2026/712e6491-2e7c-426a-a489-191bf4be13a5
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-31
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 令和8年熊本地震に関する対応状況について（8月31日）
-
-- URL: https://www.digital.go.jp/news/7266f120-48b5-4a2a-a2d6-e1467df7824e
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## 行政手続における特定の個人を識別するための番号の利用等に関する法律に規定する個人番号、個人番号カード、特定個人情報の提供等に関する命令の一部を改正する命令（案）及び個人番号カード等に関する技術的基準の一部を改正する件（案）に係る意見募集を行います
+## 令和8年（2026年）政策評価・行政事業レビューの「行政事業レビューシート」を掲載しました
 
-- URL: https://www.digital.go.jp/news/8f0fb90c-f2d2-49d3-a5a4-d2b0f2293e31
+- URL: https://www.digital.go.jp/policies/assessment/project-review/2026
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
 
 
-## アナログ規制の見直し状況に関するダッシュボードおよび資料を更新しました
+## ISMAPクラウドサービスリスト等を更新しました
 
-- URL: https://www.digital.go.jp/resources/govdashboard/administrative_research
+- URL: https://www.digital.go.jp/news/f0132bd5-af62-4dad-99b5-4c688bb3e6bd
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 松本大臣記者会見（令和8年9月1日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-260901-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-01
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 「先進企業に学ぶ！マイナンバーカード友の会ミートアップ！！」を開催しました
+
+- URL: https://www.digital.go.jp/news/0f95a36a-87fe-4e04-b232-f1960f63ea96
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
