@@ -1,202 +1,122 @@
-# 新着記事ダイジェスト 2026-09-02
+# 新着記事ダイジェスト 2026-09-03
 
-候補 20件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 12件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## How AI-native companies turn workflows into operating capability
+## v2.1.259
 
-- URL: https://openai.com/index/ai-native-company-workflows
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-01
-- トピック: engineering_management
-- 総合スコア: 4.35
-
-Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.
-
-## v2.1.258
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.258
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.259
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-01
-- トピック: ai_coding
-- 総合スコア: 4.3
-
-What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with "user messages must have non-empty content" after a re-sent permission approval could not be applied
-
-## Path to Astra: critical capabilities and frontier safeguards
-
-- URL: https://openai.com/index/path-to-astra
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-01
-- トピック: ai_coding
-- 総合スコア: 4.3
-
-Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.
-
-## v2.1.257
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.257
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-01
+- 公開日: 2026-09-02
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added Claude Fable 5.1 ( claude-fable-5-1 ), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added "Time format" ( timeFormat ) and timeZone settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress evasion, and cross-tenant reach are no longer auto-approved unless your environment marks them exp
+What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json ); entries that name a command to run are skipped Added --permission-prompts none for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding Added recognition of glab mr create/merge/close/reopen/note/update so GitLab merge requests show as MR !N in the colla
 
-## OpenAI supports California’s bill to advance youth AI safety
+## How law firm Gilbert + Tobin governs and scales AI with OpenAI
 
-- URL: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
+- URL: https://openai.com/index/gilbert-tobin
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-08-31
+- 公開日: 2026-09-01
 - トピック: ai_coding
 - 総合スコア: 4.05
 
-OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.
+See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.
 
-## デジタル庁設立5年 ～デジタルで変わる、一人ひとりの暮らし～ デジタル庁がこれまでに積み重ねてきた取組と成果を動画でご紹介します
+## How we make AI coding more cost efficient without sacrificing task quality
 
-- URL: https://www.digital.go.jp/policies/report-2026
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: public_policy
-- 総合スコア: 3.85
+- URL: https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality
+- 発行元: GitHub Blog(種別: primary)
+- 公開日: 2026-09-02
+- トピック: ai_coding
+- 総合スコア: 3.9
 
+Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .
 
+## AWSとAzureが最大100Gbpsでの相互接続を開始。これでAWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウドをサポート
 
-## 令和8年9月1日付デジタル庁人事を掲載しました
-
-- URL: https://www.digital.go.jp/news/ccbda486-08ed-4c48-972e-6e779a67fa20
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: public_policy
-- 総合スコア: 3.85
-
-
-
-## OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents
-
-- URL: https://www.infoq.com/news/2026/09/openclaw-2-release
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-01
+- URL: https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-09-02
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-OpenClaw has released OpenClaw 2.0, a major update to the open-source personal AI agent that changes its installation process, browser interface, memory, skills, automations, plugins, security, and collaboration features. By Daniel Dominguez
+Amzon Web Services（AWS）とマイクロソフトは、両社が協力してAWSとMicrosoft Azureを最大100Gbpsの高速な閉域網で相互接続することを発表しました（AWSの発表、マイクロソフトの発表）。 両社ともにプレ...
 
-## AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合
+## ClaudeにSalesforceを統合した「Claudeforce」、AnthropicとSalesforceが発表。Claudeから営業データ分析や顧客対応を実現
 
-- URL: https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html
+- URL: https://www.publickey1.jp/blog/26/claudesalesforceclaudeforceanthropicsalesforceclaude.html
 - 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-01
+- 公開日: 2026-09-02
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+SalesforceとAnthropicが「Claudeforce」を発表しました。 第一弾となる「Salesforce in Claude」では、Claudeの画面からプロンプトを入力するだけで、Salesforceのデータやワークフロー...
+
+## AWSをゲームで学べる「AWS Cloud Quest」に新バージョン「AWS Cloud Quest 2.0」登場！ AIによるバーチャル顧客と対話し、要件を聞き出して正しくソリューションに落とし込め
+
+- URL: https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-09-02
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Amazon Web Services（AWS）は、同社がフルマネージドで提供するデータウェアハウスサービス「Amazon Redshift」が、Agent Toolkit for AWSと統合されたことを明らかにしました。 Agent T...
+Amazon Web Services（AWS）は、3DオープンワールドでAWSを学べるオンラインゲーム「AWS Cloud Quest」の新バージョン「AWS Cloud Quest 2.0」の提供を開始しました。 AWS Cloud Q...
 
-## HCP Terraform Positions Itself as the Control Plane for AI-Driven Infrastructure
+## OpenAI Details GPT-Live’s Architecture for Continuous Stateful Voice Interaction
 
-- URL: https://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control
+- URL: https://www.infoq.com/news/2026/09/openai-gpt-live
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-01
+- 公開日: 2026-09-02
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-HashiCorp is positioning HCP Terraform as the governance and control plane for a new generation of AI-driven infrastructure, arguing that the rapid adoption of coding agents is shifting the biggest infrastructure challenge from writing configuration to verifying and safely executing it. By Craig Risi
+OpenAI recently published an engineering account of GPT-Live. It described how they designed the system to maintain continuous voice interaction while separating latency-sensitive media processing from broader application work. The live path contains the media pipeline and inference loop, while delegation, tool use, persistence, and other application logic run behind an asynchronous RPC boundary. By Eran Stiller
 
-## Fragments: September 1
+## Presentation: Beyond Prompting: Context Engineering for Production-Grade AI
 
-- URL: https://martinfowler.com/fragments/2026-09-01.html
+- URL: https://www.infoq.com/presentations/context-engineering-redis-llm-architecture
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-09-02
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, managing LLM token limits via summarization, mitigating context rot with reranking and semantic caching, and controlling exponential API costs under strict latency constraints. By Ricardo Ferreira
+
+## Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline
+
+- URL: https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-09-02
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything they might do. Partial consent exists elsewhere, but developer control over which scopes are droppable does not. By Steef-Jan Wiggers
+
+## An Accidental Blackboard
+
+- URL: https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html
 - 発行元: martinfowler.com(種別: opinion)
-- 公開日: 2026-09-01
+- 公開日: 2026-09-02
 - トピック: ai_coding
 - 総合スコア: 3.45
 
-Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are notoriously bad at distinguishing human and LLM-generated text. While research on humans’ abilities to detect AI-generated text is still limited, a 2025 study has shown that human ability to distinguish LLM text from huma
+Giles Edwards-Alexander reports that during an experiment to see how productive a team could be using fully agentic engineering practices, the team accidentally prompted the agents into creating a blackboard coordination system inside the git repository. more…
 
-## What Kind of Chief Purpose Officer Does Your Company Need?
+## Is the European Market Ready for Air Conditioning? Inside Midea’s Blue Ocean Strategy.
 
-- URL: https://sloanreview.mit.edu/article/what-kind-of-chief-purpose-officer-does-your-company-need
-- 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-09-01
+- URL: /2026/09/is-the-european-market-ready-for-air-conditioning-inside-mideas-blue-ocean-strategy
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-09-02
 - トピック: mba
 - 総合スコア: 3.4
 
-Rob Dobi The Research The authors identified 56 individuals with purpose leadership roles who were representative of a variety of industries, company sizes, and regions. Of the CPOs interviewed, 60% identified as female and 40% as male. They conducted semi-structured interviews online from 2022 to 2025 to explore participants’ role experiences, strategic practices, and key […]
+How the company used AI to design a new system and unlock massive demand.
 
-## Dethroning Loyalty
+## 2026年度 一般職（高卒者）官庁訪問の情報を掲載しました
 
-- URL: https://sloanreview.mit.edu/article/dethroning-loyalty
-- 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-09-01
-- トピック: mba
-- 総合スコア: 3.4
-
-Rob Dobi What’s wrong with loyalty? Isn’t it a virtue to display steadfast allegiance to something or someone other than oneself? After all, loyalty has been celebrated as a virtue across many cultures for millennia. As economic headwinds and a tough job market appear to be empowering more authoritarian styles of leadership, it’s a good […]
-
-## ﻿How Leadership Anxiety Derails Transformation
-
-- URL: https://sloanreview.mit.edu/article/how-leadership-anxiety-derails-transformation
-- 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-09-01
-- トピック: mba
-- 総合スコア: 3.4
-
-Rob Dobi The Research This article draws on a four-year ethnographic study of a professional services firm whose leaders initiated a major transformation to reverse declining performance. The research involved nearly 760 hours of observation across leadership and project team meetings, more than 300 interviews, and analyses of internal documents spanning the full life of […]
-
-## Healthcare organizations can now connect EHR and additional industry data to ChatGPT
-
-- URL: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.
-
-## 令和8年（2026年）第4回政策評価・行政事業レビュー有識者会議（2026年8月6日（木）開催）の会議資料を掲載しました
-
-- URL: https://www.digital.go.jp/policies/assessment/project-review/2026/712e6491-2e7c-426a-a489-191bf4be13a5
+- URL: https://www.digital.go.jp/recruitment/newgraduates/2026-governmentofficevisit-clericalposition-highschoolgraduate
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 令和8年（2026年）政策評価・行政事業レビューの「行政事業レビューシート」を掲載しました
-
-- URL: https://www.digital.go.jp/policies/assessment/project-review/2026
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## ISMAPクラウドサービスリスト等を更新しました
-
-- URL: https://www.digital.go.jp/news/f0132bd5-af62-4dad-99b5-4c688bb3e6bd
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 松本大臣記者会見（令和8年9月1日）動画を掲載しました
-
-- URL: https://www.digital.go.jp/speech/minister-260901-01
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 「先進企業に学ぶ！マイナンバーカード友の会ミートアップ！！」を開催しました
-
-- URL: https://www.digital.go.jp/news/0f95a36a-87fe-4e04-b232-f1960f63ea96
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-01
+- 公開日: 2026-09-02
 - トピック: uncategorized
 - 総合スコア: 3.05
 
