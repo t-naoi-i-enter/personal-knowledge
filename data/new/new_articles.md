@@ -1,92 +1,92 @@
-# 新着記事ダイジェスト 2026-09-04
+# 新着記事ダイジェスト 2026-09-05
 
 候補 9件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Daybreak for Frontline Defenders: $1B to protect essential services
+## v2.1.261
 
-- URL: https://openai.com/index/daybreak-for-frontline-defenders
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-03
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.261
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-09-04
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
+What's changed Added an "Organization policy" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bashOutputMaxChars and taskOutputMaxChars settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters Added --append-subagent-system-prompt-file to read the subagent system prompt from a file, for prompts too large to pass on 
 
-## Legora reviewed 41 documents in minutes with GPT-6 Astra
+## v2.1.260
 
-- URL: https://openai.com/index/legora-financial-statement-review-with-astra
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-03
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
-
-## Playco cut manual fixes 50% prototyping games with GPT-6 Astra
-
-- URL: https://openai.com/index/playco-game-prototyping-with-astra
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-03
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
-
-## Safety overview: GPT-6 Astra
-
-- URL: https://openai.com/index/safety-overview-gpt-6-astra
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-03
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
-
-## GitHub Copilot app for Beginners: Run several agents at once
-
-- URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once
-- 発行元: GitHub Blog(種別: primary)
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.260
+- 発行元: Claude Code Releases(種別: primary)
 - 公開日: 2026-09-03
 - トピック: ai_coding
 - 総合スコア: 4.05
 
-Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful. The post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog .
+What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to /cost and the status line's prompt_cache field Added /reload-plugins to headless sessions, so it appears in the Claude Code Desktop and SDK command lists Added a text form of /advisor ( /advisor , /advisor <model> , /adviso
 
-## GPT-4
+## Project HydraFusion: Frontier quality via multi-model orchestration
 
-- URL: https://openai.com/index/gpt-4
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2023-03-14
+- URL: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration
+- 発行元: GitHub Blog(種別: primary)
+- 公開日: 2026-09-04
 - トピック: ai_coding
-- 総合スコア: 3.75
+- 総合スコア: 3.9
 
-It can generate, edit, and iterate with users on creative and technical writing tasks, such as composing songs, writing screenplays, or learning a user’s writing style.
+In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot. The post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog .
 
-## AWS、新たな太平洋海底ケーブル「Sta'O'Nuk」発表。420Tbps、2029年に稼働へ。集中リスク排除のため新たな陸揚げ拠点を採用
+## Podcast: Personality Over Skillset: How Adam Wachtel Builds Engineering Teams
 
-- URL: https://www.publickey1.jp/blog/26/awsstaonuk420tbps2029.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-03
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Amazon Web Services（AWS）は、日本と米国を結ぶ新たな海底ケーブル「Sta'O'Nuk」を発表しました。2029年に稼働開始予定です。 海底ケーブルは20ペアの光ファイバーで構成され、420Tbpsの帯域を提供します。 ...
-
-## Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens
-
-- URL: https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance
+- URL: https://www.infoq.com/podcasts/personality-over-skillset
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-03
+- 公開日: 2026-09-04
+- トピック: sier_business, personal_purpose
+- 総合スコア: 3.75
+
+In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Adam Wachtel, CTO at Click Boarding, about hiring for personality and problem-solving over pure skillset, turning around a platform and team in crisis, and how AI is reshaping team size and composition without ending SAAS. By Adam Wachtel
+
+## Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind
+
+- URL: https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-09-04
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned "gist" tokens, improving throughput and reducing inference cost. By Sergio De Simone
+Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and appear in Cost Management 48 hours later. Budgets notify but do not stop reviews, and concurrency caps at five per organization. By Steef-Jan Wiggers
 
-## 民間事業者（アイフル株式会社）に対して公的個人認証サービスの利用に関する主務大臣認定を行いました
+## エリアデータ連携基盤共同利用ガイドブック第3.0版（本編／Appendix）等を公開しました。
 
-- URL: https://www.digital.go.jp/news/15f28ab3-17b6-40a9-8ef9-170eeafecda5
+- URL: https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-03
+- 公開日: 2026-09-04
+- トピック: uncategorized
+- 総合スコア: 3.2
+
+
+
+## 令和8年熊本地震に関する対応状況について（9月4日）
+
+- URL: https://www.digital.go.jp/news/14d4b2c8-4a92-44b6-a472-b2df25570de1
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-04
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 令和9年度「概算要求書」及び「政策評価調書」を掲載しました
+
+- URL: https://www.digital.go.jp/budget/r9request
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-04
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 松本大臣記者会見（令和8年9月4日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-260904-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-04
 - トピック: uncategorized
 - 総合スコア: 3.05
 
