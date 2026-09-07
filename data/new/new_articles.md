@@ -1,43 +1,73 @@
-# 新着記事ダイジェスト 2026-09-07
+# 新着記事ダイジェスト 2026-09-08
 
-候補 4件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 7件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives
+## Supporting independent journalism in Ukraine
 
-- URL: https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan
+- URL: https://openai.com/index/supporting-independent-journalism-in-ukraine
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-07
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.
+
+## AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)
+
+- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026
+- 発行元: AWS News Blog(種別: primary)
+- 公開日: 2026-09-07
+- トピック: ai_coding
+- 総合スコア: 3.9
+
+Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]
+
+## Netflix Moves Toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs
+
+- URL: https://www.infoq.com/news/2026/09/netflix-flink-autoscaler
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-06
+- 公開日: 2026-09-07
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Google has open-sourced Mantis, an AI-agent framework designed to automate the software vulnerability lifecycle, from identifying and validating vulnerabilities to reproducing and fixing them. Google says it developed Mantis to address the high rate of false positives and hallucinated vulnerabilities produced by conventional AI-powered code scanning. By Sergio De Simone
+Netflix is moving toward the open-source Apache Flink Autoscaler for more than 30,000 streaming jobs across multiple AWS regions. The operator-level approach addresses limitations of Netflix’s cluster level autoscaler for complex, stateful pipelines. Netflix reports a 58% reduction in annualized Flink compute expenditure for one team, saving approximately $1.1 million annually. By Leela Kumili
 
-## Research acceleration: The view inside OpenAI
+## Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation
 
-- URL: https://openai.com/index/research-acceleration-view-inside-openai
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-06
+- URL: https://www.infoq.com/presentations/ai-agent-testing-evaluation
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-09-07
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.6
 
-Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.
+Zhou Yu discusses why AI agents stall in demo phase and shares how simulation-driven testing solves compliance and reliability bottlenecks. Learn how Columbia and Arklex AI use synthetic user personas, trajectory entropy, and automated CI/CD pipelines to evaluate multi-turn agents, catch edge cases before deployment, and scale self-learning workflows in production. By Zhou Yu
 
-## v2.1.263
+## 令和8年熊本地震に関する対応状況について（9月7日）
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.263
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-06
+- URL: https://www.digital.go.jp/news/4d10e390-4a0b-44f9-90c6-67c2b00537b0
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-07
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-What's changed Bug fixes and reliability improvements
 
-## An Alien Mind
 
-- URL: https://openai.com/index/an-alien-mind
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-06
+## 川崎デジタル大臣政務官がデンマーク王国を訪問しました
+
+- URL: https://www.digital.go.jp/news/94b4ea71-a198-4d78-b0a4-6322ed7bfeee
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-07
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.
+
+
+## ジョージアとデジタル分野における協力覚書を取り交わしました
+
+- URL: https://www.digital.go.jp/news/3da015e6-8d5c-494c-996c-d7a911f51fdb
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-07
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
