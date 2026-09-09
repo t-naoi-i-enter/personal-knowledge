@@ -1,173 +1,83 @@
-# 新着記事ダイジェスト 2026-09-09
+# 新着記事ダイジェスト 2026-09-10
 
-候補 17件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 「今後のデジタル人材育成政策に関する検討会」開催について掲載しました
+## 今後のデジタル人材育成政策に関する検討会（第1回）の議事次第および資料を掲載しました
 
-- URL: https://www.digital.go.jp/councils/digital-talent-development-policy
+- URL: https://www.digital.go.jp/councils/digital-talent-development-policy/ff566760-278e-47da-8454-b25c40912fcb
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
+- 公開日: 2026-09-09
 - トピック: engineering_management
 - 総合スコア: 4.35
 
 
 
-## v2.1.265
+## v2.1.267
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.265
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.267
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-09-09
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+What's changed Added maxEffortLevel setting (top-level or per model under modelSettings ): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level Added --system-prompt-snapshot off to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text) Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing Fi
+
+## GPT-6 Astra: The next generation in intelligence for work
+
+- URL: https://openai.com/index/gpt-6-astra-next-generation-work
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-09
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.
+
+## Paul Christiano joins OpenAI Foundation Board
+
+- URL: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-09
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
+
+## v2.1.266
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.266
 - 発行元: Claude Code Releases(種別: primary)
 - 公開日: 2026-09-08
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 4.05
 
-What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when a saved file was truncated Fixed resuming a foreground-spawned subagent changing its tool list an
+What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request with "Not signed in to the Cloud gateway". The variable on its own is ignored again; no configuratio
 
-## How GPT-5.6 Sol helps run quantum computing experiments
+## AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開
 
-- URL: https://openai.com/index/codex-quantum-computing-experiments
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.
-
-## Funding grants for new research into AI and teen development
-
-- URL: https://openai.com/index/teen-development-research-grants
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.
-
-## OpenAI expands initiatives to support journalism from classrooms to newsrooms
-
-- URL: https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.
-
-## 令和7年度におけるデジタル庁の障害者就労施設等からの物品等の調達の推進を図るための方針及び令和6年度デジタル庁における障害者就労施設等からの物品等の調達実績を掲載しました
-
-- URL: https://www.digital.go.jp/procurement/challenged_person_employment_facilities_goods
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
-- トピック: public_policy
-- 総合スコア: 3.85
-
-
-
-## Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに
-
-- URL: https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html
+- URL: https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html
 - 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-08
+- 公開日: 2026-09-09
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.75
 
-Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazo...
+Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx...
 
-## Presentation: Platform Engineering in the Age of AI
+## AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能
 
-- URL: https://www.infoq.com/presentations/ai-platform-engineering-roundtable
+- URL: https://www.publickey1.jp/blog/26/awsamazon_quick.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-09-09
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。 Amazon Q...
+
+## Meta's Recipe for Building Agents as "Organizational Second Brains"
+
+- URL: https://www.infoq.com/news/2026/09/meta-organizational-agents
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-08
+- 公開日: 2026-09-09
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-The panelists explain how platform teams adapt to support AI-assisted engineering, highlighting which capabilities belong in the platform. They discuss trade-offs between standardization and developer autonomy, while sharing strategies to manage AI tooling, security guardrails, and shifting workflows. By Stéphane Di Cesare, Davide de Paolis, Stephen Cihak, Camila Macedo, Renato Losio
-
-## GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access
-
-- URL: https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-08
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-GitLab warns that isolating an AI coding agent in a sandbox does not necessarily make the agent safe. In a new security analysis, the company describes an internal evaluation in which an AI agent escaped its sandbox by exploiting a vulnerable package proxy that had been explicitly placed on the sandbox's allowlist. By Craig Risi
-
-## Welcome to AI Autumn
-
-- URL: /2026/09/welcome-to-ai-autumn
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-09-08
-- トピック: mba
-- 総合スコア: 3.4
-
-In the September 7 edition of The Insider newsletter, managing editor Gretchen Gavett writes on what’s next for HBR’s coverage of AI, shares new insights about blue ocean strategy, and more.
-
-## The Work Now Within Reach
-
-- URL: https://openai.com/index/the-work-now-within-reach
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.
-
-## On the Navier–Stokes Millennium Prize Problem
-
-- URL: https://openai.com/index/navier-stokes-solution
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.
-
-## 1Password increases engineering productivity 21% with Codex
-
-- URL: https://openai.com/index/1password
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.
-
-## 松本デジタル大臣はロバートソン次期駐日英国大使による表敬訪問を受けました
-
-- URL: https://www.digital.go.jp/news/d02fb0ce-1321-4a58-b225-b3454896ab9e
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 令和7年度（2025年度）公益法人に対する支出状況を掲載しました
-
-- URL: https://www.digital.go.jp/procurement/disclosure/public-service-corporation-expenditure-inspection
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 中途採用（行政人材） 業務説明会・イベントを掲載しました
-
-- URL: https://www.digital.go.jp/recruitment/career-government-official/recruiting-session
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 松本大臣記者会見（令和8年9月8日）動画を掲載しました
-
-- URL: https://www.digital.go.jp/speech/minister-260908-01
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-08
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
+Meta describes how an AI agent can be designed to capture the logic and expertise of domain experts, rather than simply storing documents or retrieving relevant information. The system, dubbed an "organizational second brain", was built for a specialized compliance domain, but Meta argues the architecture generalizes to areas like security, finance, engineering, and procurement. By Sergio De Simone
