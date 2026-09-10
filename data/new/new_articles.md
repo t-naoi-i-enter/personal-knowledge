@@ -1,83 +1,133 @@
-# 新着記事ダイジェスト 2026-09-10
+# 新着記事ダイジェスト 2026-09-11
 
-候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 13件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 今後のデジタル人材育成政策に関する検討会（第1回）の議事次第および資料を掲載しました
+## Introducing the Agents API
 
-- URL: https://www.digital.go.jp/councils/digital-talent-development-policy/ff566760-278e-47da-8454-b25c40912fcb
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-09
-- トピック: engineering_management
+- URL: https://openai.com/index/introducing-the-agents-api
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-10
+- トピック: sier_business
 - 総合スコア: 4.35
 
+Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
 
+## v2.1.268
 
-## v2.1.267
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.267
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.268
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-09
+- 公開日: 2026-09-10
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added maxEffortLevel setting (top-level or per model under modelSettings ): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level Added --system-prompt-snapshot off to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text) Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing Fi
+What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml , signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spend meter Added a startup warning for gateways when access_control.allow_cidrs is empty, and a one-time warning the first time a request arrives from a public address Added the gatewayInternalNetworks managed setting, letting administrators allow /login to a Claude apps gateway on their organization'
 
-## GPT-6 Astra: The next generation in intelligence for work
+## Introducing ChatGPT for Financial Services
 
-- URL: https://openai.com/index/gpt-6-astra-next-generation-work
+- URL: https://openai.com/index/introducing-chatgpt-financial-services
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-09
+- 公開日: 2026-09-10
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.
+Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.
 
-## Paul Christiano joins OpenAI Foundation Board
+## Expanding AI access and cyber defense for federal, state, local, and tribal governments
 
-- URL: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+- URL: https://openai.com/index/expanding-ai-access-us-government
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-09
+- 公開日: 2026-09-10
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
+OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.
 
-## v2.1.266
+## Build more natural voice experiences with GPT‑Live‑1 in the API
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.266
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-08
+- URL: https://openai.com/index/introducing-gpt-live-1-in-the-api
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-10
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.
+
+## GitHub Copilot app for Beginners: Using the diff, terminal, and browser
+
+- URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser
+- 発行元: GitHub Blog(種別: primary)
+- 公開日: 2026-09-10
 - トピック: ai_coding
 - 総合スコア: 4.05
 
-What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, apiKeyHelper , or custom auth headers failed every request with "Not signed in to the Cloud gateway". The variable on its own is ignored again; no configuratio
+Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog .
 
-## AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開
+## Introducing Amazon EBS Volume Clones across AWS accounts
 
-- URL: https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html
-- 発行元: Publickey(種別: secondary)
+- URL: https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts
+- 発行元: AWS News Blog(種別: primary)
 - 公開日: 2026-09-09
 - トピック: ai_coding
-- 総合スコア: 3.75
+- 総合スコア: 3.8
 
-Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx...
+AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.
 
-## AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能
+## The AI policy window is open. We need to act.
 
-- URL: https://www.publickey1.jp/blog/26/awsamazon_quick.html
-- 発行元: Publickey(種別: secondary)
+- URL: https://openai.com/index/ai-policy-window
+- 発行元: OpenAI News(種別: primary)
 - 公開日: 2026-09-09
-- トピック: ai_coding
+- トピック: public_policy
 - 総合スコア: 3.75
 
-Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。 Amazon Q...
+Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.
 
-## Meta's Recipe for Building Agents as "Organizational Second Brains"
+## OpenAI Releases GPT-6 Astra for Coding and Computer Use
 
-- URL: https://www.infoq.com/news/2026/09/meta-organizational-agents
+- URL: https://www.infoq.com/news/2026/09/openai-gpt6-astra
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-09
+- 公開日: 2026-09-10
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.75
 
-Meta describes how an AI agent can be designed to capture the logic and expertise of domain experts, rather than simply storing documents or retrieving relevant information. The system, dubbed an "organizational second brain", was built for a specialized compliance domain, but Meta argues the architecture generalizes to areas like security, finance, engineering, and procurement. By Sergio De Simone
+OpenAI has released GPT-6 Astra, a new model focused on coding, computer use, long-running agentic tasks, and cybersecurity, with availability across ChatGPT, Codex, and the OpenAI API. By Daniel Dominguez
+
+## Is Your Strategic Plan Too Ambitious? Or Not Ambitious Enough?
+
+- URL: /2026/09/is-your-strategic-plan-too-ambitious-or-not-ambitious-enough
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-09-10
+- トピック: mba
+- 総合スコア: 3.4
+
+Eight questions to help you determine whether a strategy is bold enough to create meaningful growth—and realistic enough to execute.
+
+## How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+
+- URL: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-10
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
+
+## Now everyone can put data to work
+
+- URL: https://openai.com/index/put-data-to-work
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-09-10
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.
+
+## 学園祭での年齢確認にマイナンバーカードを活用しています
+
+- URL: https://www.digital.go.jp/news/6a52d1e9-30cc-455a-9154-f32479d1731a
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-10
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
