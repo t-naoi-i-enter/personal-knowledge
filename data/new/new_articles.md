@@ -1,83 +1,103 @@
-# 新着記事ダイジェスト 2026-09-15
+# 新着記事ダイジェスト 2026-09-16
 
-候補 8件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.271
+## 🚨 オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.271
+- URL: https://www.publickey1.jp/blog/26/javaai.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-09-15
+- トピック: uncategorized
+- 総合スコア: 2.65
+
+オラクルは、これまで3カ月ごとに提供してきたJavaのアップデートパッチのサイクルを速め、1カ月ごとにセキュリティパッチを提供することを発表。先月（2026年8月）から実際にセキュリティパッチの提供が開始されていることを明らかにしました。 ...
+
+## v2.1.273
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.273
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-14
+- 公開日: 2026-09-15
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Added mouse support to the /config panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted Added claude self-hosted-runner --drain-marker-file <path> : when that file exists at a SIGTERM drain, the runner report
+What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at /mcp Added forking a session started with claude --remote-control or /remote-control from the Claude app; the fork runs as a backgr
 
-## How Fyxer built an AI executive assistant people trust
+## Presentation: Lead Without a Ladder: How I Climbed Into Engineering Leadership
 
-- URL: https://openai.com/index/fyxer
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-14
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.
-
-## AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)
-
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-09-14
-- トピック: ai_coding
-- 総合スコア: 4.05
-
-There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]
-
-## Meta Open-Sources Astryx, its Agent-Ready React Design System
-
-- URL: https://www.infoq.com/news/2026/09/meta-astryx-design-system
+- URL: https://www.infoq.com/presentations/engineering-leadership
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-13
-- トピック: ai_coding
-- 総合スコア: 3.65
+- 公開日: 2026-09-15
+- トピック: engineering_management, mba
+- 総合スコア: 3.8
 
-Meta recently announced the beta release of Astryx, an open-source React design system developed internally over eight years. Astryx builds on React 19 and StyleX to provide over 150 accessible UI components, customizable CSS design tokens, and dedicated CLI and MCP tooling — for both engineers and AI agents. By Bruno Couriol
+Pauline Jepp explains how systems thinking, rock climbing, and flocking behaviors apply to engineering leadership. She shares strategies for balancing team autonomy with alignment, supporting invisible work like mentorship, and navigating transitions from hands-on engineer to engineering leader while maintaining organizational trust and psychological safety. By Pauline Jepp
 
-## AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026
+## Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default
 
-- URL: https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-14
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-AIエージェントおよびMCP（Model Context Protocol）を主題としたイベント「AGNTCon＋MCPCon Japan 2026」が9月10日に東京渋谷のイベントホールで開催されました。主催はLinux Foundati...
-
-## OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ
-
-- URL: https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-14
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-MCPやAGENTS.md、Agent2AgentプロトコルなどのAIエージェントに関する関連技術の標準化推進や開発などを行うLinux Foundation傘下のAgentic AI Foundation（AAIF）は、オープンソースとし...
-
-## Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills
-
-- URL: https://www.infoq.com/presentations/decision-models-agentic-ai
+- URL: https://www.infoq.com/news/2026/09/amazon-linux-2027-preview
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-14
+- 公開日: 2026-09-15
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.75
 
-Alex Porcelli discusses the critical gap in enterprise AI: non-deterministic output and lack of accountability in high-stakes decisions. He shares how integrating DMN decision models with LLMs, agent skills, and NeMo guardrails creates auditable, deterministic agentic architectures - allowing business leaders to own decision logic while engineers maintain robust architectural governance. By Alex Porcelli
+AWS has released Amazon Linux 2027 in public preview, built on the AL2023 baseline with kernel 7.1 and SELinux in enforcing mode by default. Applications that pass on AL2023's permissive mode may fail under enforcing. The announcement gives no AL2023 end-of-support date, no GA date, and no in-place migration path. By Steef-Jan Wiggers
 
-## Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved
+## Grab's Agent Framework LLM-Kit Accelerates AI Agent Production Deployment
 
-- URL: https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report
+- URL: https://www.infoq.com/news/2026/09/grab-agent-platform
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-14
+- 公開日: 2026-09-15
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-After six days of on-site investigation at OpenAI, a small team of METR and Redwood Research researchers provided an account of how OpenAI agents behaved during their hack of Hugging Face earlier this year. Roughly 700 agents that were meant to be isolated from one another found a way to communicate and coordinate to pursue goals they could have not achieved working individually. By Sergio De Simone
+Grab has implemented LLM-Kit, a framework that standardizes over 500 internal agent services. This system enhances service integration, evaluation, and secret handling, reducing the time to deploy new AI agents from two weeks to one hour. It centralizes infrastructure management, allowing runtime tool discovery and flexible model integration, while maintaining operational control. By Hien Luu
+
+## Is Your Strategy Ambitious Enough?
+
+- URL: /2026/09/is-your-strategy-ambitious-enough
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-09-15
+- トピック: mba
+- 総合スコア: 3.55
+
+In the September 14 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how to calibrate your strategy’s ambition, the risks of “AI Sherlocking,” and more.
+
+## How GEO Is Changing the Role of Brand Manager
+
+- URL: /podcast/2026/09/how-geo-is-changing-the-role-of-brand-manager
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-09-15
+- トピック: mba
+- 総合スコア: 3.4
+
+As AI increasingly mediates what consumers know, consider, and buy, how does a company’s marketing strategy have to change?
+
+## v2.1.272
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.272
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-09-15
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+What's changed Bug fixes and reliability improvements
+
+## 窓口BPRアドバイザー等へデジタル大臣から感謝状を贈呈しました
+
+- URL: https://www.digital.go.jp/news/fac78de2-8cee-457e-a1ba-97db8b0a738a
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-15
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 松本大臣記者会見（令和8年9月15日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-260915-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-09-15
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
