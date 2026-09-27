@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-09-27T08:28:44.477576+09:00",
-  "date": "2026-09-27",
-  "count": 0,
-  "articles": [],
+  "generated_at": "2026-09-28T08:43:39.127467+09:00",
+  "date": "2026-09-28",
+  "count": 2,
+  "articles": [
+    {
+      "source_id": "src_20260928_1316",
+      "title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing",
+      "url": "https://www.infoq.com/news/2026/09/c-rust-rewrite",
+      "publisher": "InfoQ",
+      "author": "Olimpiu Pop",
+      "published_at": "2026-09-27",
+      "event_date": null,
+      "collected_at": "2026-09-28T08:43:38.486845+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:de61f458e17210d9aec365b9b9d5f0e089eb3591e9e6726f1e73ed12b76cc468",
+      "retrieval_status": "success",
+      "summary": "Google's security team developed a method to replace legacy C code in the giflib image-processing library with Rust, targeting inherent memory vulnerabilities. They utilised an automated migration process, ensuring compatibility and zero-day vulnerability mitigation. The project successfully maintained runtime performance while demonstrating that AI translations require ongoing human oversight. By Olimpiu Pop",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 2,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 2.5,
+      "must_include": true
+    },
+    {
+      "source_id": "src_20260928_1272",
+      "title": "マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開。Microsoft 365と同じテナント内でコード実行、管理者による集中管理も",
+      "url": "https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html",
+      "publisher": "Publickey",
+      "author": "jniino",
+      "published_at": "2026-09-27",
+      "event_date": null,
+      "collected_at": "2026-09-28T08:43:38.486845+09:00",
+      "source_type": "secondary",
+      "language": "ja",
+      "content_hash": "sha256:d139ca3f83440d883614e8c05452a67c2a39234edcd41ffe0fbd77e52d6474f8",
+      "retrieval_status": "success",
+      "summary": "マイクロソフトは、AIコーディングエージェントのMicrosoft Copilotなどで開発した社内アプリケーションを実行するためのセキュアな基盤「Copilot Managed Runtime」をパブリックプレビューとして公開しました。 ...",
+      "category": "ai_coding",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    }
+  ],
   "failures": []
 }
