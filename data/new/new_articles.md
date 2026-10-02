@@ -1,142 +1,102 @@
-# 新着記事ダイジェスト 2026-10-01
+# 新着記事ダイジェスト 2026-10-02
 
-候補 14件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.286
+## v2.1.287
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.286
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.287
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-09-30
+- 公開日: 2026-10-01
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added a count such as "2 of 5" to the permission prompt when several permission requests stack up Added mouse support for the "N more" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire Fixed claude --resume and --continue sometimes losing every turn after a batch of parallel tool calls 
+What's changed Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with /plugin enable cc-plugin-you-should-know@builtin (for first-party sessions with telemetry on) Added an n:<text> filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match Added prompt_text to the OpenTelemet
 
-## Disrupting a coordinated model-distillation campaign
+## How Albertsons Companies is reimagining retail from the inside out
 
-- URL: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+- URL: https://openai.com/index/albertsons-reimagining-retail
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-30
+- 公開日: 2026-10-01
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.
+Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
 
-## Helping small businesses put AI to work
+## Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)
 
-- URL: https://openai.com/index/helping-small-businesses-put-ai-to-work
+- URL: https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview
+- 発行元: AWS News Blog(種別: primary)
+- 公開日: 2026-10-01
+- トピック: ai_coding
+- 総合スコア: 3.9
+
+Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.
+
+## Gビズポータルの電子ロッカーで商業登記リモート署名を利用した電子署名を付与できるようになりました（デジタル庁ウェブサービス・アプリケーション）
+
+- URL: https://services.digital.go.jp/gbiz-portal/news/20261001-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-01
+- トピック: public_policy
+- 総合スコア: 3.85
+
+
+
+## TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text
+
+- URL: https://www.infoq.com/news/2026/10/typesafe-ai-jev-released
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabilistic scores and confidence values. Jev's adoption has been swift, with integrations into platforms like Vercel and Netlify, highlighting its efficiency over traditional models. By Daniel Curtis
+
+## Accelerating Agentic AI in Production to Drive Measurable Outcomes
+
+- URL: /sponsored/2026/10/accelerating-agentic-ai-in-production-to-drive-measurable-outcomes
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-10-01
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Sponsor Content Webinar from AWS and Arize.
+
+## How AI Is Changing Innovation: Why Speed Alone Isn’t a Strategy
+
+- URL: /podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-10-01
+- トピック: mba
+- 総合スコア: 3.4
+
+A conversation with Cisco Chief Product Officer Jeetu Patel on exercising restraint while also building a culture of experimentation.
+
+## The eternal complement
+
+- URL: https://openai.com/index/the-eternal-complement
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.
-
-## Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches
-
-- URL: https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.
-
-## Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake
-
-- URL: https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations like predicate pushdown and caching for efficient performance.
-
-## Celebrating Our Newest AWS Heroes – September 2026
-
-- URL: https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]
-
-## Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース
-
-- URL: https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に...
-
-## InfoQ Online Cohorts Address AI Security and Coding Agent Verification
-
-- URL: https://www.infoq.com/news/2026/09/onlinecohorts-ai-certifications
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-A look at two InfoQ online certification cohorts covering security and privacy decisions in production AI systems and the verification needed when coding agents work in existing codebases. By Artenisa Chatziou
-
-## Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second
-
-- URL: https://www.infoq.com/news/2026/09/cursor-continuity-git-storage
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-09-30
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Cursor has introduced Continuity, a Git storage architecture that uses an S3 backed write ahead log as the source of truth. The design turns local NVMe repositories into warm caches and separates replica coordination from consistency. Cursor reports linear read scaling with up to 100 replicas and more than 300 pushes per second with S3 Express One Zone in synthetic tests. By Leela Kumili
-
-## 自治体が実施する健康・医療・介護分野の事業のデジタル化（PMH）ー医療費助成に関するダッシュボードを公開しました
-
-- URL: https://www.digital.go.jp/resources/govdashboard/pmh-medical-expense-subsidies
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-30
-- トピック: uncategorized
-- 総合スコア: 3.2
-
-
-
-## 電子カルテの導入状況に関するダッシュボードを公開しました
-
-- URL: https://www.digital.go.jp/resources/govdashboard/electronic-medical-record
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-30
-- トピック: uncategorized
-- 総合スコア: 3.2
-
-
-
-## 令和8年熊本地震に関する対応状況について（9月30日）
-
-- URL: https://www.digital.go.jp/news/8ee2e00d-6a81-452a-9191-7796fba0ae77
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-30
+- 公開日: 2026-10-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
+Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
 
+## The Den frees up 10-15 hours a week to grow with ChatGPT Work
 
-## 地方公共団体におけるアナログ規制の見直しの取組紹介「和歌山県における衛星データとAIの活用事例」を掲載しました
-
-- URL: https://www.digital.go.jp/policies/digital-extraordinary-administrative-research-committee/local-government
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-30
+- URL: https://openai.com/index/the-den-family-social
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
+As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
 
+## 国・地方デジタル共通基盤推進連絡協議会ワーキングチーム（第16回）の会議資料等を掲載しました
 
-## 共通機能の標準仕様に係る仕様書最新版のリンク集を更新しました
-
-- URL: https://www.digital.go.jp/policies/local_governments/common-feature-specification
+- URL: https://www.digital.go.jp/councils/kyotsuwt/b152169b-f876-4d57-9cd9-2b3a211d3826
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-09-30
+- 公開日: 2026-10-01
 - トピック: uncategorized
 - 総合スコア: 3.05
 
