@@ -1,102 +1,102 @@
-# 新着記事ダイジェスト 2026-10-02
+# 新着記事ダイジェスト 2026-10-03
 
 候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.287
+## A model guide for the GPT-6 family
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.287
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-01
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-What's changed Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with /plugin enable cc-plugin-you-should-know@builtin (for first-party sessions with telemetry on) Added an n:<text> filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match Added prompt_text to the OpenTelemet
-
-## How Albertsons Companies is reimagining retail from the inside out
-
-- URL: https://openai.com/index/albertsons-reimagining-retail
+- URL: https://openai.com/index/practical-guide-building-gpt-6
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-01
+- 公開日: 2026-10-02
+- トピック: ai_coding
+- 総合スコア: 4.3
+
+Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
+
+## Chatham scales its capital markets expertise with OpenAI
+
+- URL: https://openai.com/index/chatham-financial
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-02
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
+Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.
 
-## Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)
+## 2026年10月20日から「Androidのマイナンバーカード」を開始予定です（デジタル庁ウェブサービス・アプリケーション）
 
-- URL: https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-10-01
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.
-
-## Gビズポータルの電子ロッカーで商業登記リモート署名を利用した電子署名を付与できるようになりました（デジタル庁ウェブサービス・アプリケーション）
-
-- URL: https://services.digital.go.jp/gbiz-portal/news/20261001-01
+- URL: https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-01
+- 公開日: 2026-10-02
 - トピック: public_policy
 - 総合スコア: 3.85
 
 
 
-## TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text
+## Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%
 
-- URL: https://www.infoq.com/news/2026/10/typesafe-ai-jev-released
+- URL: https://www.infoq.com/news/2026/10/uber-eats-search-latency
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-01
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabilistic scores and confidence values. Jev's adoption has been swift, with integrations into platforms like Vercel and Netlify, highlighting its efficiency over traditional models. By Daniel Curtis
-
-## Accelerating Agentic AI in Production to Drive Measurable Outcomes
-
-- URL: /sponsored/2026/10/accelerating-agentic-ai-in-production-to-drive-measurable-outcomes
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-10-01
+- 公開日: 2026-10-02
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Sponsor Content Webinar from AWS and Arize.
+Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrieval work, parallel hydration, advertising data redesign, infrastructure optimizations, and an agentic coding workflow. Uber is also exploring microbatching, product-based retrieval, and HTTP multipart streaming. By Leela Kumili
 
-## How AI Is Changing Innovation: Why Speed Alone Isn’t a Strategy
+## Engineering Production Systems for an Agentic Era: QCon San Francisco 2026
 
-- URL: /podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-10-01
-- トピック: mba
-- 総合スコア: 3.4
+- URL: https://www.infoq.com/news/2026/10/qconsf-2026-sessions
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-02
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-A conversation with Cisco Chief Product Officer Jeetu Patel on exercising restraint while also building a culture of experimentation.
+QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI agents take on a larger role. By Artenisa Chatziou
 
-## The eternal complement
+## Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images
 
-- URL: https://openai.com/index/the-eternal-complement
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-01
+- URL: https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-02
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself. By Claudio Masolo
+
+## v2.1.288
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.288
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-02
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
+What's changed Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images Added a re-a
 
-## The Den frees up 10-15 hours a week to grow with ChatGPT Work
+## 令和7年度（2025年度）特別職国家公務員の再就職状況を公表しました
 
-- URL: https://openai.com/index/the-den-family-social
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-01
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.
-
-## 国・地方デジタル共通基盤推進連絡協議会ワーキングチーム（第16回）の会議資料等を掲載しました
-
-- URL: https://www.digital.go.jp/councils/kyotsuwt/b152169b-f876-4d57-9cd9-2b3a211d3826
+- URL: https://www.digital.go.jp/news/90de4098-6f70-433f-a492-7ab11d87e72d
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-01
+- 公開日: 2026-10-02
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 政策ダッシュボード一覧に国土強靭化の取組に関するダッシュボード（内閣官房）を掲載しました
+
+- URL: https://www.digital.go.jp/resources/govdashboard
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-02
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 古川大臣記者会見（令和8年10月2日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-261002-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-02
 - トピック: uncategorized
 - 総合スコア: 3.05
 
