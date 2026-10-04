@@ -1,43 +1,23 @@
-# 新着記事ダイジェスト 2026-10-04
+# 新着記事ダイジェスト 2026-10-05
 
-候補 4件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 2件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 AI Agents Are Disrupting Open Source Security Disclosure
+## New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate
 
-- URL: https://www.infoq.com/news/2026/10/open-source-ai-security
+- URL: https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-03
-- トピック: uncategorized
-- 総合スコア: 2.65
-
-A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open source projects. The author highlights the need for faster patching and release processes as the time between vulnerability disclosure and exploitation shrinks. By Renato Losio
-
-## 🚨 GitLab Vulnerability Under Active Exploitation Enables Unauthenticated Data Exfiltration
-
-- URL: https://www.infoq.com/news/2026/10/gitlab-critical-vulnerabilities
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-03
-- トピック: uncategorized
-- 総合スコア: 2.5
-
-CVE-2026-85706 is a critical GitLab path-traversal vulnerability that has moved beyond theoretical risk into confirmed exploitation. It affects self-managed GitLab CE/EE and could allow an unauthenticated remote attacker to read arbitrary files from the GitLab. By Sergio De Simone
-
-## v2.1.289
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.289
-- 発行元: Claude Code Releases(種別: primary)
 - 公開日: 2026-10-03
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.65
 
-What's changed Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines Fixed the terminal freezing on short code blocks with many unclosed <script> tags or deeply nested ${ substitutions Fixed Read deny rules not applying to files @-mentioned, changed, or selected in the IDE through a symlink [VSCode] Reverted a 2.1.288 change to claude auth status that may have made sign-outs more frequent Improved how quickly la
+Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports zero successful attacks when running security benchmarks Bench-Corp (20 multi-step enterprise workflows) and AgentThreatBench, versus 10% for Claude Code’s auto mode and 31% for Microsoft FIDES. By Bruno Couriol
 
-## Presentation: Building GenAI Platform at DoorDash
+## Pizza Bot: Open-Source Inbox for Background AI Agents
 
-- URL: https://www.infoq.com/presentations/doordash-genai-platform-architecture
+- URL: https://www.infoq.com/news/2026/10/pizza-bot-ai-agents
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-03
+- 公開日: 2026-10-04
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transitioning from vendor-first setups to open-weights models, navigating LLM and agent gateways, and balancing accuracy, latency, and cost for over 5,000 internal users. By Siddharth Kodwani, Swaroop Chitlur
+A team of developers working at AWS recently open-sourced Pizza Bot, a self-hosted application designed to let AI agents run tasks in the background and return results through an inbox-style interface. Agents can perform scheduled or webhook-triggered work, delegate tasks to specialized workers, and pause for human approval when needed. By Renato Losio
