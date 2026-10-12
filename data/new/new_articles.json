@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-10-11T09:10:39.502161+09:00",
-  "date": "2026-10-11",
-  "count": 0,
-  "articles": [],
+  "generated_at": "2026-10-12T09:24:05.637343+09:00",
+  "date": "2026-10-12",
+  "count": 2,
+  "articles": [
+    {
+      "source_id": "src_20261012_1374",
+      "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai",
+      "publisher": "InfoQ",
+      "author": "Matt Saunders",
+      "published_at": "2026-10-11",
+      "event_date": null,
+      "collected_at": "2026-10-12T09:24:05.139479+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:db14335356d88167f3777d5a8e8b0ee01d2875e1b3af597c6d5095b9bc8acd24",
+      "retrieval_status": "success",
+      "summary": "Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends changes and reruns tests to check that a fix works. By Matt Saunders",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 4,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.75,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261012_1375",
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "url": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses",
+      "publisher": "InfoQ",
+      "author": "Renato Losio",
+      "published_at": "2026-10-11",
+      "event_date": null,
+      "collected_at": "2026-10-12T09:24:05.139479+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:6b4580703d64d354b97434004248045fd90c9d0e6cbe0ddeeafcdfabd685567a",
+      "retrieval_status": "success",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
+      "must_include": false
+    }
+  ],
   "failures": []
 }
