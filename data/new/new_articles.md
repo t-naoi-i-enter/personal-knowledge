@@ -1,70 +1,90 @@
-# 新着記事ダイジェスト 2026-10-13
+# 新着記事ダイジェスト 2026-10-14
 
-候補 7件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 9件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## GitHub Copilot app for Beginners: How to teach Copilot about your codebase
+## 🚨 ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution
 
-- URL: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase
-- 発行元: GitHub Blog(種別: primary)
-- 公開日: 2026-10-12
+- URL: https://www.infoq.com/news/2026/10/zimbra-command-injection
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-13
+- トピック: uncategorized
+- 総合スコア: 2.5
+
+A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This flaw, stemming from improper input sanitization, has been actively exploited. Organizations are advised to upgrade to version 10.1.20 or disable susceptible SNMP services to mitigate risks. By Olimpiu Pop
+
+## Higgsfield takes AI video from 1 minute to over 10
+
+- URL: https://openai.com/index/higgsfield-longer-videos-voice
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-13
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 4.15
 
-Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .
+Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
 
-## Announcing AWS Lambda Web Functions
+## AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)
 
-- URL: https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere
+- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026
 - 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-10-12
+- 公開日: 2026-10-13
 - トピック: ai_coding
 - 総合スコア: 3.9
 
-AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.
+Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]
 
-## GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls
+## Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026
 
-- URL: https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents
+- URL: https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-12
+- 公開日: 2026-10-13
 - トピック: ai_coding
-- 総合スコア: 3.75
+- 総合スコア: 3.6
 
-GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Context Protocol (MCP) tools, and more detailed controls for AI spending. By Matt Saunders
+Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has confirmed sessions from engineers sharing how they handle these constraints. By Artenisa Chatziou
 
-## Research: When Being Authentic Undermines Your Leadership
+## AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures
 
-- URL: /2026/10/research-when-being-authentic-undermines-your-leadership
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-10-12
-- トピック: mba
-- 総合スコア: 3.55
-
-How to share the right things—in the right way.
-
-## Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies
-
-- URL: https://www.infoq.com/articles/liquid-clustering-lakehouse-layout
+- URL: https://www.infoq.com/news/2026/10/aws-eventbridge-scaling
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-12
-- トピック: mba
-- 総合スコア: 3.4
+- 公開日: 2026-10-13
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, uncovering two undocumented failure modes that likely affect production systems today and offering a decision framework for choosing the right layout strategy. By Kushal Kumar Vishwakarma
+AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi
 
-## Presentation: You Can't Trust Your AI Bill. And Neither Can I
+## Are Harnesses Worth the Cost?
 
-- URL: https://www.infoq.com/presentations/ai-cloud-cost-economics
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-12
-- トピック: mba
-- 総合スコア: 3.4
+- URL: https://martinfowler.com/articles/are-harnesses-worth-the-cost.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-10-13
+- トピック: ai_coding
+- 総合スコア: 3.45
 
-Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced developer promotions, and why fully autonomous AI will write, deploy, and govern code by 2028. By Erik Peterson
+Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized model, GPT-6 Luna, succeeded in only 3 of 10 unharnessed runs and all 10 with the harness. While adding the harness increased token usage and runtime for Luna, the harnessed Luna runs achieved the same 10-for-10 reliability as GPT-6 Sol while costing 33% less per run ($0.273 vs $0.406). This experime
 
-## 古川大臣記者会見（令和8年10月13日）動画を掲載しました
+## 預貯金口座付番制度に係る一部手続きの対象外となる金融機関を更新しました
 
-- URL: https://www.digital.go.jp/speech/minister-261013-01
+- URL: https://www.digital.go.jp/policies/numbering-on-accounts/designate
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-13
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## マイナンバー制度の広報用ロゴマーク等使用申請書を更新しました
+
+- URL: https://www.digital.go.jp/policies/mynumber_logo
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-13
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 「デジタル社会推進会議幹事会の開催について」の資料を更新しました
+
+- URL: https://www.digital.go.jp/councils/social-promotion-executive
 - 発行元: デジタル庁 新着情報(種別: primary)
 - 公開日: 2026-10-13
 - トピック: uncategorized
