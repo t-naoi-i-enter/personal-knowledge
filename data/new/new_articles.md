@@ -1,93 +1,103 @@
-# 新着記事ダイジェスト 2026-10-14
+# 新着記事ダイジェスト 2026-10-15
 
-候補 9件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution
+## v2.1.299
 
-- URL: https://www.infoq.com/news/2026/10/zimbra-command-injection
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-13
-- トピック: uncategorized
-- 総合スコア: 2.5
-
-A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This flaw, stemming from improper input sanitization, has been actively exploited. Organizations are advised to upgrade to version 10.1.20 or disable susceptible SNMP services to mitigate risks. By Olimpiu Pop
-
-## Higgsfield takes AI video from 1 minute to over 10
-
-- URL: https://openai.com/index/higgsfield-longer-videos-voice
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-13
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.299
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-14
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
+What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change idle compaction's 200K-token minimum; "idleCompaction": false in settings.json 
 
-## AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)
+## Amp puts AI agents to work beyond code with OpenAI models
 
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-10-13
+- URL: https://openai.com/index/amp-beyond-coding
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-14
 - トピック: ai_coding
-- 総合スコア: 3.9
+- 総合スコア: 4.15
 
-Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]
+See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.
 
-## Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026
+## SentinelOne cuts malware analysis from weeks to hours
 
-- URL: https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2
+- URL: https://openai.com/index/sentinelone
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-14
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.
+
+## How Third Moment Research runs 10,000 agents for 36+ hours
+
+- URL: https://openai.com/index/third-moment-research
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-14
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.
+
+## How Block is building AI-powered security with OpenAI technology
+
+- URL: https://openai.com/index/block-ai-powered-security
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-14
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.
+
+## The EU’s next chapter in AI is agentic
+
+- URL: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-14
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.
+
+## デジタル庁コンプライアンス委員会（第12回）の議事要旨および資料を掲載しました
+
+- URL: https://www.digital.go.jp/councils/compliance/91dadb4f-4f6a-486c-9167-528e1564b3e7
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-14
+- トピック: public_policy
+- 総合スコア: 3.85
+
+
+
+## Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy
+
+- URL: https://www.infoq.com/news/2026/10/antigravity-sdk-local-models
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-13
+- 公開日: 2026-10-14
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has confirmed sessions from engineers sharing how they handle these constraints. By Artenisa Chatziou
+Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based models for higher-level tasks. This approach gives developers greater control over data privacy, inference costs, network dependencies, and computational workload distribution. By Sergio De Simone
 
-## AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures
+## From Bedrock to Business: The Last Mile of Agentic AI
 
-- URL: https://www.infoq.com/news/2026/10/aws-eventbridge-scaling
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-13
+- URL: /sponsored/2026/10/from-bedrock-to-business-the-last-mile-of-agentic-ai
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-10-14
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi
+Sponsor Content Webinar from AWS and Workato.
 
-## Are Harnesses Worth the Cost?
+## v2.1.300
 
-- URL: https://martinfowler.com/articles/are-harnesses-worth-the-cost.html
-- 発行元: martinfowler.com(種別: opinion)
-- 公開日: 2026-10-13
-- トピック: ai_coding
-- 総合スコア: 3.45
-
-Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized model, GPT-6 Luna, succeeded in only 3 of 10 unharnessed runs and all 10 with the harness. While adding the harness increased token usage and runtime for Luna, the harnessed Luna runs achieved the same 10-for-10 reliability as GPT-6 Sol while costing 33% less per run ($0.273 vs $0.406). This experime
-
-## 預貯金口座付番制度に係る一部手続きの対象外となる金融機関を更新しました
-
-- URL: https://www.digital.go.jp/policies/numbering-on-accounts/designate
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-13
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.300
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-14
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-
-
-## マイナンバー制度の広報用ロゴマーク等使用申請書を更新しました
-
-- URL: https://www.digital.go.jp/policies/mynumber_logo
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-13
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
-
-## 「デジタル社会推進会議幹事会の開催について」の資料を更新しました
-
-- URL: https://www.digital.go.jp/councils/social-promotion-executive
-- 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-13
-- トピック: uncategorized
-- 総合スコア: 3.05
-
-
+What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir prop on a mod's Text for right-to-left text: on Windows and in VS Code's terminal 
