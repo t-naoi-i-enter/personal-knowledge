@@ -1,103 +1,113 @@
-# 新着記事ダイジェスト 2026-10-15
+# 新着記事ダイジェスト 2026-10-16
 
-候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.299
+## v2.1.301
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.299
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.301
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-14
+- 公開日: 2026-10-15
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change idle compaction's 200K-token minimum; "idleCompaction": false in settings.json 
+What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a mod's Input : a text field of several lines in the terminal, where Enter submit
 
-## Amp puts AI agents to work beyond code with OpenAI models
+## Bringing GPT-Rosalind to academic research labs
 
-- URL: https://openai.com/index/amp-beyond-coding
+- URL: https://openai.com/index/introducing-the-rosalind-academic-plan
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-14
+- 公開日: 2026-10-15
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.
+Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.
 
-## SentinelOne cuts malware analysis from weeks to hours
+## 令和8年度（2026年度）デジタル庁情報システム調達改革検討会（第1回） の開催情報と資料を掲載しました
 
-- URL: https://openai.com/index/sentinelone
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-14
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.
-
-## How Third Moment Research runs 10,000 agents for 36+ hours
-
-- URL: https://openai.com/index/third-moment-research
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-14
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.
-
-## How Block is building AI-powered security with OpenAI technology
-
-- URL: https://openai.com/index/block-ai-powered-security
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-14
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.
-
-## The EU’s next chapter in AI is agentic
-
-- URL: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-14
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.
-
-## デジタル庁コンプライアンス委員会（第12回）の議事要旨および資料を掲載しました
-
-- URL: https://www.digital.go.jp/councils/compliance/91dadb4f-4f6a-486c-9167-528e1564b3e7
+- URL: https://www.digital.go.jp/councils/procurement-reform/FY2026/84c9dba6-43cb-4cf1-be91-0753c744f38d
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-14
+- 公開日: 2026-10-15
 - トピック: public_policy
 - 総合スコア: 3.85
 
 
 
-## Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy
+## デジタル庁ダッシュボードシリーズがグッドデザイン・ベスト100を受賞しました
 
-- URL: https://www.infoq.com/news/2026/10/antigravity-sdk-local-models
+- URL: https://www.digital.go.jp/press/bc0973b1-afd3-4948-8592-a610513e0a95
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-15
+- トピック: public_policy
+- 総合スコア: 3.85
+
+
+
+## Article: Server-Side DPoP and Token Exchange in Spring Security 7
+
+- URL: https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-14
+- 公開日: 2026-10-15
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchange, explains why 7.1 apps can silently stop enforcing DPoP until they call .dPoP(), and shows how to combine both into narrowed, sender-constrained tokens for service-to-service and agentic calls. By Dhruv Agnihotri
+
+## AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で
+
+- URL: https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-10-15
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based models for higher-level tasks. This approach gives developers greater control over data privacy, inference costs, network dependencies, and computational workload distribution. By Sergio De Simone
+Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScr...
 
-## From Bedrock to Business: The Last Mile of Agentic AI
+## Instagram Modernized its UI with an AI-Native Architecture, Cutting Token Costs by 33%
 
-- URL: /sponsored/2026/10/from-bedrock-to-business-the-last-mile-of-agentic-ai
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-10-14
+- URL: https://www.infoq.com/news/2026/10/instagram-compose-migration
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-15
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Sponsor Content Webinar from AWS and Workato.
+Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and maintain. According to Instagram engineers, the migration reduced UI code volume by 50% and token costs per AI agent session by 33%. By Sergio De Simone
 
-## v2.1.300
+## Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.300
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-14
+- URL: https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-15
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI adoption ladder and analyzes key failure points in context construction, multi-model routing, and feedback loops to help engineering leaders successfully scale agentic workflows. By Brendan O’Leary
+
+## 動画【ガバメントAI 開発記録】雇用環境・均等行政の挑戦【①AIに何を任せるか】を公開しました
+
+- URL: https://www.digital.go.jp/policies/genai/employment-equality-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-15
+- トピック: uncategorized
+- 総合スコア: 3.2
+
+
+
+## Teaching students to think and learn through questions
+
+- URL: https://openai.com/index/teaching-students-to-think-and-learn-through-questions
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-15
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir prop on a mod's Text for right-to-left text: on Windows and in VS Code's terminal 
+Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.
+
+## 行政手続における特定の個人を識別するための番号の利用等に関する法律に規定する個人番号、個人番号カード、特定個人情報の提供等に関する命令の一部を改正する命令（案）及び個人番号カード等に関する技術的基準の一部を改正する件（案）に係る意見募集の結果が公表されました
+
+- URL: https://www.digital.go.jp/get-involved/procedure/e01662cd-4263-445c-8db8-55013d45ab10
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-15
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
