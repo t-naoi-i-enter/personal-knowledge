@@ -1,43 +1,33 @@
-# 新着記事ダイジェスト 2026-10-18
+# 新着記事ダイジェスト 2026-10-19
 
-候補 4件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 3件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## 🚨 Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性
+## AWS Introduces Preview of Well-Architected Agent
 
-- URL: https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-10-17
+- URL: https://www.infoq.com/news/2026/10/aws-well-architected-agent
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-18
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, security, performance, and reliability. The AI agent can also suggest remediation steps and review infrastructure-as-code before deployment. By Renato Losio
+
+## AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours
+
+- URL: https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-18
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region’s own hardware and software. AWS says neither of the two systems being severed is operation-critical, and practitioners are divided over whether the exercise answers the question customers are asking. By Steef-Jan Wiggers
+
+## v2.1.303
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.303
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-18
 - トピック: uncategorized
-- 総合スコア: 2.65
+- 総合スコア: 3.05
 
-悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 ...
-
-## How Itaú is building generative AI for its entire customer base
-
-- URL: https://openai.com/index/itau-generative-ai
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-16
-- トピック: mba
-- 総合スコア: 3.85
-
-With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.
-
-## Reverse Engineer Anything Project Brings AI Agents to Binary Analysis
-
-- URL: https://www.infoq.com/news/2026/10/reverse-engineer-anything
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-17
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and IDA. The project lets developers inspect compiled binaries, trace function calls, and investigate how applications implement specific features. By Renato Losio
-
-## Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL
-
-- URL: https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-17
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin
+What's changed Bug fixes and reliability improvements
