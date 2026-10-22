@@ -1,162 +1,142 @@
-# 新着記事ダイジェスト 2026-10-22
+# 新着記事ダイジェスト 2026-10-23
 
-候補 16件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 14件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.307
+## 🚨 Cloudflare links vulnerability discovery to defense with OpenAI
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.307
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed requests failing with a model-not-found error when CLAUDE_CODE_DISABLE_1M_CONTEXT is set and the model is an alias with the [1m] suffix, such as opus[1m] Fixed the prompt-caching-scope beta header being sent behind custom ANTH
-
-## v2.1.306
-
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.306
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-What's changed Fixed claude -p inside cloud sessions reporting "Not logged in" when started without the session's environment variables Fixed an API error being replaced by "prompt is too long", and an unneeded compaction, in sessions with many MCP tools
-
-## How AT&T is rethinking in-house legal work with OpenAI
-
-- URL: https://openai.com/index/att-legal
+- URL: https://openai.com/index/cloudflare-cyber
 - 発行元: OpenAI News(種別: primary)
 - 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.
-
-## Broad access through consistent standards
-
-- URL: https://openai.com/index/broad-access-through-consistent-standards
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.
-
-## OpenAI models are coming to Google Cloud
-
-- URL: https://openai.com/index/openai-models-google-cloud
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.
-
-## Using thousands of AI agents to uncover new leads in biological data
-
-- URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.
-
-## How we built ChatGPT’s novel ad stack for user trust and relevance
-
-- URL: https://openai.com/index/building-chatgpt-ad-stack
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.
-
-## Democratic governance of frontier AI, part II: Empowering cyber defenders
-
-- URL: https://openai.com/index/empowering-cyber-defenders
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.
-
-## Terminal X matches senior investor judgment 88.6% with GPT-6.1
-
-- URL: https://openai.com/index/terminal-x
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-20
 - トピック: ai_coding
 - 総合スコア: 4.05
 
-Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.
+Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.
 
-## Netflix Bridges AWS IAM and Internal Identity with Workload Attestation
+## v2.1.309
 
-- URL: https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-21
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.309
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-22
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 4.15
 
-Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing short-lived internal X.509 certificates, allowing managed compute workloads to authenticate to internal services without directly injecting credentials. By Leela Kumili
+What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with --mcp-config Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions Fixed th
 
-## Article Series: Agentic AI Architecture
+## Uber brings ChatGPT Work to all employees with OpenAI
 
-- URL: https://www.infoq.com/articles/agentic-ai-architecture-article-series
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry experts, cover various elements and aspects of agentic AI architecture. We aim to present the latest trends and developments shaping the new type of architecture as it enters the mainstream. By Rafał Gancarz
-
-## Presentation: AI is an Amplifier: Scale High Performance, Not Dysfunction
-
-- URL: https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Nathen Harvey shares insights from DORA research on AI adoption in software delivery. He explains why AI acts as an amplifier, how the DORA AI Capabilities Model drives outcomes, and why engineering leaders must evolve beyond bottlenecks like code reviews to achieve sustainable productivity, reduce delivery instability, and empower developers without burning out their teams. By Nathen Harvey
-
-## Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers
-
-- URL: https://www.infoq.com/news/2026/10/synthid-watermarking-detector
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-21
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenAI, NVIDIA, and Kakao, with Apple support expected soon. By Sergio De Simone
-
-## Patch the Planet: global response coordination as agents uncover critical vulnerabilities
-
-- URL: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+- URL: https://openai.com/index/uber-chatgpt-work-rollout
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.
+
+## AWS Continuum for code vulnerabilities is now generally available
+
+- URL: https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available
+- 発行元: AWS News Blog(種別: primary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.9
+
+AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.
+
+## Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded
+
+- URL: https://www.infoq.com/news/2026/10/vercel-zig-fx-agent
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questioned its model-agnostic claim and a name conflict with an existing tool. Vercel says the project is pre-1.0 and changing quickly. By Daniel Curtis
+
+## Presentation: Actors for Agents: Patterns for Production AI
+
+- URL: https://www.infoq.com/presentations/actors-for-production-ai-agents
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state, and supervision boundaries to manage failures, continuations, and mutable execution graphs, moving agentic workflows beyond fragile demos to resilient architecture. By Manju Rajashekhar
+
+## Article: AI Changes the Data Interface, Not the Query Engine
+
+- URL: https://www.infoq.com/articles/ai-changes-data-interface
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains the determinism split, replayable analysis, and four signals for deciding when an embedded engine is sufficient or a managed lakehouse is justified. By Peihao Yuan
+
+## Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs
+
+- URL: https://www.infoq.com/news/2026/10/ai-agents-harbor-docker
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a container, tasks are isolated for better performance By Claudio Masolo
+
+## Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready
+
+- URL: https://www.infoq.com/news/2026/10/photocraft-adobe-parity
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-22
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was not anywhere close to ready. Its own roadmap puts it at 45% ready for real work and 2,300 to 4,100 agent-hours from full parity. By Steef-Jan Wiggers
+
+## v2.1.308
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.308
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-10-22
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.
+What's changed Bug fixes and reliability improvements
 
-## ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform
+## Build more responsive apps with the Decisions API
 
-- URL: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+- URL: https://openai.com/index/decisions-api
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-21
+- 公開日: 2026-10-22
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.
+Fast, focused, low-cost decisions for any application.
 
-## 機械可読性ルール適合チェックツール「Harunobu」について掲載しました
+## Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について
 
-- URL: https://www.digital.go.jp/resources/machine-readability-rule/harunobu
+- URL: https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-21
+- 公開日: 2026-10-22
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## AI・デジタル改革推進会議（第1回）の議事次第および資料を掲載しました
+
+- URL: https://www.digital.go.jp/councils/ai_digital/1f3aa34a-786d-4b56-99a4-469f8f933f1c
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-22
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## カオASEAN事務総長が古川デジタル大臣を表敬訪問しました
+
+- URL: https://www.digital.go.jp/press/542b23b5-1fca-44c0-9e31-ea0079535b1a
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-22
 - トピック: uncategorized
 - 総合スコア: 3.05
 
