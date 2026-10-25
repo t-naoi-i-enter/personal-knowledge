@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-25T08:03:07.211421+09:00",
-  "date": "2026-10-25",
-  "count": 2,
+  "generated_at": "2026-10-26T08:07:46.219844+09:00",
+  "date": "2026-10-26",
+  "count": 1,
   "articles": [
     {
-      "source_id": "src_20261025_1404",
-      "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
-      "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk",
+      "source_id": "src_20261026_1405",
+      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
       "publisher": "InfoQ",
-      "author": "Sergio De Simone",
-      "published_at": "2026-10-24",
+      "author": "Andrew Hoblitzell",
+      "published_at": "2026-10-25",
       "event_date": null,
-      "collected_at": "2026-10-25T08:03:06.544289+09:00",
+      "collected_at": "2026-10-26T08:07:45.496568+09:00",
       "source_type": "secondary",
       "language": "en",
-      "content_hash": "sha256:d9bce1206142554ab7f481cad72cbfbf68d201b165b72a4c3fe7aee66684a371",
+      "content_hash": "sha256:0164f1a3b69a58eb7800715fde1a6c8868278c39bdaea83165919663a8745ddd",
       "retrieval_status": "success",
-      "summary": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long sessions and cold package import time by 21%. By Sergio De Simone",
+      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in now sits. By Andrew Hoblitzell",
       "category": "engineering_management",
       "priority": "medium",
       "topics": [
@@ -27,42 +27,11 @@
         "impact": 4,
         "novelty": 5,
         "reliability": 3,
-        "actionability": 3,
+        "actionability": 4,
         "purpose_alignment": 2,
         "preference_fit": 3
       },
-      "total_score": 3.6,
-      "must_include": false
-    },
-    {
-      "source_id": "src_20261025_1405",
-      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
-      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga",
-      "publisher": "InfoQ",
-      "author": "Steef-Jan Wiggers",
-      "published_at": "2026-10-24",
-      "event_date": null,
-      "collected_at": "2026-10-25T08:03:06.544289+09:00",
-      "source_type": "secondary",
-      "language": "en",
-      "content_hash": "sha256:b33abb1d523c4723d2e7e0be0c1d7cd5c0a89f21f50c725d8fd67cfa1aa69b06",
-      "retrieval_status": "success",
-      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
-      "category": "engineering_management",
-      "priority": "medium",
-      "topics": [
-        "ai_coding"
-      ],
-      "scores": {
-        "relevance": 4,
-        "impact": 4,
-        "novelty": 5,
-        "reliability": 3,
-        "actionability": 3,
-        "purpose_alignment": 2,
-        "preference_fit": 3
-      },
-      "total_score": 3.6,
+      "total_score": 3.75,
       "must_include": false
     }
   ],
