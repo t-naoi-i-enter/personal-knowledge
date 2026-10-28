@@ -1,162 +1,152 @@
-# 新着記事ダイジェスト 2026-10-27
+# 新着記事ダイジェスト 2026-10-28
 
-候補 16件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 15件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.311
+## 🚨 How Check Point accelerates vulnerability research with Daybreak
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.311
+- URL: https://openai.com/index/check-point-daybreak
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-10-27
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.
+
+## v2.1.312
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.312
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude for explanations Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloa
+What's changed Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the "to send now" hint under a queued message sends it right away, as its key does Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from the VS Code extension Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included fil
 
-## Greptile takes bug detection beyond code review with GPT-6 Astra
+## OpenAI expands partnership with Oracle to bring its apps to ChatGPT
 
-- URL: https://openai.com/index/greptile-code-review-codex-astra
+- URL: https://openai.com/index/oracle-apps-in-chatgpt
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.
+OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.
 
-## Working with academic communities to build scientific understanding
+## Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live
 
-- URL: https://openai.com/index/building-scientific-understanding-with-academic-communities
+- URL: https://openai.com/index/anima
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-23
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.95
 
-OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.
+Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.
 
-## GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases
+## How Localiza reorganized work around generative AI
 
-- URL: https://openai.com/index/gpt-6-1-sol-coderabbit-code-security
+- URL: https://openai.com/index/localiza-generative-ai
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-16
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.85
 
-CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.
+See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.
 
-## ChatGPT’s expanding world of work
+## 「防災分野のデータ流通促進」の取組概要と「デジタル庁における官民共創による防災DXの推進」の資料を更新しました
 
-- URL: https://openai.com/index/chatgpt-expanding-world-of-work
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 4.15
+- URL: https://www.digital.go.jp/policies/disaster_prevention
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-27
+- トピック: public_policy
+- 総合スコア: 3.85
 
-Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.
 
-## How Fanatics and OpenAI streamline the fan experience
 
-- URL: https://openai.com/index/fanatics-streamline-fan-experience
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 4.15
+## 令和8年度（2026年度）デジタル庁情報システム調達改革検討会（第2回） の開催情報と資料を掲載しました
 
-Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.
+- URL: https://www.digital.go.jp/councils/procurement-reform/FY2026/24cfea22-3e10-418e-abbd-983af697d751
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-27
+- トピック: public_policy
+- 総合スコア: 3.85
 
-## How Ultrafast cut incident investigation from hours to minutes at OpenAI
 
-- URL: https://openai.com/index/openai-cut-incident-investigation
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 4.15
 
-See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.
+## JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能
 
-## Introducing GPT-6.1 Terra
-
-- URL: https://openai.com/index/introducing-gpt-6-1-terra
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Bringing fast and capable computer use to everyone
-
-## AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)
-
-- URL: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]
-
-## AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む
-
-- URL: https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html
+- URL: https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html
 - 発行元: Publickey(種別: secondary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。 A...
+Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。 2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互...
 
-## Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns
+## How Anthropic Redesigned Source Control for AI-Driven Development
 
-- URL: https://www.infoq.com/news/2026/10/cloudflare-auto-router
+- URL: https://www.infoq.com/news/2026/10/anthropic-source-control
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers
-
-## MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests
-
-- URL: https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-26
-- トピック: ai_coding
-- 総合スコア: 3.75
-
-Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers and Multi Round-Trip Requests. Releases 2.1 to 2.3 have since added hybrid session serving, a subscriptions/listen handler and a series of discovery, OAuth and shutdown fixes. By Edin Kapić
-
-## AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security
-
-- URL: https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Berkeley focused on MCP in production, security, and agents with their own identities. By Andrew Hoblitzell
+Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and tiered caches for agent and CI workloads. The design sacrifices offline independence for less local data and shared infrastructure. By Eran Stiller
 
-## Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code
+## Presentation: Serving LLMs at Scale: The Hidden KV Cache Advantage
 
-- URL: https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution
+- URL: https://www.infoq.com/presentations/llm-inference-kv-cache
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harnesses verify outputs through execution. The article advises validating model outputs and choosing the least complex design that meets reliability, speed, and cost needs. By Karthik Ramgopal
+Khawaja Shams shares a distributed systems perspective on scaling LLM inference stacks efficiently. He discusses practical strategies for optimizing GPU utilization, managing KV cache memory cliffs, leveraging tiered storage, reducing tail latency, and implementing disaggregated prefill and decode architectures to improve overall fleet performance, cost economics, and availability. By Khawaja Shams
 
-## Is HR Tech Undermining Your Strategy?
+## AWS Shows Use of AI Agents to Triage Linux Kernel CVEs
 
-- URL: https://sloanreview.mit.edu/article/is-hr-tech-undermining-your-strategy
-- 発行元: MIT Sloan Management Review(種別: secondary)
-- 公開日: 2026-10-26
+- URL: https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-27
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent and human review. The team also argues that it needs to move to newer long-term-support (LTS) kernels, as older branches collect fixes that are never backported. By Matt Saunders
+
+## Developers Reporting Double-Digit Weekly Time Savings from AI Fell from 68% to 26%
+
+- URL: https://www.infoq.com/news/2026/10/atlassian-devex-2026
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-10-27
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI. Engineering leaders report spending more time managing and correcting AI output than developers do. By Steef-Jan Wiggers
+
+## Staying Principled in a Time of Uncertainty
+
+- URL: /podcast/2026/10/staying-principled-in-a-time-of-uncertainty
+- 発行元: Harvard Business Review(種別: secondary)
+- 公開日: 2026-10-27
 - トピック: mba
 - 総合スコア: 3.4
 
-Getty Images HR technology is no longer peripheral to how organizations operate. A fast-growing assortment of platforms is touching the employee life cycle and capturing workforce data. At the October 2025 HR Technology Conference, more than 400 vendors showcased their wares, including new AI-enabled offerings. But despite this wealth of options, industry and consulting reports […]
+A conversation with former American Express CEO Kenneth Chenault on leadership in a challenging environment.
 
-## 国家資格等のオンライン・デジタル化に係る現在手続が可能な資格の情報を更新しました
+## 塩崎デジタル副大臣がアンドレス・ウンガ駐日エストニア共和国大使の表敬訪問を受けました
 
-- URL: https://www.digital.go.jp/policies/government-certification
+- URL: https://www.digital.go.jp/press/b1d81ddb-c690-47fc-be30-e98502f5045c
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-10-26
+- 公開日: 2026-10-27
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 古川大臣記者会見（令和8年10月27日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-261027-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-10-27
 - トピック: uncategorized
 - 総合スコア: 3.05
 
