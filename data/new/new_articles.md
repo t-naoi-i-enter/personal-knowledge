@@ -1,33 +1,33 @@
-# 新着記事ダイジェスト 2026-11-01
+# 新着記事ダイジェスト 2026-11-02
 
 候補 3件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.316
+## GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.316
-- 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-10-31
+- URL: https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-11-02
 - トピック: ai_coding
-- 総合スコア: 4.15
+- 総合スコア: 3.75
 
-What's changed Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with pooled_budget on the spend limits admin API Added CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one Added CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level 
+GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。 Copilot Fusi...
 
-## LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced
+## File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers
 
-- URL: https://www.infoq.com/news/2026/10/localstack-azure-preview
+- URL: https://www.infoq.com/news/2026/11/aws-s3-file-transfer
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-31
+- 公開日: 2026-11-01
+- トピック: ai_coding
+- 総合スコア: 3.75
+
+AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio
+
+## AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved
+
+- URL: https://www.infoq.com/news/2026/11/aws-capacity-sold-out
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-11-01
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a consistent pattern: configuration is stored and returned, while enforcement of access restrictions, TLS, and network rules is not implemented. By Steef-Jan Wiggers
-
-## Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs
-
-- URL: https://www.infoq.com/news/2026/10/google-pagebreak-security-agent
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-10-31
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Renato Losio
+Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing the remarks report difficulty obtaining On Demand capacity for ordinary EC2 instances, and similar constraints at other providers. By Steef-Jan Wiggers
