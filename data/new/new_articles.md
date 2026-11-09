@@ -1,13 +1,23 @@
-# 新着記事ダイジェスト 2026-11-08
+# 新着記事ダイジェスト 2026-11-09
 
-候補 1件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 2件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes
+## MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と
 
-- URL: https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety
+- URL: https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-11-08
+- トピック: ai_coding
+- 総合スコア: 3.6
+
+Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「M...
+
+## Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal
+
+- URL: https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-07
-- トピック: mba
-- 総合スコア: 3.55
+- 公開日: 2026-11-08
+- トピック: ai_coding
+- 総合スコア: 3.6
 
-The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone
+Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer. By Steef-Jan Wiggers

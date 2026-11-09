@@ -1,37 +1,68 @@
 {
-  "generated_at": "2026-11-08T09:21:16.224733+09:00",
-  "date": "2026-11-08",
-  "count": 1,
+  "generated_at": "2026-11-09T09:41:18.127220+09:00",
+  "date": "2026-11-09",
+  "count": 2,
   "articles": [
     {
-      "source_id": "src_20261108_1454",
-      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
-      "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety",
-      "publisher": "InfoQ",
-      "author": "Sergio De Simone",
-      "published_at": "2026-11-07",
+      "source_id": "src_20261109_1410",
+      "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
+      "url": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
+      "publisher": "Publickey",
+      "author": "jniino",
+      "published_at": "2026-11-08",
       "event_date": null,
-      "collected_at": "2026-11-08T09:21:15.720321+09:00",
+      "collected_at": "2026-11-09T09:41:17.612375+09:00",
       "source_type": "secondary",
-      "language": "en",
-      "content_hash": "sha256:37d0b1d6aa3e66f7254eaaffb20913e1452317ccb6294bfa62e29a996ad40299",
+      "language": "ja",
+      "content_hash": "sha256:75e98834e8699487a025e88b8572e03bbe1563ad339a2709ba63ff25801f35c1",
       "retrieval_status": "success",
-      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
-      "category": "engineering_management",
+      "summary": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「M...",
+      "category": "ai_coding",
       "priority": "medium",
       "topics": [
-        "mba"
+        "ai_coding"
       ],
       "scores": {
         "relevance": 4,
-        "impact": 3,
+        "impact": 4,
         "novelty": 5,
         "reliability": 3,
-        "actionability": 4,
+        "actionability": 3,
         "purpose_alignment": 2,
         "preference_fit": 3
       },
-      "total_score": 3.55,
+      "total_score": 3.6,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261109_1455",
+      "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+      "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware",
+      "publisher": "InfoQ",
+      "author": "Steef-Jan Wiggers",
+      "published_at": "2026-11-08",
+      "event_date": null,
+      "collected_at": "2026-11-09T09:41:17.612375+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:25c9aafc00aea18e37d17c914d7b90e60c9f4f7b20735966f2af2daad18909a3",
+      "retrieval_status": "success",
+      "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer. By Steef-Jan Wiggers",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
       "must_include": false
     }
   ],
