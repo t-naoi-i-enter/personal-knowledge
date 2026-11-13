@@ -1,103 +1,123 @@
-# 新着記事ダイジェスト 2026-11-12
+# 新着記事ダイジェスト 2026-11-13
 
-候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 12件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## Singapore Airlines elevates travel & work with OpenAI technology
+## 🚨 預貯金者の意思に基づく個人番号の利用による預貯金口座の管理等に関する法律施行規則の一部を改正する命令案に係る意見募集を行います
 
-- URL: https://openai.com/index/singapore-airlines-travel-work
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-10
-- トピック: ai_coding
-- 総合スコア: 4.05
-
-Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.
-
-## Cogent and OpenAI build cyber defense factories for enterprises
-
-- URL: https://openai.com/index/cogent-security
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-10
-- トピック: ai_coding
-- 総合スコア: 4.05
-
-Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.
-
-## Test your applications against AWS locally with AWS Emulator
-
-- URL: https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-11-11
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.
-
-## デジタル庁入札等監視委員会（第9回）の議事概要を掲載しました
-
-- URL: https://www.digital.go.jp/procurement/bid-surveillance-commission/a9362957-7d08-4278-b57d-8a0787c3e679
+- URL: https://www.digital.go.jp/get-involved/procedure/98e55a91-a46b-4f92-ac1f-7079d9d43c15
 - 発行元: デジタル庁 新着情報(種別: primary)
-- 公開日: 2026-11-11
-- トピック: public_policy
-- 総合スコア: 3.85
+- 公開日: 2026-11-12
+- トピック: uncategorized
+- 総合スコア: 3.05
 
 
 
-## AWS、AIエージェント向けに強力な隔離環境とネイティブなEC2性能を備えた軽量VM「AWS Nitro Sandboxes」提供開始
+## 🚨 公的給付の支給等の迅速かつ確実な実施のための預貯金口座の登録等に関する法律施行規則の一部を改正する庁令案に係る意見募集を行います
 
-- URL: https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html
+- URL: https://www.digital.go.jp/get-involved/procedure/2cfdcd95-421e-4153-b9b2-364cf503e63d
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-11-12
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## v2.1.323
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.323
+- 発行元: Claude Code Releases(種別: primary)
+- 公開日: 2026-11-12
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines["claude-code"] to plugin.json : plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits Added type checking of a plugin's TypeScript hooks module to claude plugin validate ; each findin
+
+## How Amplitude ships product improvements in 1–2 days with OpenAI
+
+- URL: https://openai.com/business/customer-stories/amplitude
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-12
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.
+
+## Supporting research on AI and children’s safety
+
+- URL: https://openai.com/index/children-first-declaration
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-12
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.
+
+## AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミュレータ」正式リリース
+
+- URL: https://www.publickey1.jp/blog/26/awsawsaws_1.html
 - 発行元: Publickey(種別: secondary)
-- 公開日: 2026-11-11
+- 公開日: 2026-11-12
 - トピック: ai_coding
 - 総合スコア: 3.75
 
-Amazon Web Services（AWS）は、Amazon EC2インスタンス上でほぼネイティブのEC2性能で動作しつつ、Nitroシステムハードウェアレベルのきわめて強力な隔離環境を備えた軽量な仮想マシン「AWS Nitro San...
+Amazon Web Servicesは、ローカルマシン上でAWSのAPIをエミュレートする「AWSエミュレータ」の正式リリースを発表しました。 ダウンロードしてインストールすれば誰でも無料で利用でき、AWSアカウントも不要です。 Toda...
 
-## GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls
+## Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector
 
-- URL: https://www.infoq.com/news/2026/11/github-agentic-workflows-ga
+- URL: https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-11
+- 公開日: 2026-11-12
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-GitHub Agentic Workflows is generally available, running coding agents in GitHub Actions with read-only defaults and separately scoped write jobs. Those protections do not cover direct write permissions or custom jobs, so they depend on how each workflow is configured. By Mark Silvester
+Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer activation extraction via patched vLLM engines, and production monitoring workflows for software architects and senior engineering leaders. By Hannes Hapke
 
-## How LinkedIn, Netflix & DoorDash Run Agents, Evals & Inference in Production: QCon AI New York 2026
+## Bliki: Generated Glossary
 
-- URL: https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-11
+- URL: https://martinfowler.com/bliki/GeneratedGlossary.html
+- 発行元: martinfowler.com(種別: opinion)
+- 公開日: 2026-11-12
 - トピック: ai_coding
-- 総合スコア: 3.6
+- 総合スコア: 3.45
 
-QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI systems they run in production. Talks cover agent permissions and guardrails, eval loops, inference cost, AI code review, and team adoption. By Artenisa Chatziou
+When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain. One technique to aid this is to use an LLM to generate a glossary of the terminology in that domain, and make this glossary available for any LLMs doing work in those circums
 
-## The Math Driving Agentic AI Adoption in NetOps
+## Gondola doubles revenue as its team builds more with Codex
 
-- URL: /sponsored/2026/11/the-math-driving-agentic-ai-adoption-in-netops
-- 発行元: Harvard Business Review(種別: secondary)
-- 公開日: 2026-11-11
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-Sponsor Content from Cisco.
-
-## ChatGPT Plus for veterans and servicemembers
-
-- URL: https://openai.com/index/chatgpt-plus-for-veterans
+- URL: https://openai.com/business/customer-stories/gondola
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-11
+- 公開日: 2026-11-12
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.
+Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.
 
-## JioStar’s chief architect on AI discovery at 500M-user scale
+## Holiday Extras is rethinking what it can build with Codex
 
-- URL: https://openai.com/index/jiostar-vijay-seshadri
+- URL: https://openai.com/business/customer-stories/holidays-extras-codex
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-11
+- 公開日: 2026-11-12
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.
+With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.
+
+## 古川大臣記者会見（令和8年11月13日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-261113-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-11-13
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
+
+## 地方公共団体情報システム標準化の課題の把握及び今後の推進方策に関する検討会（第1回）の概要を掲載しました
+
+- URL: https://www.digital.go.jp/councils/local-governments-standardization-issues/2ca6b72e-057d-4a8d-95ef-a48dc7b80a94
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-11-12
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
