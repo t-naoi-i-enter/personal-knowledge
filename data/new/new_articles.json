@@ -1,7 +1,101 @@
 {
-  "generated_at": "2026-11-15T09:56:24.300829+09:00",
-  "date": "2026-11-15",
-  "count": 0,
-  "articles": [],
+  "generated_at": "2026-11-16T09:54:19.279845+09:00",
+  "date": "2026-11-16",
+  "count": 3,
+  "articles": [
+    {
+      "source_id": "src_20261116_011",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-11-15",
+      "event_date": null,
+      "collected_at": "2026-11-16T09:54:18.566155+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:5cc4da0f27a42e3b7555a07978143b85cc39f6caeeed561a5b6f79dcc79440ef",
+      "retrieval_status": "success",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.15,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261116_012",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-11-15",
+      "event_date": null,
+      "collected_at": "2026-11-16T09:54:18.566155+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:a5b2caa4196770b199867b4c942ae6dddd703a20a8e69715bc6a5ce4532a975b",
+      "retrieval_status": "success",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 4.15,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261116_1476",
+      "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-review",
+      "publisher": "InfoQ",
+      "author": "Robert Krzaczyński",
+      "published_at": "2026-11-15",
+      "event_date": null,
+      "collected_at": "2026-11-16T09:54:18.566155+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:bb862560cf624fbad4bae64cb0c59fba9faf47f140159c9f8817e1972f22da17",
+      "retrieval_status": "success",
+      "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
+      "must_include": false
+    }
+  ],
   "failures": []
 }
