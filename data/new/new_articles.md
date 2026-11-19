@@ -1,113 +1,123 @@
-# 新着記事ダイジェスト 2026-11-18
+# 新着記事ダイジェスト 2026-11-19
 
-候補 11件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 12件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.327
+## v2.1.328
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.327
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.328
 - 発行元: Claude Code Releases(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-19
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added a confirmation before /install-github-app changes a repository Added claude mcp add-json <name> - to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session Added a line when a resumed session's earlier messages can't be loaded Added a list in /status of broken agent, skill, command and output style files, keybinding errors, an unavailable sandbox, ignored permission settings and hook matchers that never match Ad
+What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added "onFailure": "block" for mcp_tool hooks, as for command and HTTP hooks: a hook whose call fails blocks the action Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session Added a notice in /status and claude doctor w
 
-## Introducing GPT-6.2 Astra and Sol
+## The Silent Consensus
 
-- URL: https://openai.com/index/introducing-gpt-6-2-astra-sol
+- URL: https://openai.com/index/the-silent-consensus
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.
+Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
 
-## Strengthening NATO and allied cyber defenses with AI
+## Research acceleration: The jagged frontier
 
-- URL: https://openai.com/index/strengthening-nato-allied-cyber-defences-ai
+- URL: https://openai.com/index/research-acceleration-jagged-frontier
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
+OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.
 
-## Introducing OpenAI for Chile
+## Managing frontier AI risk: From training to deployment
 
-- URL: https://openai.com/index/introducing-openai-for-chile
+- URL: https://openai.com/index/managing-frontier-ai-risk
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.
+OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.
 
-## How Revolut raises ambition without lowering the bar
+## Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT
 
-- URL: https://openai.com/business/customer-stories/revolut
+- URL: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-16
+- 公開日: 2026-11-18
 - トピック: ai_coding
-- 総合スコア: 4.05
+- 総合スコア: 4.15
 
-Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.
+Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.
 
-## Four Continents, Four New AWS Heroes: Closing Out 2026
+## Advancing chip design with OpenAI models
 
-- URL: https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026
+- URL: https://openai.com/index/advancing-chip-design-with-our-models
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-18
+- トピック: ai_coding
+- 総合スコア: 4.15
+
+OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.
+
+## AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances
+
+- URL: https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances
 - 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 3.9
 
-As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders […]
+AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee
 
-## Datadog Brings Production Experimentation to AI Agent Observability
+## マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース
 
-- URL: https://www.infoq.com/news/2026/11/datadog-ai-agent-observability
-- 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-17
+- URL: https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html
+- 発行元: Publickey(種別: secondary)
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively on predefined evaluation datasets. By Craig Risi
+マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIが生成したアプリなどを企業内で安全に実行するための基盤となる「Copilot Managed Runtime」の正式リリース...
 
-## Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads
+## Presentation: Behind Booking.com's AI Evolution: The Unpolished Story
 
-- URL: https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin
+- URL: https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings for a 10x throughput leap, and eliminating hidden system bottlenecks - from custom flash attention masks to Python GIL workarounds, gc.freeze, and non-blocking CUDA memory copies. By Sundara Raman Ramachandran
+Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also shares insights on personalization, interleaved experimentation, and their new agentic AI foundation. By Jabez Eliezer Manuel
 
-## Ten Years On, Google Updates the SRE Book for the AI Era
+## AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account
 
-- URL: https://www.infoq.com/news/2026/11/google-sre-book-ai-era
+- URL: https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE around modern cloud architectures, platform engineering and AI workloads, while retaining the discipline's original emphasis on applying software engineering to operations. By Matt Saunders
+AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint. By Steef-Jan Wiggers
 
-## Astra for Law leads in legal intelligence
+## How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
 
-- URL: https://openai.com/index/astra-law-6-2
+- URL: https://openai.com/business/customer-stories/sumitomo-life
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-17
-- トピック: uncategorized
-- 総合スコア: 3.2
-
-Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
-
-## Introducing ChatGPT for Sales
-
-- URL: https://openai.com/index/introducing-chatgpt-for-sales
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-17
+- 公開日: 2026-11-18
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.
+Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
+
+## Inside the Codex sandbox
+
+- URL: https://openai.com/index/inside-the-codex-sandbox
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-18
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.
