@@ -1,123 +1,103 @@
-# 新着記事ダイジェスト 2026-11-19
+# 新着記事ダイジェスト 2026-11-20
 
-候補 12件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
+候補 10件。Daily Brief の生成は Claude Code で `/morning-brief` を実行する。
 
-## v2.1.328
+## Get started with Daybreak Blue
 
-- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.328
+- URL: https://openai.com/business/learn/daybreak-blue-onboarding-demo
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-19
+- トピック: engineering_management
+- 総合スコア: 4.5
+
+Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.
+
+## v2.1.329
+
+- URL: https://github.com/anthropics/claude-code/releases/tag/v2.1.329
 - 発行元: Claude Code Releases(種別: primary)
 - 公開日: 2026-11-19
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-What's changed Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added "onFailure": "block" for mcp_tool hooks, as for command and HTTP hooks: a hook whose call fails blocks the action Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session Added a notice in /status and claude doctor w
+What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the goal and this conversation's forks to /tasks ; x stops one after asking Added a "Server message" row to a server's page in /mcp that shows the JSON-RPC error message of a remote HTTP MCP server that refuses the connection
 
-## The Silent Consensus
+## How OpenAI’s Performance Factory keeps ChatGPT fast
 
-- URL: https://openai.com/index/the-silent-consensus
+- URL: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
+- 公開日: 2026-11-19
 - トピック: ai_coding
 - 総合スコア: 4.15
 
-Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
+Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.
 
-## Research acceleration: The jagged frontier
+## QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer
 
-- URL: https://openai.com/index/research-acceleration-jagged-frontier
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.
-
-## Managing frontier AI risk: From training to deployment
-
-- URL: https://openai.com/index/managing-frontier-ai-risk
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.
-
-## Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT
-
-- URL: https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.
-
-## Advancing chip design with OpenAI models
-
-- URL: https://openai.com/index/advancing-chip-design-with-our-models
-- 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 4.15
-
-OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.
-
-## AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances
-
-- URL: https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances
-- 発行元: AWS News Blog(種別: primary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 3.9
-
-AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee
-
-## マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース
-
-- URL: https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html
-- 発行元: Publickey(種別: secondary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 3.6
-
-マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIが生成したアプリなどを企業内で安全に実行するための基盤となる「Copilot Managed Runtime」の正式リリース...
-
-## Presentation: Behind Booking.com's AI Evolution: The Unpolished Story
-
-- URL: https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution
+- URL: https://www.infoq.com/news/2026/11/ai-staff-engineer
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-18
-- トピック: ai_coding
-- 総合スコア: 3.6
+- 公開日: 2026-11-19
+- トピック: engineering_management
+- 総合スコア: 3.8
 
-Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also shares insights on personalization, interleaved experimentation, and their new agentic AI foundation. By Jabez Eliezer Manuel
+At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez
 
-## AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account
+## Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens
 
-- URL: https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints
+- URL: https://www.infoq.com/news/2026/11/healthy-code-AI-tokens
 - 発行元: InfoQ(種別: secondary)
-- 公開日: 2026-11-18
+- 公開日: 2026-11-19
 - トピック: ai_coding
 - 総合スコア: 3.6
 
-AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint. By Steef-Jan Wiggers
+Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high through agentic refactoring, with an MCP supplying code health data, so AI can maintain the code it generates. By Ben Linders
 
-## How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise
+## Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework
 
-- URL: https://openai.com/business/customer-stories/sumitomo-life
+- URL: https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed
+- 発行元: InfoQ(種別: secondary)
+- 公開日: 2026-11-19
+- トピック: personal_purpose
+- 総合スコア: 3.35
+
+Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the device’s GPU, native mobile views, and a Rust core shared across platforms. Early results hint at a significant reduction in RAM usage and boot time for chat, voice, and streaming. By Bruno Couriol
+
+## Deploying Daybreak Red
+
+- URL: https://openai.com/business/learn/deploying-daybreak-red
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
+- 公開日: 2026-11-19
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
+Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.
 
-## Inside the Codex sandbox
+## See PR scans in action
 
-- URL: https://openai.com/index/inside-the-codex-sandbox
+- URL: https://openai.com/business/learn/pr-scans-demo
 - 発行元: OpenAI News(種別: primary)
-- 公開日: 2026-11-18
+- 公開日: 2026-11-19
 - トピック: uncategorized
 - 総合スコア: 3.05
 
-See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.
+Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.
+
+## Explore the Codex Security Plugin
+
+- URL: https://openai.com/business/learn/codex-security-plugin-demo
+- 発行元: OpenAI News(種別: primary)
+- 公開日: 2026-11-19
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.
+
+## 古川大臣記者会見（令和8年11月20日）動画を掲載しました
+
+- URL: https://www.digital.go.jp/speech/minister-261120-01
+- 発行元: デジタル庁 新着情報(種別: primary)
+- 公開日: 2026-11-20
+- トピック: uncategorized
+- 総合スコア: 3.05
+
+
