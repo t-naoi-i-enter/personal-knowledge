@@ -1,37 +1,131 @@
 {
-  "generated_at": "2026-11-22T10:07:01.588770+09:00",
-  "date": "2026-11-22",
-  "count": 1,
+  "generated_at": "2026-11-23T10:29:30.491533+09:00",
+  "date": "2026-11-23",
+  "count": 4,
   "articles": [
     {
-      "source_id": "src_20261122_1508",
-      "title": "QCon San Francisco 2026: Scaling Tech by Aligning Humans",
-      "url": "https://www.infoq.com/news/2026/11/scalling-tech-humans",
+      "source_id": "src_20261123_1511",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine",
       "publisher": "InfoQ",
-      "author": "Daniel Dominguez",
-      "published_at": "2026-11-21",
+      "author": "Renato Losio",
+      "published_at": "2026-11-22",
       "event_date": null,
-      "collected_at": "2026-11-22T10:07:00.870526+09:00",
+      "collected_at": "2026-11-23T10:29:29.949928+09:00",
       "source_type": "secondary",
       "language": "en",
-      "content_hash": "sha256:69ca550c03574586b87d30fd5d7116850aebe1a7c96360d2e3e7b9e41596a84c",
+      "content_hash": "sha256:0d40ce780b887d370756559e22f7555c11f963782340c13d8df72f61082ac7ee",
       "retrieval_status": "success",
-      "summary": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
+      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
       "category": "engineering_management",
       "priority": "medium",
       "topics": [
-        "mba"
+        "ai_coding",
+        "sier_business"
       ],
       "scores": {
         "relevance": 4,
-        "impact": 3,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 3,
+        "preference_fit": 3
+      },
+      "total_score": 3.65,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261123_1510",
+      "title": "Claude Code Has Been Leaking Secrets through its \"Don't Ask Again\" Feature",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets",
+      "publisher": "InfoQ",
+      "author": "Sergio De Simone",
+      "published_at": "2026-11-22",
+      "event_date": null,
+      "collected_at": "2026-11-23T10:29:29.949928+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:ed2ed0a9b9cfdcd58173d938432799e2d7c352a2b6b16fe4b01397090c4e0c7b",
+      "retrieval_status": "success",
+      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
         "novelty": 5,
         "reliability": 3,
         "actionability": 3,
         "purpose_alignment": 2,
         "preference_fit": 3
       },
-      "total_score": 3.4,
+      "total_score": 3.6,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261123_1512",
+      "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances",
+      "publisher": "InfoQ",
+      "author": "Steef-Jan Wiggers",
+      "published_at": "2026-11-22",
+      "event_date": null,
+      "collected_at": "2026-11-23T10:29:29.949928+09:00",
+      "source_type": "secondary",
+      "language": "en",
+      "content_hash": "sha256:d1fe645f1afd7b04ee33b85c4eec472e198647951a820e6ff89b6d9997368851",
+      "retrieval_status": "success",
+      "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
+      "category": "engineering_management",
+      "priority": "medium",
+      "topics": [
+        "ai_coding"
+      ],
+      "scores": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 5,
+        "reliability": 3,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.6,
+      "must_include": false
+    },
+    {
+      "source_id": "src_20261123_011",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "publisher": "OpenAI News",
+      "author": null,
+      "published_at": "2026-11-22",
+      "event_date": null,
+      "collected_at": "2026-11-23T10:29:29.949928+09:00",
+      "source_type": "primary",
+      "language": "en",
+      "content_hash": "sha256:7d04a18394a781e2e7d3d895a19c48a3e13e1b04e67a0b1b86423ee50f679264",
+      "retrieval_status": "success",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "category": "ai_coding",
+      "priority": "high",
+      "topics": [
+        "uncategorized"
+      ],
+      "scores": {
+        "relevance": 3,
+        "impact": 1,
+        "novelty": 5,
+        "reliability": 5,
+        "actionability": 3,
+        "purpose_alignment": 2,
+        "preference_fit": 3
+      },
+      "total_score": 3.05,
       "must_include": false
     }
   ],
